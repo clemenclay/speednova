@@ -4,7 +4,7 @@ nav {
 }
 
 nav.nav-extended{
-background: linear-gradient(141deg, #fffffffa 15%, #1fc8db 65%, #2cb5e8 75%);
+    background: linear-gradient(141deg, #fffffffa 15%, #1fc8db 65%, #20a5b6 75%);
 }
 nav ul li a.active {
     background: #0000002b;
