@@ -1,9 +1,0 @@
-<application>
-  <component name="WebServers">
-    <option name="servers">
-      <webServer id="b7a0a753-ef98-4743-8c39-252348da6fb3" name="Proyectos" url="http://localhost/crudbooster">
-        <fileTransfer port="0" accessType="LOCAL" />
-      </webServer>
-    </option>
-  </component>
-</application>
