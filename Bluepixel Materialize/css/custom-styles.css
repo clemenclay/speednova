@@ -8,6 +8,7 @@ nav.nav-extended{
 }
 nav ul li a.active {
     background: #0000002b;
+    padding: 2px 17px;
 }
 
 .azulDark{
@@ -23,9 +24,9 @@ nav ul li a.active {
 
 .btn {background: linear-gradient(45deg, #0288d1 0%, #26c6da 100%);}
 
-
-
-
+.home-material{
+background-image: url('../img/material.png');background-position: center;
+}
 
 nav {
     background-color: #b2ebf2 !important;
