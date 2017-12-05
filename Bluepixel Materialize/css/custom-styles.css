@@ -6,9 +6,13 @@ nav {
 nav.nav-extended{
     background: linear-gradient(141deg, #fffffffa 15%, #1fc8db 65%, #20a5b6 75%);
 }
+
+nav ul a {
+    padding: 2px 17px;
+}
+
 nav ul li a.active {
     background: #0000002b;
-    padding: 2px 17px;
 }
 
 .azulDark{
