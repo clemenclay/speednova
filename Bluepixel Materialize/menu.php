@@ -23,7 +23,7 @@
 
     <nav class="nav-extended">
         <div class="nav-background">
-            <div class="ea k" style="background-image: url('//cdn.shopify.com/s/files/1/1775/8583/t/1/assets/icon-seamless.png?9863881460345178995');"></div>
+            <div class="ea k" style="background-image: url('img/fondo-home.png');background-position: center;"></div>
         </div>
         <div class="nav-wrapper db">
             <a href="index.php" class="brand-logo" style="height: 66px;">

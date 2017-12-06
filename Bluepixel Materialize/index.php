@@ -17,7 +17,7 @@
     <div class="carousel-fixed-item center">
       <a class="btn waves-effect white grey-text darken-text-2">button</a>
     </div>
-    <div class="carousel-item red white-text" href="#one!">
+    <div class="carousel-item white-text home-material" href="#one!">
       <h2>First Panel</h2>
       <p class="white-text">This is your first panel</p>
     </div>
