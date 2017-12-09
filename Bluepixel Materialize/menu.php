@@ -22,6 +22,10 @@
 
 
     <nav class="nav-extended">
+        <div class="ocean">
+            <div class="wave"></div>
+            <div class="wave"></div>
+        </div>
         <div class="nav-background">
             <div class="ea k" style="background-image: url('img/fondo-home.png');background-position: center;"></div>
         </div>
@@ -41,13 +45,14 @@
 
 
             <div class="nav-header de">
-                <h1>I MAKE THINGS</h1>
+
+<!--                <h1>I MAKE THINGS</h1>-->
                 <div class="ge">Portfolio</div>
             </div>
         </div>
 
         <!-- Fixed Masonry Filters -->
-        <div class="categories-wrapper azulLight">
+        <div class="categories-wrapper default-primary-color">
             <div class="categories-container pin-top" style="top: 0px;">
                 <ul class="categories db">
                     <li class="waves-effect"><a href="index.php">Inicio</a></li>

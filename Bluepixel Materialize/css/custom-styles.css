@@ -1,3 +1,51 @@
+body {font-family: 'Poppins', sans-serif;}
+.ocean {
+    height: 5%;
+    width: 100%;
+    position: absolute;
+    bottom: 203px;
+    left: 0;
+}
+
+.wave {
+    background: url(../img/vectorpaint.svg) repeat-x;
+    position: absolute;
+    top: -23px;
+    width: 6400px;
+    height: 198px;
+    animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+    transform: translate3d(0, 0, 0);
+    opacity: .6;
+}
+
+.wave:nth-of-type(2) {
+    top: 0px;
+    animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+    opacity: .5;
+}
+
+@keyframes wave {
+    0% {
+        margin-left: 0;
+    }
+    100% {
+        margin-left: -1600px;
+    }
+}
+
+@keyframes swell {
+    0%, 100% {
+        transform: translate3d(0,-25px,0);
+    }
+    50% {
+        transform: translate3d(0,5px,0);
+    }
+}
+
+
+
+
+
 nav {
     -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
     box-shadow: 0 3px 17px 0 rgb(40, 206, 247), 0 1px 6px 0 rgba(0, 0, 0, 0.4), 0 3px 1px -2px rgb(11, 152, 212);
@@ -5,26 +53,49 @@ nav {
 
 nav.nav-extended{
     background: linear-gradient(141deg, #fffffffa 15%, #1fc8db 65%, #20a5b6 75%);
+    overflow: hidden;
 }
 
 nav ul a {
-    padding: 2px 17px;
+    padding: 2px 17px !important;
+    font-size: 1.1rem !important;
 }
 
 nav ul li a.active {
     background: #0000002b;
 }
 
-.azulDark{
-    background-color:#173668 !important;}
-.azul{
-    background-color:#0088CD !important;}
-.azulLight{
-    background-color: #26c6da !important;}
-.celeste{
-    background-color:#26c6da !important;}
-.celesteLight{
-    background-color:#67DCED !important;}
+
+/*.azulDark{*/
+    /*background-color:#173668 !important;}*/
+/*.azul{*/
+    /*background-color:#0088CD !important;}*/
+/*.azulLight{*/
+    /*background-color: #26c6da !important;}*/
+/*.celeste{*/
+    /*background-color:#26c6da !important;}*/
+/*.celesteLight{*/
+    /*background-color:#67DCED !important;}*/
+
+
+/*   https://www.materialpalette.com/cyan/cyan   */
+
+.dark-primary-color    { background-color: #0097A7 !important; }
+.default-primary-color { background-color: #00BCD4 !important; }
+.light-primary-color   { background-color: #B2EBF2 !important; }
+.text-primary-color    { color: #FFFFFF !important; }
+.accent-color          { background-color: #00BCD4 !important; }
+.primary-text-color    { color: #212121 !important; }
+.secondary-text-color  { color: #757575 !important; }
+.divider-color         { border-color: #BDBDBD !important; }
+
+
+
+
+
+
+
+
 
 .btn {background: linear-gradient(45deg, #0288d1 0%, #26c6da 100%);}
 
@@ -8348,11 +8419,6 @@ button.dt:focus {
 html,
 body {
     height: 100%
-}
-
-body {
-    background-color: #f4f4f4;
-    font-family: "Lato", sans-serif
 }
 
 ul {
