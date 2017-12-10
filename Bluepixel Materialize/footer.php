@@ -42,7 +42,7 @@ var animation = setInterval(function(){
     <div id="logoAnimago">
     	<img src="http://bluepixel.com.ar/logoAnimado/logo_pixel_bluepixel.png" alt="Logo Animado"/>
     </div>
-  			<img src="http://bluepixel.com.ar/logoAnimado/logo.png" alt="Logo Animado"/>		
+  			<div class="logo-bluepixel-azul"></>
   	
 </div>    
     	</div>

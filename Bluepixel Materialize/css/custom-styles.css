@@ -6,6 +6,14 @@ body {font-family: 'Poppins', sans-serif;}
     bottom: 203px;
     left: 0;
 }
+nav ul:not(.indicators) li.k::before {border: none !important;}
+nav i.material-icons {
+    display: block;
+    font-size: 24px;
+    height: 56px;
+    line-height: 59px;
+    float: left;
+}
 
 .wave {
     background: url(../img/vectorpaint.svg) repeat-x;
@@ -43,8 +51,13 @@ body {font-family: 'Poppins', sans-serif;}
 }
 
 
-
-
+.logo-bluepixel-azul {
+    height: 30px;
+    width: 125px;
+    margin: 5px;
+    -webkit-mask-box-image: url(http://bluepixel.com.ar/logoAnimado/logo.png);
+    background: #25e3ff;
+}
 
 nav {
     -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
@@ -104,6 +117,7 @@ nav ul li a.active {
 
 .home-material{
 background-image: url('../img/material.png');background-position: center;
+
 }
 
 nav {

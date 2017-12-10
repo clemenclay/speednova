@@ -55,20 +55,18 @@
         <div class="categories-wrapper default-primary-color">
             <div class="categories-container pin-top" style="top: 0px;">
                 <ul class="categories db">
-                    <li class="waves-effect"><a href="index.php">Inicio</a></li>
-                    <li class="waves-effect"><a href="portfolio.php">Portfolio</a></li>
-                    <li class="waves-effect"><a href="contacto.php">Contacto</a></li>
+                    <li class="waves-effect"><a href="index.php"><i class="material-icons">home</i>Inicio</a></li>
+                    <li class="waves-effect"><a href="portfolio.php"><i class="material-icons">work</i>Portfolio</a></li>
+                    <li class="waves-effect"><a href="servicios.php"><i class="material-icons">settings</i>Servicios</a></li>
+                    <li class="waves-effect"><a href="contacto.php"><i class="material-icons">email</i>Contacto</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
 <ul class="side-nav" id="nav-mobile" style="transform: translateX(-100%);">
-    <li><a href="/pages/demo"><i class="material-icons">camera</i>Gallery</a></li>
-    <li><a href="/pages/dark-theme"><i class="material-icons">brightness_3</i>Dark Theme</a></li>
-    <li class="k"><a href="blog.html"><i class="material-icons">edit</i>Blog</a></li>
-    <li><a href="/pages/docs"><i class="material-icons">school</i>Docs</a></li>
-    <li><a href="/pages/full-header"><i class="material-icons">fullscreen</i>Fullscreen Header</a></li>
-    <li><a href="/pages/horizontal"><i class="material-icons">swap_horiz</i>Horizontal Style</a></li>
-    <li><a href="/pages/no-image"><i class="material-icons">texture</i>No Image Expand</a></li>
+    <li class="waves-effect"><a href="index.php"><i class="material-icons">home</i>Inicio</a></li>
+    <li class="waves-effect"><a href="portfolio.php"><i class="material-icons">work</i>Portfolio</a></li>
+    <li class="waves-effect"><a href="servicios.php"><i class="material-icons">settings</i>Servicios</a></li>
+    <li class="waves-effect"><a href="contacto.php"><i class="material-icons">email</i>Contacto</a></li>
 </ul>
