@@ -91,7 +91,10 @@ nav ul li a.active {
 
 
 
-
+.carousel .indicators .indicator-item {
+    height: 14px;
+    width: 14px;
+}
 
 
 

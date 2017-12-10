@@ -18,7 +18,7 @@
     <div class="boxed"> 
         <div style="padding:4px; display:flex">
         <i style="padding: 7px; margin-right: 24px;font-size: 33px;color: gainsboro;" class="icon-envelope-alt"></i>
-        <div class="lead"> cp.nataliaruizdiaz@gmail.com</div>
+
         
         </div>
     
@@ -48,9 +48,16 @@
 </div>
 				</div>
                 <div class="span4">
-<div class="control-group" ng-class="{ 'has-error': contactform.inputMessage.$invalid && submitted }">
-<textarea ng-model="formData.inputMessage" class="form-control" rows="9" id="inputMessage" name="inputMessage" placeholder="Mensaje..." required></textarea>
+
+
+
+
+
+<div class="input-field" ng-class="{ 'has-error': contactform.inputMessage.$invalid && submitted }">
+<textarea ng-model="formData.inputMessage" class="form-control" rows="9" id="inputMessage" name="inputMessage" required></textarea>
+    <label for="inputMessage" class="active">Mensaje...</label>
 </div>
+
 <div class="control-group">
 <p style="margin-bottom:10px;float: left;" ng-class="result" style="padding: 15px; margin: 20px;">{{ resultMessage }}</p>
 <button type="submit" class="waves-effect waves-yellow btn secondary-content" ng-disabled="submitButtonDisabled">

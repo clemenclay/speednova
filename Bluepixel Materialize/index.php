@@ -78,9 +78,12 @@ Todas las consultas serán bien recibidas.
     
     
   <script>
-    
-    $('.carousel.carousel-slider').carousel({fullWidth: true});
-    
+
+$('.carousel.carousel-slider').carousel({fullWidth: true},setTimeout(autoplay, 4500));
+function autoplay() {
+    $('.carousel').carousel('next');
+    setTimeout(autoplay, 4500);
+}
  </script>  
     </body>
 
