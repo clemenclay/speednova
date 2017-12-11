@@ -11,6 +11,13 @@ categories-container pinned nav {
     line-height: 23px !important;
 }
 
+
+    nav.nav-extended .nav-wrapper {
+        min-height: 64px;
+        line-height: 149px;
+    }
+
+
 nav ul:not(.indicators) li.k::before {border: none !important;}
 nav i.material-icons {
     display: block;
@@ -24,12 +31,12 @@ nav i.material-icons {
 
 nav .nav-header .ge {
     color: transparent !important;
-    height: 135px;
+    height: 35px;
 }
 
 nav .button-collapse {
     color: #ffffff;
-    margin-left: 0 !important;
+    margin: 4px 14px 6px !important;
 }
 
 .categories-wrapper {
@@ -37,7 +44,7 @@ nav .button-collapse {
 }
 
 .wave {
-    background: url(../img/vectorpaint.svg) repeat-x;
+    background: url(../img/vectorpaint3.svg) repeat-x;
     position: absolute;
     top: -23px;
     width: 6400px;
@@ -93,6 +100,7 @@ nav.nav-extended{
 nav ul a {
     padding: 2px 17px !important;
     font-size: 1.1rem !important;
+    color: #FFFFFF !important;
 }
 /*sadd*/
 nav ul li a.active {
@@ -123,7 +131,7 @@ nav ul li a.active {
 .secondary-text-color  { color: #757575 !important; }
 .divider-color         { border-color: #BDBDBD !important; }
 
-
+.menuCelesteClaroBackground {background-color: #9ee5ed !important;}
 
 .carousel .indicators .indicator-item {
     height: 14px;
@@ -137,8 +145,8 @@ nav ul li a.active {
 .btn {background: linear-gradient(45deg, #0288d1 0%, #26c6da 100%);}
 
 .home-material{
-background-image: url('../img/material.png');background-position: center;
-
+background-image: url('../img/material.png');background-position: bottom;
+background-size: 100%;
 }
 
 nav {
@@ -148,7 +156,13 @@ nav {
 }
 
 nav ul li a.active {
-    background: #0000002b;
+    background: #fbfafa2b;
+    color: #0f6a8e !important;
+}
+
+nav ul li a:hover {
+    background: #fbfafa2b;
+    color: #0f6a8e !important;
 }
 
 .azulDark{

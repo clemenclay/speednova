@@ -52,7 +52,8 @@
         </div>
 
         <!-- Fixed Masonry Filters -->
-        <div class="categories-wrapper default-primary-color">
+<!--        <div class="categories-wrapper default-primary-color">-->
+            <div class="categories-wrapper default-primary-color">
             <div class="categories-container pin-top" style="top: 0px;">
                 <div class="hide-on-med-and-up show-on-small-only">
                     <a href="#" class="button-collapse" data-activates="nav-mobile"><i class="material-icons">menu</i></a>
