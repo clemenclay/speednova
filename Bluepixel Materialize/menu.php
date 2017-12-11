@@ -30,11 +30,11 @@
             <div class="ea k" style="background-image: url('img/fondo-home.png');background-position: center;"></div>
         </div>
         <div class="nav-wrapper db">
-            <a href="index.php" class="brand-logo" style="height: 66px;">
+            <a href="index.php" class="brand-logo hide-on-small-only" style="height: 66px;">
                 <img src="img/logo_dot.png" style="margin: 10px auto;">
                 <img src="img/logo.png" style="height: 32px;padding: 0px;margin: 14px auto;">
             </a>
-            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+
 <!--            <ul class="bt hide-on-med-and-down">-->
 <!--                <li class="waves-effect"><a href="index.php">Inicio</a></li>-->
 <!--                <li class="waves-effect"><a href="portfolio.php">Portfolio</a></li>-->
@@ -54,7 +54,14 @@
         <!-- Fixed Masonry Filters -->
         <div class="categories-wrapper default-primary-color">
             <div class="categories-container pin-top" style="top: 0px;">
-                <ul class="categories db">
+                <div><a href="#" class="button-collapse" data-activates="nav-mobile"><i class="material-icons">menu</i></a>
+                    <a href="index.php">
+                        <img src="img/logo_dot.png" style="margin: 10px auto;">
+                        <img src="img/logo.png" style="height: 32px;padding: 0px;margin: 14px auto;">
+                    </a>
+                </div>
+
+                <ul class="categories db show-on-large hide-on-small-only">
                     <li class="waves-effect"><a href="index.php"><i class="material-icons">home</i>Inicio</a></li>
                     <li class="waves-effect"><a href="portfolio.php"><i class="material-icons">work</i>Portfolio</a></li>
                     <li class="waves-effect"><a href="servicios.php"><i class="material-icons">settings</i>Servicios</a></li>

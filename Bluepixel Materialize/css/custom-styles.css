@@ -22,6 +22,12 @@ nav .nav-header .ge {
     height: 135px;
 }
 
+nav .button-collapse {
+    color: #29c3d6;
+    margin-left: 0 !important;
+}
+
+
 .wave {
     background: url(../img/vectorpaint.svg) repeat-x;
     position: absolute;
