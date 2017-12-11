@@ -131,6 +131,8 @@ nav ul li a.active {
 .secondary-text-color  { color: #757575 !important; }
 .divider-color         { border-color: #BDBDBD !important; }
 
+.default-text-primary-color {color: #0f6a8e !important; }
+
 .menuCelesteClaroBackground {background-color: #9ee5ed !important;}
 
 .carousel .indicators .indicator-item {
@@ -142,11 +144,12 @@ nav ul li a.active {
 
 
 
-.btn {background: linear-gradient(45deg, #0288d1 0%, #26c6da 100%);}
 
 .home-material{
-background-image: url('../img/material.png');background-position: bottom;
-background-size: 100%;
+    background-image: url(../img/material.png);
+    background-position: bottom;
+    background-size: 100%;
+    min-height: 712px !important;
 }
 
 nav {
@@ -176,7 +179,6 @@ nav ul li a:hover {
 .celesteLight{
     background-color:#67DCED ;
 }
-.btn {background: linear-gradient(45deg, #0288d1 0%, #26c6da 100%);}
 
 
 

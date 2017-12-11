@@ -66,7 +66,7 @@
                     <ul class="categories db show-on-large hide-on-small-only">
                         <li class="waves-effect"><a href="index.php"><i class="material-icons">home</i>Inicio</a></li>
                         <li class="waves-effect"><a href="portfolio.php"><i class="material-icons">work</i>Portfolio</a></li>
-                        <li class="waves-effect"><a href="servicios.php"><i class="material-icons">settings</i>Servicios</a></li>
+                        <li class="waves-effect"><a href="portfolio.php"><i class="material-icons">settings</i>Servicios</a></li>
                         <li class="waves-effect"><a href="contacto.php"><i class="material-icons">email</i>Contacto</a></li>
                     </ul>
                 </div>
@@ -75,8 +75,8 @@
     </nav>
 
 <ul class="side-nav" id="nav-mobile" style="transform: translateX(-100%);">
-    <li class="waves-effect"><a href="index.php"><i class="material-icons">home</i>Inicio</a></li>
-    <li class="waves-effect"><a href="portfolio.php"><i class="material-icons">work</i>Portfolio</a></li>
-    <li class="waves-effect"><a href="servicios.php"><i class="material-icons">settings</i>Servicios</a></li>
-    <li class="waves-effect"><a href="contacto.php"><i class="material-icons">email</i>Contacto</a></li>
+    <li><a class="collapsible-header active waves-effect waves-teal" href="index.php"><i class="material-icons">home</i>Inicio</a></li>
+    <li><a class="collapsible-header active waves-effect waves-teal" href="portfolio.php"><i class="material-icons">work</i>Portfolio</a></li>
+    <li><a class="collapsible-header active waves-effect waves-teal" href="servicios.php"><i class="material-icons">settings</i>Servicios</a></li>
+    <li><a class="collapsible-header active waves-effect waves-teal" href="contacto.php"><i class="material-icons">email</i>Contacto</a></li>
 </ul>
