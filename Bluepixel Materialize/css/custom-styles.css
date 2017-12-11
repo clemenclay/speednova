@@ -6,6 +6,11 @@ body {font-family: 'Poppins', sans-serif;}
     bottom: 203px;
     left: 0;
 }
+
+categories-container pinned nav {
+    line-height: 23px !important;
+}
+
 nav ul:not(.indicators) li.k::before {border: none !important;}
 nav i.material-icons {
     display: block;
@@ -23,10 +28,13 @@ nav .nav-header .ge {
 }
 
 nav .button-collapse {
-    color: #29c3d6;
+    color: #ffffff;
     margin-left: 0 !important;
 }
 
+.categories-wrapper {
+    height: 65px !important;
+}
 
 .wave {
     background: url(../img/vectorpaint.svg) repeat-x;
