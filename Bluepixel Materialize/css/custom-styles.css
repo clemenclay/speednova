@@ -10,9 +10,16 @@ nav ul:not(.indicators) li.k::before {border: none !important;}
 nav i.material-icons {
     display: block;
     font-size: 24px;
-    height: 56px;
-    line-height: 59px;
+    height: 56px !important;
+    line-height: 59px !important;
     float: left;
+    margin-left: 4px;
+
+}
+
+nav .nav-header .ge {
+    color: transparent !important;
+    height: 135px;
 }
 
 .wave {
