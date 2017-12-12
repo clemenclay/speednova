@@ -14,10 +14,65 @@
 
   <!-- Carousel -->
   <div class="carousel carousel-slider center" data-indicators="true">
-    <div class="carousel-fixed-item center">
+<!--    <div class="carousel-fixed-item center">-->
 <!--      <a class="btn waves-effect white grey-text darken-text-2">button</a>-->
-    </div>
-    <div class="carousel-item white-text home-material2" href="#one!">
+<!--    </div>-->
+    <div class="carousel-item home-material2" href="#one!">
+
+
+        <h1>Material Design Responsive Pricing Tables</h1>
+        <div class="pricing-table">
+
+            <div class="pricing-item">
+                <div class="pricing-title">
+                    BÁSICO
+                </div>
+                <div class="pricing-value">R$19.<span class="smallText">90</span>
+                    <span class="undertext">/Mês</span>
+                </div>
+                <ul class="pricing-features">
+                    <li><span class="keywords">1GB</span> Armazenamento</li>
+                    <li>Banda <span class="keywords">ilimitada</span></li>
+                    <li><span class="keywords">10 Contas</span> de email</li>
+                    <li><span class="keywords">50gb</span> Transferência</li>
+                </ul>
+                <div class="button">Comprar</div>
+            </div>
+
+            <div class="pricing-item pricing-featured">
+                <div class='selected'>Recomendado</div>
+                <div class="pricing-title">
+                    PRO
+                </div>
+                <div class="pricing-value">R$39.<span class="smallText">90</span>
+                    <span class="undertext">/Mês</span>
+                </div>
+                <ul class="pricing-features">
+                    <li><span class="keywords">5GB</span> Armazenamento</li>
+                    <li>Banda <span class="keywords">ilimitada</span></li>
+                    <li><span class="keywords">100 Contas</span> de email</li>
+                    <li><span class="keywords">100gb</span> Transferência</li>
+                </ul>
+                <div class="button">Comprar</div>
+            </div>
+            <div class="pricing-item pricing-featured">
+                <div class='selected'>Recomendado</div>
+                <div class="pricing-title">
+                    PRO
+                </div>
+                <div class="pricing-value">R$39.<span class="smallText">90</span>
+                    <span class="undertext">/Mês</span>
+                </div>
+                <ul class="pricing-features">
+                    <li><span class="keywords">5GB</span> Armazenamento</li>
+                    <li>Banda <span class="keywords">ilimitada</span></li>
+                    <li><span class="keywords">100 Contas</span> de email</li>
+                    <li><span class="keywords">100gb</span> Transferência</li>
+                </ul>
+                <div class="button">Comprar</div>
+            </div>
+
+        </div>
 <!--      <h2>First Panel</h2>-->
 <!--      <p class="white-text">This is your first panel</p>-->
     </div>
