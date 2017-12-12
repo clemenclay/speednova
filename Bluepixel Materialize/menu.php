@@ -1,26 +1,3 @@
-<!---->
-<!--    <nav class="box-shadow-none">-->
-<!--        <div class="nav-wrapper">-->
-<!--            <a href="#!" class="brand-logo vertical-align-center">-->
-<!--                <img src="img/logo.png" class="vertical-middle">-->
-<!--                <span class="hide-mobile">Bluepixel</span>-->
-<!--            </a>-->
-<!--            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>-->
-<!--            <ul class="right hide-on-med-and-down">-->
-<!--                <li class="waves-effect"><a href="index.php">Home</a></li>-->
-<!--                <li class="waves-effect"><a href="servicios.php">Demo</a></li>-->
-<!--                <li class="waves-effect"><a href="contacto.php">Contacto</a></li>-->
-<!--            </ul>-->
-<!--            <ul class="side-nav" id="mobile-demo" style="transform: translateX(-100%);">-->
-<!--                <li class="waves-effect"><a href="index.php">Home</a></li>-->
-<!--                <li class="waves-effect"><a href="servicios.php">Demo</a></li>-->
-<!--                <li class="waves-effect"><a href="contacto.php">Features</a></li>-->
-<!--            </ul>-->
-<!--        </div>-->
-<!--    </nav>-->
-<!---->
-
-
     <nav class="nav-extended">
         <div class="ocean">
             <div class="wave"></div>
@@ -66,7 +43,7 @@
                     <ul class="categories db show-on-large hide-on-small-only">
                         <li class="waves-effect"><a href="index.php"><i class="material-icons">home</i>Inicio</a></li>
                         <li class="waves-effect"><a href="portfolio.php"><i class="material-icons">work</i>Portfolio</a></li>
-                        <li class="waves-effect"><a href="portfolio.php"><i class="material-icons">settings</i>Servicios</a></li>
+                        <li class="waves-effect"><a href="servicios.php"><i class="material-icons">settings</i>Servicios</a></li>
                         <li class="waves-effect"><a href="contacto.php"><i class="material-icons">email</i>Contacto</a></li>
                     </ul>
                 </div>

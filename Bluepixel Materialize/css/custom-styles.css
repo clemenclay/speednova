@@ -141,14 +141,25 @@ nav ul li a.active {
 }
 
 
+footer.page-footer {
+    padding-top: 1px !important;
+}
 
-
-
+section#content {
+    min-height: calc(100% - 100px);
+    -webkit-transition: .3s ease all;
+    -o-transition: .3s ease all;
+    -moz-transition: .3s ease all;
+    transition: .3s ease all;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
 
 .home-material{
     background-image: url(../img/material.png);
     background-position: bottom;
-    background-size: 100%;
+    /*background-size: 100%;*/
     min-height: 712px !important;
 }
 
@@ -4029,7 +4040,7 @@ nav {
     background-color: #ba68c8;
     width: 100%;
     height: 56px;
-    line-height: 56px
+    line-height: 19px
 }
 
 nav.nav-extended {
