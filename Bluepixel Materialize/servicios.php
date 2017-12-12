@@ -10,8 +10,10 @@
   
   <!--Main Content-->
   <section id="content">
-
-      <h3 class="center-align"><i class="material-icons">build</i> Página en Construcción</h3>
+      <div class="container">
+          <h2 class="default-text-primary-color center-align">Servicios</h2>
+          <h3 class=""><i class="material-icons">build</i> Página en Construcción</h3>
+      </div>
 
       <!--      <div id="portfolio" class="cx gray">-->
       <!--          <div class="db">-->

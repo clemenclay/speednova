@@ -11,9 +11,10 @@
   <!--Main Content-->
 
   <section id="content">
-
-      <h3 class="center-align"><i class="material-icons">build</i> Página en Construcción</h3>
-
+      <div class="container">
+      <h2 class="default-text-primary-color center-align">Portfolio</h2>
+      <h3 class=""><i class="material-icons">build</i> Página en Construcción</h3>
+      </div>
 <!--      <div id="portfolio" class="cx gray">-->
 <!--          <div class="db">-->
 <!--              <div class="b e" style="position: relative; height: 1253.5px;">-->

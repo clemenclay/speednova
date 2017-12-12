@@ -29,6 +29,33 @@ nav i.material-icons {
 
 }
 
+
+.hiddendiv {
+    display: none;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    padding-top: 1.2rem;
+    position: absolute;
+    top: 0;
+}
+
+.side-nav {
+    top: 73px !important;
+    /*position: relative !important;*/
+    z-index: 2 !important;
+}
+
+#sidenav-overlay {
+    z-index: 0 !important;
+}
+
+
+a.collapsible-header.waves-effect.waves-teal.active {
+    background: #00bcd42b;
+}
+
+
 nav .nav-header .ge {
     color: transparent !important;
     height: 35px;
@@ -122,6 +149,16 @@ nav ul li a.active {
 
 /*   https://www.materialpalette.com/cyan/cyan   */
 
+
+h1{font-size: 1.9rem !important;}
+h2{font-size: 1.7rem !important;}
+h3{font-size: 1.5rem !important;}
+h4{font-size: 1.3rem !important;}
+
+
+
+
+
 .dark-primary-color    { background-color: #0097A7 !important; }
 .default-primary-color { background-color: #00BCD4 !important; }
 .light-primary-color   { background-color: #B2EBF2 !important; }
@@ -162,6 +199,14 @@ section#content {
     /*background-size: 100%;*/
     min-height: 712px !important;
 }
+
+.home-material2 {background-image: url(../img/plans.bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 712px !important;}
+
+
 
 nav {
     background-color: #b2ebf2 !important;

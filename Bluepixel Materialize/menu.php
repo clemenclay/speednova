@@ -6,7 +6,7 @@
         <div class="nav-background">
             <div class="ea k" style="background-image: url('img/fondo-home.png');background-position: center;"></div>
         </div>
-        <div class="nav-wrapper db">
+        <div class="nav-wrapper db hide-on-small-only">
             <a href="index.php" class="brand-logo hide-on-small-only" style="height: 66px;">
                 <img src="img/logo_dot.png" style="margin: 10px auto;">
                 <img src="img/logo.png" style="height: 32px;padding: 0px;margin: 14px auto;">
@@ -52,8 +52,8 @@
     </nav>
 
 <ul class="side-nav" id="nav-mobile" style="transform: translateX(-100%);">
-    <li><a class="collapsible-header active waves-effect waves-teal" href="index.php"><i class="material-icons">home</i>Inicio</a></li>
-    <li><a class="collapsible-header active waves-effect waves-teal" href="portfolio.php"><i class="material-icons">work</i>Portfolio</a></li>
-    <li><a class="collapsible-header active waves-effect waves-teal" href="servicios.php"><i class="material-icons">settings</i>Servicios</a></li>
-    <li><a class="collapsible-header active waves-effect waves-teal" href="contacto.php"><i class="material-icons">email</i>Contacto</a></li>
+    <li><a class="collapsible-header waves-effect waves-teal" href="index.php"><i class="material-icons">home</i>Inicio</a></li>
+    <li><a class="collapsible-header waves-effect waves-teal" href="portfolio.php"><i class="material-icons">work</i>Portfolio</a></li>
+    <li><a class="collapsible-header waves-effect waves-teal" href="servicios.php"><i class="material-icons">settings</i>Servicios</a></li>
+    <li><a class="collapsible-header waves-effect waves-teal" href="contacto.php"><i class="material-icons">email</i>Contacto</a></li>
 </ul>

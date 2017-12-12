@@ -9,7 +9,7 @@
         <div class="container">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h3 class="default-text-primary-color">Contacto</h3>
+                    <h2 class="default-text-primary-color center-align">Contacto</h2>
                 </div>
                 <div ng-controller="ContactController" class="row-fluid">
                 
