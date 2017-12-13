@@ -21,58 +21,168 @@
 
 
         <h1>Material Design Responsive Pricing Tables</h1>
-        <div class="pricing-table">
 
-            <div class="pricing-item">
-                <div class="pricing-title">
-                    BÁSICO
+        <div class="row">
+
+            <!-- MATERIALIZE CSS USES 12 COLUMN GRID SYSTEM, DETAILS http://materializecss.com/grid.html -->
+            <div class="col s12 m4">
+
+                <!-- START PRICING PLAN -->
+                <div class="card pricing style-3">
+
+                    <!-- START PLAN TITLE DIV. -->
+                    <!-- CHANGE COLOR BY CHANGING LAST CSS CLASS (teal) AVAILABLE COLOR CLASSES LISTED HERE http://materializecss.com/color.html -->
+                    <div class="plan-title waves-effect waves-block waves-light teal">
+                        <h5 class="white-text">
+                            <span class="plan">BASIC</span>
+                        </h5>
+                    </div>
+                    <!-- END PLAN TITLE DIV. -->
+
+                    <div class="card-content">
+
+                        <!-- START FEATURE LIST -->
+                        <ul class="collection">
+                            <li data-tooltip="Dedicated support team available 24/7" data-delay="10" data-position="top" class="collection-item tooltipped"><b>24/7</b> Support <i class="mdi-action-info-outline right"></i></li>
+                            <li class="collection-item"><b>1TB</b> Bandwidth</li>
+                            <li data-tooltip="On demand increase anytime with extra fee" data-delay="10" data-position="top" class="collection-item tooltipped"><b>10GB</b> Hosting Space <i class="mdi-action-info-outline right"></i></li>
+                            <li class="collection-item"><b>1GB</b> Memory</li>
+                            <li class="collection-item"><b>10</b> Free Domain</li>
+                            <li class="collection-item">User Analytics</li>
+                        </ul>
+                        <!-- END FEATURE LIST -->
+
+                    </div>
+
+                    <!-- START PRICE INFO DIV. -->
+                    <div class="price waves-effect waves-block waves-light teal lighten-1">
+                        <h4 class="white-text">
+                            <span class="currency">$</span>
+                            <span class="amount">49</span>
+                            <span class="period">/mo</span>
+                        </h4>
+                    </div>
+                    <!-- END PRICE INFO DIV. -->
+
+                    <!-- START FLOATING SIGN UP BUTTON WITH ICON SUPPORT -->
+                    <!-- ALL ICON CODE LISTED HERE http://materializecss.com/icons.html -->
+                    <div class="plan-signup-btn">
+                        <a class="btn-floating btn-large waves-effect waves-light teal z-depth-2" href="#">
+                            <i class="material-icons">shopping_basket</i>
+                        </a>
+                    </div>
+                    <!-- END SIGN UP BUTTON -->
+
                 </div>
-                <div class="pricing-value">R$19.<span class="smallText">90</span>
-                    <span class="undertext">/Mês</span>
-                </div>
-                <ul class="pricing-features">
-                    <li><span class="keywords">1GB</span> Armazenamento</li>
-                    <li>Banda <span class="keywords">ilimitada</span></li>
-                    <li><span class="keywords">10 Contas</span> de email</li>
-                    <li><span class="keywords">50gb</span> Transferência</li>
-                </ul>
-                <div class="button">Comprar</div>
+                <!-- END PRICING PLAN -->
+
             </div>
 
-            <div class="pricing-item pricing-featured">
-                <div class='selected'>Recomendado</div>
-                <div class="pricing-title">
-                    PRO
-                </div>
-                <div class="pricing-value">R$39.<span class="smallText">90</span>
-                    <span class="undertext">/Mês</span>
-                </div>
-                <ul class="pricing-features">
-                    <li><span class="keywords">5GB</span> Armazenamento</li>
-                    <li>Banda <span class="keywords">ilimitada</span></li>
-                    <li><span class="keywords">100 Contas</span> de email</li>
-                    <li><span class="keywords">100gb</span> Transferência</li>
-                </ul>
-                <div class="button">Comprar</div>
-            </div>
-            <div class="pricing-item pricing-featured">
-                <div class='selected'>Recomendado</div>
-                <div class="pricing-title">
-                    PRO
-                </div>
-                <div class="pricing-value">R$39.<span class="smallText">90</span>
-                    <span class="undertext">/Mês</span>
-                </div>
-                <ul class="pricing-features">
-                    <li><span class="keywords">5GB</span> Armazenamento</li>
-                    <li>Banda <span class="keywords">ilimitada</span></li>
-                    <li><span class="keywords">100 Contas</span> de email</li>
-                    <li><span class="keywords">100gb</span> Transferência</li>
-                </ul>
-                <div class="button">Comprar</div>
-            </div>
+            <!-- FEATURED PLAN ( USE EXTRA CLASS z-depth-4 TO RAISE FEATURED PLAN )-->
+            <div class="col s12 m4">
 
+                <!-- START PRICING PLAN -->
+                <div class="card pricing style-3 z-depth-4">
+
+                    <!-- START PLAN TITLE DIV. -->
+                    <div class="plan-title waves-effect waves-block waves-light yellow darken-3">
+                        <h5 class="dark-grey-text">
+                            <span class="plan">POPULAR</span>
+                        </h5>
+                    </div>
+                    <!-- END PLAN TITLE DIV. -->
+
+                    <div class="card-content">
+
+                        <!-- START FEATURE LIST -->
+                        <ul class="collection">
+                            <li data-tooltip="Dedicated support team available 24/7" data-delay="10" data-position="top" class="collection-item tooltipped"><b>24/7</b> Support <i class="mdi-action-info-outline right"></i></li>
+                            <li class="collection-item"><b>3TB</b> Bandwidth</li>
+                            <li data-tooltip="On demand increase anytime with extra fee" data-delay="10" data-position="top" class="collection-item tooltipped"><b>50GB</b> Hosting Space <i class="mdi-action-info-outline right"></i></li>
+                            <li class="collection-item"><b>8GB</b> Memory</li>
+                            <li class="collection-item"><b>50</b> Free Domain</li>
+                            <li class="collection-item">User Analytics</li>
+                        </ul>
+                        <!-- END FEATURE LIST -->
+
+                    </div>
+
+                    <!-- START PRICE INFO DIV. -->
+                    <div class="price waves-effect waves-block waves-light yellow darken-2">
+                        <h4 class="dark-grey-text">
+                            <span class="currency">$</span>
+                            <span class="amount">99</span>
+                            <span class="period">/mo</span>
+                        </h4>
+                    </div>
+                    <!-- END PRICE INFO DIV. -->
+
+                    <!-- START FLOATING SIGN UP BUTTON WITH ICON SUPPORT -->
+                    <div class="plan-signup-btn">
+                        <a class="btn-floating btn-large waves-effect waves-light yellow darken-3 z-depth-2" href="#">
+                            <i class="material-icons">shopping_basket</i>
+                        </a>
+                    </div>
+                    <!-- END FLOATING SIGN UP BUTTON -->
+
+                </div>
+                <!-- END PRICING PLAN -->
+
+            </div>
+            <div class="col s12 m4">
+
+                <!-- START PRICING PLAN -->
+                <div class="card pricing style-3">
+
+                    <!-- START PLAN TITLE DIV. -->
+                    <div class="plan-title waves-effect waves-block waves-light teal">
+                        <h5 class="white-text">
+                            <span class="plan">PREMIUM</span>
+                        </h5>
+                    </div>
+                    <!-- END PLAN TITLE DIV. -->
+
+                    <div class="card-content">
+
+                        <!-- START FEATURE LIST -->
+                        <ul class="collection">
+                            <li data-tooltip="Dedicated support team available 24/7" data-delay="10" data-position="top" class="collection-item tooltipped"><b>24/7</b> Support<i class="mdi-action-info-outline right"></i></li>
+                            <li class="collection-item"> <b>5TB</b> Bandwidth</li>
+                            <li data-tooltip="On demand increase anytime with extra fee" data-delay="10" data-position="top" class="collection-item tooltipped"><b>100GB</b> Hosting Space <i class="mdi-action-info-outline right"></i></li>
+                            <li class="collection-item"><b>16GB</b> Memory</li>
+                            <li class="collection-item"><b>100</b> Free Domain</li>
+                            <li class="collection-item">User Analytics</li>
+                        </ul>
+                        <!-- END FEATURE LIST -->
+
+                    </div>
+
+                    <!-- START PRICE INFO DIV. -->
+                    <div class="price waves-effect waves-block waves-light teal lighten-1">
+                        <h4 class="white-text">
+                            <span class="currency">$</span>
+                            <span class="amount">199</span>
+                            <span class="period">/mo</span>
+                        </h4>
+                    </div>
+                    <!-- END PRICE INFO DIV. -->
+
+                    <!-- START FLOATING SIGN UP BUTTON WITH ICON SUPPORT -->
+                    <div class="plan-signup-btn">
+                        <a class="btn-floating btn-large waves-effect waves-light teal z-depth-2" href="#">
+                            <i class="material-icons">shopping_basket</i>
+                        </a>
+                    </div>
+                    <!-- END FLOATING SIGN UP BUTTON WITH ICON SUPPORT -->
+
+                </div>
+                <!-- END PRICING PLAN -->
+
+            </div>
         </div>
+
+
+
 <!--      <h2>First Panel</h2>-->
 <!--      <p class="white-text">This is your first panel</p>-->
     </div>
