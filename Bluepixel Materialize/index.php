@@ -17,9 +17,8 @@
 <!--    <div class="carousel-fixed-item center">-->
 <!--      <a class="btn waves-effect white grey-text darken-text-2">button</a>-->
 <!--    </div>-->
-    <div class="carousel-item home-material2" href="#one!">
-
-
+    <div class="carousel-item home-material2 home-material2-largo" href="#one!">
+     <div class="container">
         <h1>Material Design Responsive Pricing Tables</h1>
 
         <div class="row">
@@ -181,7 +180,7 @@
             </div>
         </div>
 
-
+    </div>
 
 <!--      <h2>First Panel</h2>-->
 <!--      <p class="white-text">This is your first panel</p>-->
@@ -199,7 +198,7 @@
 <!--      <p class="white-text">This is your fourth panel</p>-->
 <!--    </div>-->
   </div><!-- /.carousel -->
-  
+
 </section>  
 
 
