@@ -155,10 +155,41 @@ h2{font-size: 1.7rem !important;}
 h3{font-size: 1.5rem !important;}
 h4{font-size: 1.3rem !important;}
 
+.pricing.style-3 .plan-signup-btn {
+    position: absolute;
+    bottom: 80px;
+    right: 20px;
+}
 
+.pricing.style-3 .price {
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.pricing .price {
+    padding: 22px 0;
+}
 
+.pricing.style-3 .plan-title {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    padding: 10px 0;
 
+}
 
+.pricing .price span.amount {
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.collection {
+    margin: -24px;
+    border: none;
+    border-radius: 2px;
+    overflow: hidden;
+    position: relative;
+}
+
+.darker-primary-color  { background-color: #0f6a8e !important; }
 .dark-primary-color    { background-color: #0097A7 !important; }
 .default-primary-color { background-color: #00BCD4 !important; }
 .light-primary-color   { background-color: #B2EBF2 !important; }
