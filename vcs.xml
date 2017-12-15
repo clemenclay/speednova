@@ -3,11 +3,11 @@
     <option name="visitedUrls">
       <list>
         <UrlAndUserName>
-          <option name="url" value="https://github.com/clemenclay/bluepixel" />
+          <option name="url" value="https://github.com/clemenclay/bluepixel.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\xampp\htdocs\bluepixel\bluepixel\Bluepixel Materialize" />
+    <option name="cloneParentDir" value="C:\xampp\htdocs" />
   </component>
 </application>
