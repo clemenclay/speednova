@@ -18,13 +18,13 @@
 <!--      <a class="btn waves-effect white grey-text darken-text-2">button</a>-->
 <!--    </div>-->
     <div class="carousel-item home-material2 home-material2-largo" href="#one!">
-<div style="
-    width: 100%;
-    position: absolute;
-    height: 100px;
-    z-index: -1;
-    background: linear-gradient(#63d3e2 27%,#62d3e230 81%,#62d3e200);
-"></div>
+<!--<div style="-->
+<!--    width: 100%;-->
+<!--    position: absolute;-->
+<!--    height: 100px;-->
+<!--    z-index: -1;-->
+<!--    background: linear-gradient(#63d3e2 27%,#62d3e230 81%,#62d3e200);-->
+<!--"></div>-->
 
 
      <div class="container">
