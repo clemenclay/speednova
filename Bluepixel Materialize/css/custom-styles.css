@@ -47,7 +47,7 @@ nav i.material-icons {
 }
 
 #sidenav-overlay {
-    z-index: 0 !important;
+    z-index: -1 !important;
 }
 
 
@@ -211,9 +211,7 @@ h4{font-size: 1.3rem !important;}
 
 footer.page-footer {
     padding-top: 1px !important;
-/*    position: absolute;
-    width: 100%;
-    bottom: 0;*/
+    /*height: calc(100% - 18px);*/
 }
 
 section#content {
