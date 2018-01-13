@@ -3,7 +3,7 @@
 <?php include 'head.php'; ?> 
 
 <body>
-        
+<div id="pagina">
    <?php include 'menu.php'; ?>
 
 
@@ -211,30 +211,6 @@
 </section>  
 
 
- <!-- 
-  <div class="textoInicio animated fadeInDown">
-  <div>
-  
-<h1>Natalia Ruiz Diaz. Contador Publico (UBA).</h1>
-
-<h2>Asesoramiento Contable, Fiscal y Laboral a Empresas, Autónomos y Monotributistas.</h2>
-
-<h3>
-
-Mi misión es atender rápida y adecuadamente el requerimiento del cliente.<br />
-Se realiza el trabajo en forma directa con la seriedad y ética profesional que cada caso amerita.<br />
-Todas las consultas serán bien recibidas.
-
-</h3>
-
-
-
-
-</div>
-<a style="padding: 7px 22px !important; border-bottom: none !important;" class="btn-main" href="servicios.php"><i class="icon-chevron-right"></i> VER SERVICIOS</a>
-<br />
-</div>
-  -->
   
   <!--Bottom Section-->
   <?php include 'bottom.php'; ?>
@@ -257,7 +233,7 @@ Todas las consultas serán bien recibidas.
             setTimeout(autoplay, 4500000000000000000);
         }
  </script>
-
+</div>
     </body>
 
 
