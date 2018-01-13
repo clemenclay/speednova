@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- Mirrored from themearmada.com/demos/breakroom/contact.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 30 Sep 2014 20:36:26 GMT -->
-<?php include 'head.php'; ?> 
+<?php include 'head.php'; ?>
 
 <body ng-app="contactApp" >
+<div id="pagina">
 <?php include 'menu.php'; ?>
+
    <section id="content">  
         <div class="container">
             <div class="panel panel-default">
@@ -89,9 +91,9 @@ Enviar
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->  
   <?php include 'js.php'; ?>
-  
-    
-   
+
+
+</div>
     </body>
 
 <!-- Mirrored from themearmada.com/demos/breakroom/contact.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 30 Sep 2014 20:36:26 GMT -->

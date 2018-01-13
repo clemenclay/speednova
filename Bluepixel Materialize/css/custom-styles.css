@@ -211,6 +211,9 @@ h4{font-size: 1.3rem !important;}
 
 footer.page-footer {
     padding-top: 1px !important;
+/*    position: absolute;
+    width: 100%;
+    bottom: 0;*/
 }
 
 section#content {

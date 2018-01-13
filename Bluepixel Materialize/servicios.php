@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- Mirrored from themearmada.com/demos/breakroom/services.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 30 Sep 2014 20:35:21 GMT -->
-<?php include 'head.php'; ?> 
+<?php include 'head.php'; ?>
 
 <body>
-        
+<div id="pagina">
   <?php include 'menu.php'; ?>
-  
+
   
   <!--Main Content-->
   <section id="content">
@@ -235,7 +235,7 @@
   <?php include 'js.php'; ?>
   
     
-   
+</div>
     </body>
 
 <!-- Mirrored from themearmada.com/demos/breakroom/services.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 30 Sep 2014 20:35:21 GMT -->
