@@ -10,8 +10,12 @@
           <option name="url" value="https://github.com/clemenclay/bluepixel-angular.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/clemenclay/speednova.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\xampp\htdocs" />
+    <option name="cloneParentDir" value="C:\xampp\htdocs\" />
   </component>
 </application>
