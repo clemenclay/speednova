@@ -1,0 +1,15 @@
+.frequency{
+    display: none;
+}
+
+#daysOfWeek label,
+#monthsOfYear label{
+    display: inline-block;
+    min-width: 100px;
+}
+
+#hoursOfDay label,
+#daysOfMonth label{
+    display: inline-block;
+    min-width: 53px; 
+}

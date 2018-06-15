@@ -1,0 +1,43 @@
+{
+    "status": {
+        "lang": "Searchin",
+        "type": "select",
+        "options": []
+    },
+    "name": {
+        "lang": "submitername",
+        "type": "input"
+    },
+    "dept_id": {
+        "lang": "department",
+        "type": "select",
+        "options": []
+    },
+    "ticket_number": {
+        "lang": "ticketnum",
+        "type": "input"
+    },
+    "body": {
+        "lang": "Message",
+        "type": "input"
+    },
+    "email": {
+        "type": "input"
+    },
+    "tag": {
+        "lang": "tags",
+        "type": "input",
+        "description": "You can use &quot;and&quot;, &quot;or&quot;, &quot;not&quot; keywords when filtering with tags, default is &quot;and&quot;, example: <br> &bullet;&nbsp;tag1 tag2 or tag3 &raquo; (tag1 and tag2) or tag3"
+    },
+    "owner_id": {
+        "type": "select",
+        "options": [],
+        "name": "Assigned to",
+        "class": "chosenedge"
+    },
+    "admin_read": {
+        "type": "checkbox",
+        "name": "Unread only",
+        "value": "0"
+    }
+}

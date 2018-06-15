@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?> <virtual_machine> 
+    <rate_limit>2</rate_limit> 
+    <primary_network_group_id>4</primary_network_group_id> 
+    <data_store_group_swap_id>6</data_store_group_swap_id> 
+    <data_store_group_primary_id>6</data_store_group_primary_id> 
+    <cpu_shares>2</cpu_shares> 
+    <cpus>1</cpus> 
+    <hostname>test0001</hostname> 
+    <hypervisor_id>10</hypervisor_id> 
+    <initial_root_password>test0001</initial_root_password> 
+    <label>testing_5469_1_test0001_hbtesting_</label> 
+    <memory>920</memory> 
+    <template_id>1</template_id> 
+    <required_ip_address_assignment>1</required_ip_address_assignment> 
+    <required_virtual_machine_build>1</required_virtual_machine_build> 
+    <primary_disk_size>10</primary_disk_size> 
+    <swap_disk_size>1</swap_disk_size> 
+    <hypervisor_group_id>2</hypervisor_group_id> 
+</virtual_machine>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<info>
+    <id>api_hostbill</id>
+    <name>HostBill Integration</name>
+    <description>App used by HostBill to manage ownCloud resources</description>
+    <licence>AGPL</licence>
+    <author>hostbillapp.com</author>
+    <require>5</require>
+</info>

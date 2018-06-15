@@ -1,0 +1,48 @@
+---
+productfeatures:
+  value: ulli+spec
+imgpreview:
+  value: '../templates/orderpages/cart_rotatebox/howto.png'
+  name: View editable areas
+  type: link
+highlighted:
+  value: 1
+  name: Highlighted plan
+  description: Value between 0 - 2, where 0 represents first package
+  type: input
+header:
+  value: Choose plan that best fits to you
+  name: Section header
+  type: input
+subheader:
+  value: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  name: Section subheader
+  type: input
+footheader:
+  value: Facts About Our Platform
+  name: Header under product boxes
+  type: input
+footer1head:
+  value: Self Hosted
+  name: Left footer block header
+  type: input
+footer1text:
+  name: Left footer block text
+  type: textarea
+  value: HostBill is installed in your own environment, an infrastructure you understand and know it is secure - keep your billing data on your servers.
+footer2head:
+  value: No Recurring Fees
+  name: Center footer block header
+  type: input
+footer2text:
+  name: Center footer block text
+  type: textarea
+  value: Pay once - licenses are perpetual. There are no renewal or recurring fees for HostBill platform or its components.
+footer3head:
+  value: White Label
+  name: Right footer block header
+  type: input
+footer3text:
+  name: Right footer block text
+  type: textarea
+  value: HostBill is not branded - you can easily integrate it as a customer portal with your brand's look & feel.

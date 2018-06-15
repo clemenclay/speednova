@@ -1,0 +1,17 @@
+type: slider
+name: 'Outgoing message max size'
+key: cf_hdd
+variable: outgoingmaxsize
+description:
+category: server
+options: 50
+config:
+  minvalue: 1
+  maxvalue: 500
+  step: 1
+  initialval: 1
+items:
+  -
+    name:
+    m: 0.10
+    pricing: 1

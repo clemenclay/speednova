@@ -1,0 +1,17 @@
+type: slider
+name: 'Archive accounts disk space [GB]'
+key: cf_hdd
+variable: archivequotalim
+description:
+category: network
+options: 50
+config:
+  minvalue: 1
+  maxvalue: 500
+  step: 1
+  initialval: 1
+items:
+  -
+    name:
+    m: 0.01
+    pricing: 1

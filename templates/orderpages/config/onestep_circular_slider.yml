@@ -1,0 +1,15 @@
+---
+imgpreview:
+  value: '../templates/orderpages/onestep_circular_slider/howto.png'
+  name: View editable areas
+  type: link
+header:
+  value: |
+         Setup your
+  name: Header Text
+  type: input
+subheader:
+  value: |
+         Cloud Server
+  name: Sub-header Text
+  type: input

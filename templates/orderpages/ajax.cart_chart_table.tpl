@@ -1,0 +1,1 @@
+{include file='cart_chart_table/cart_summary.tpl'}

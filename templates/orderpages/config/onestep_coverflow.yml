@@ -1,0 +1,20 @@
+---
+productfeatures:
+  value: spec
+imgpreview:
+  value: '../templates/orderpages/onestep_coverflow/howto.png'
+  name: View editable areas
+  type: link
+highlighted:
+  value: 1
+  name: Highlighted plan
+  description: Type which plan should be highlighted at start (index from 0)
+  type: input
+header:
+  value: Select server you need
+  name: Section header
+  type: input
+subheader:
+  value: Lorem ipsum dolor sit amet.
+  name: Section subheader
+  type: input

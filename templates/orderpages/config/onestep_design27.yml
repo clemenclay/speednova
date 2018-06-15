@@ -1,0 +1,30 @@
+---
+productfeatures:
+  value: ulli+spec
+template:
+  value: hide
+imgpreview:
+  value: '../templates/orderpages/onestep_design27/howto.png'
+  name: View editable areas
+  type: link
+header1:
+  value: 'Welcome!'
+  name: Header 1
+  type: input
+header2:
+  value: 'Select your server'
+  name: Header 2
+  type: input
+text1:
+  value: 'Happy with your choice?'
+  name: Above checkout
+  type: input
+  description: Text above checkout button.
+details1:
+  value: 'Checkout'
+  name: Configuration Header 1
+  type: input
+details2:
+  value: 'Complete your details'
+  name: Configuration Header 2
+  type: input

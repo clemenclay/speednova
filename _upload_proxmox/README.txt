@@ -1,0 +1,1 @@
+Please upload vncconsole.html file from this directory to all your Proxmox servers /usr/share/novnc-pve/ directory

@@ -1,0 +1,16 @@
+---
+variables:
+  data_sent:
+    name: Data sent
+    group: usage
+    scheme: tiered
+    unit_name: GBs
+    description: Amount of data sent from client VMs in current billing period
+  data_received:
+    name: Data received
+    group: usage
+    scheme: tiered
+    unit_name: GBs
+    description: Amount of data received by client VMs in current billing period
+ 
+  

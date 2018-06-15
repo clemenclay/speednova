@@ -1,0 +1,12 @@
+---
+productfeatures:
+  value: ulli+spec
+imgpreview:
+  value: '../templates/orderpages/onestep_live_cloud/howto.png'
+  name: View editable areas
+  type: link
+headertext:
+  value: |
+         Select your best plan
+  name: Header text
+  type: input
