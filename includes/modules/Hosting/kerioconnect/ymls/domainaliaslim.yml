@@ -1,0 +1,17 @@
+type: slider
+name: 'Domain alias limit'
+key: cf_limit
+variable: domainaliaslim
+description:
+category: server
+options: 50
+config:
+  minvalue: 1
+  maxvalue: 50
+  step: 1
+  initialval: 1
+items:
+  -
+    name:
+    m: 10.00
+    pricing: 1

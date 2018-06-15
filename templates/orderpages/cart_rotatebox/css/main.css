@@ -1,0 +1,428 @@
+body {
+    font-family: Arial;
+    font-size: 12px;
+    color: #677180;
+}
+
+#container {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/* top menu */
+
+#menu {
+    float:left;
+    width:100%;
+    overflow:hidden;
+    position:relative;
+    margin-bottom: 30px;
+}
+
+#menu ul {
+    clear:left;
+    float:left;
+    list-style:none;
+    margin:0;
+    padding:0;
+    position:relative;
+    left:50%;
+    text-align:center;
+}
+
+#menu ul li {
+    display:block;
+    float:left;
+    list-style:none;
+    margin:0 10px;
+    padding:0;
+    position:relative;
+    right:50%;
+}
+
+#menu ul li.separator {color: #d2d2d2;}
+#menu ul li.separator:before {content: '|';}
+
+#menu ul li a {
+    display:block;
+    color:#677180;
+    font-size: 12px;
+    text-decoration:none;
+}
+
+#menu ul li a.active, #menu ul li a:hover {color:#677180; font-weight: 700;}
+
+
+/* widths */
+
+.two-three {
+    width: 625px;
+    overflow: hidden;
+}
+
+.one-three {
+    width: 295px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+.full {
+    width: 940px;
+    overflow: hidden;
+}
+
+.margin-left {
+    margin-left: 15px;
+}
+
+.margin-top {
+    margin-top: 25px;
+}
+
+.negative-margin-top {
+    margin-top: -25px;
+}
+
+.overflowed {
+    overflow: hidden;
+}
+
+.padding {
+    padding: 0 15px;
+}
+
+/* header */
+
+#header {
+    text-align: center;
+    overflow: hidden;
+    padding-top: 10px;
+}
+
+#header h1 {
+    font-weight: normal;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+/* boxes */
+
+#box-wrapper {
+    margin: 40px auto 0 auto;
+    max-width: 940px;
+    position: relative;
+}
+
+#info {
+    position: absolute;
+    left: -120px;
+    font-weight: 700;
+    top: 118px;
+    text-align: right;
+}
+
+#info .i {
+    height: 56px;
+    line-height: 56px;
+    vertical-align: middle;
+}
+
+#boxes {
+    list-style: none;
+    padding: 0;
+    min-width: 940px;
+    margin: 0 auto;
+}
+
+.scene {
+    width: 260px;
+    height: 400px;
+    margin: 0;
+    float: left;
+    -webkit-perspective: 1000px;
+    -moz-perspective: 1000px;
+    perspective: 1000px;
+}
+
+.single-box {
+    width: 260px;
+    height: 400px;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform: translateZ(-130px);
+    -moz-transform: translateZ(-130px);
+    transform: translateZ(-130px);
+    -webkit-transition: -webkit-transform 350ms;
+    -moz-transition: -moz-transform 350ms;
+    transition: transform 350ms;
+}
+
+.single-box:hover {
+    -webkit-transform: rotateY(-78deg) translateZ(20px);
+    -moz-transform: rotateY(-78deg) translateZ(20px);
+    transform: rotateY(-78deg) translateZ(20px);
+}
+
+.single-box:hover .info {
+    box-shadow: inset 300px 0px 40px rgba(255,255,255,0.8);
+}
+
+.single-box .info {
+    box-shadow: inset 0px 0px 40px rgba(255,255,255,0);
+}
+
+.single-box .details, .single-box .info {
+    -webkit-transition: box-shadow 350ms;
+    -moz-transition: box-shadow 350ms;
+    transition: box-shadow 350ms;
+}
+
+.single-box .info {
+    -webkit-transform: translateZ(130px);
+    -moz-transform: translateZ(130px);
+    transform: translateZ(130px);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.single-box:hover .details {
+    box-shadow: inset 0px 0px 40px rgba(0,0,0,0);
+}
+
+.single-box .details {
+    box-shadow: inset -300px 0px 40px rgba(0,0,0,0.5);
+}
+
+.single-box .details {
+    -webkit-transform: rotateY(90deg) translateZ(130px);
+    -moz-transform: rotateY(90deg) translateZ(130px);
+    transform: rotateY(90deg) translateZ(130px);
+    font-size: 0.75em;
+}
+
+.single-box .info, .single-box .details {
+    position: absolute;
+    width: 260px;
+    height: 400px;
+    background-color: #fff;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.single-box::after {
+    content: '';
+    width: 260px;
+    height: 260px;
+    position: absolute;
+    bottom: 0;
+    box-shadow: 0 30px 50px rgba(0,0,0,0.3);
+    -webkit-transform-origin: 100% 100%;
+    -moz-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    -webkit-transform: rotateX(90deg) translateY(130px);
+    -moz-transform: rotateX(90deg) translateY(130px);
+    transform: rotateX(90deg) translateY(130px);
+    -webkit-transition: box-shadow 350ms;
+    -moz-transition: box-shadow 350ms;
+    transition: box-shadow 350ms;
+}
+
+.single-box:hover::after {
+    box-shadow: 20px -5px 50px rgba(0,0,0,0.3);
+}
+
+.box {
+    float: left;
+    width: 260px;
+    overflow: hidden;
+    display: block;
+}
+
+.box.margin, .scene.margin {margin:0 80px;}
+
+/* boxes styles */
+
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    height: 82px;
+    padding-top: 33px;
+}
+
+.header span {
+    display: block;
+    margin: 6px 0 0;
+    padding: 0;
+}
+
+.header .currency {
+    font-size: 14px;
+    display: inline;
+}
+
+.blue .single-box {color:#677180;}
+.pink .single-box {color:#67575b;}
+
+.single-box span sup {
+    font-size: 14px;
+}
+
+.single-box .odd, .single-box .even {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    padding: 18px 0;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.single-box .odd.smaller {
+    line-height: normal;
+    font-size: 12px;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    padding-left: 40px;
+    padding-right: 30px;
+    height: 134px;
+}
+
+.single-box .odd.smaller ul {
+    list-style: none;
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+.single-box .odd.smaller ul li {
+    background: url('../images/ico-list.png') no-repeat left top;
+    padding-left: 25px;
+    margin: 3px 0;
+}
+
+.single-box .even.smaller {
+    font-weight: normal;
+    line-height: normal;
+    font-size: 11px;
+    line-height: 13px;
+    padding-left: 40px;
+    text-align: left;
+    padding-top: 16px;
+    padding-bottom: 20px;
+}
+
+.single-box .even.smaller .price {
+    position: absolute;
+    right: 15px;
+    top: 22px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.single-box .even.smaller .price .currency {
+    font-size: 14px;
+    margin-left: -4px;
+}
+
+.blue .even {
+    background-color: #e3e5eb;
+    border-top: 1px solid #d5d7e0;
+    border-bottom: 1px solid #d5d7e0;
+}
+
+.pink .even {
+    background-color: #f2e6eb;
+    border-top: 1px solid #f3d3dc;
+    border-bottom: 1px solid #f3d3dc;
+}
+
+.blue .header {
+    background: url('../images/header-violet.png') repeat-x;
+    text-shadow: 0 1px #494f68;
+}
+
+.blue .header span {color:#bec1ce;}
+
+.pink .header {
+    background: url('../images/header-pink.png') repeat-x;
+    text-shadow: 0 1px #bf374c;
+}
+
+.pink .header span {color:#ffb1c0;}
+
+.green-badge {
+    width: 55px;
+    height: 60px;
+    background: url('../images/green-badge.png') no-repeat;
+    position: absolute;
+    right: 1px;
+    top: 0;
+}
+
+.btn-green {
+    border-radius: 10px;
+    height: 27px;
+    background: url('../images/green-btn-bg.png') repeat-x;
+    color: #fff;
+    text-shadow: 0 1px #4b7321;
+    font-size: 11px;
+    font-weight: 700;
+    display: block;
+    width: 145px;
+    margin: -3px auto 0;
+    vertical-align: middle;
+    line-height: 27px;
+    box-shadow: 0 2px 3px #b9babb;
+    cursor: pointer;
+}
+
+.btn-green:hover {color:#c3f28c; text-decoration: none;}
+
+.ico-cart, .ico-info {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url('../images/ico-cart.png') no-repeat;
+    margin-right: 4px;
+    vertical-align: text-top;
+}
+
+.ico-info {background: url('../images/ico-info.png') no-repeat;}
+
+/* bottom */
+
+#footer {
+    text-align: center;
+    overflow: hidden;
+}
+
+#footer h2 {
+    font-size: 24px;
+    font-weight: normal;
+    padding: 50px 0 35px;
+    margin: 0;
+}
+
+#footer .badge-box h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px 0;
+    padding: 0;
+}
+
+#footer .badge-box p {
+    line-height: 16px;
+}
+
+#cont.left center {
+    width: 980px;
+    margin-top: 10px;
+}

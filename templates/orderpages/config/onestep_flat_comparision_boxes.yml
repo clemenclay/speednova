@@ -1,0 +1,24 @@
+---
+productfeatures:
+  value: ulli+spec
+imgpreview:
+  value: '../templates/orderpages/onestep_flat_comparision_boxes/howto.png'
+  name: View editable areas
+  type: link
+highlighted:
+  value: 
+  name: Highlighted Plan 
+  type: input
+  description: integer 0-3
+headertext:
+  value: |
+         Launch your first server within minutes!
+  name: Header Text
+  description: HTML is allowed.
+  type: input
+headerslogan:
+  value: |
+         Quickly setup your prefered plan and start your new business
+  name: Header Slogan
+  description: HTML is allowed.
+  type: input

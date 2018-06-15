@@ -1,0 +1,15 @@
+---
+imgpreview:
+  value: '../templates/orderpages/onestep_triple_box/howto.png'
+  name: View editable areas
+  type: link
+ordersummary:
+  value: |
+         Your cart total
+  name: Order summary sub-text
+  type: input
+clientinfo:
+  value: |
+         Your personal details
+  name: Client details sub-text
+  type: input

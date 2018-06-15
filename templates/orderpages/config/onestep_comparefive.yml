@@ -1,0 +1,12 @@
+---
+productfeatures:
+  value: ulli+spec
+imgpreview:
+  value: '../templates/orderpages/onestep_comparefive/howto.png'
+  name: View editable areas
+  type: link
+selected:
+  value: 1
+  name: Highlight plan selection 
+  description: Enter a number to highlight one of your products, '0' refers to first
+  type: input

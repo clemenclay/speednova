@@ -1,0 +1,18 @@
+type: slider
+name: 'Number of domains'
+key: cf_bandwidth
+variable: domainlim
+description:
+category: network
+options: 2
+premade: 1
+config:
+  minvalue: 1
+  maxvalue: 10
+  step: 1
+  initialval: 1
+items:
+  -
+    name:
+    m: 0.01
+    pricing: 1

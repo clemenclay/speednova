@@ -1,0 +1,112 @@
+---
+- 
+  id: 1
+  type: select
+  required: 0
+  name: Quota
+  key: 
+  variable: quota
+  description: 
+  category: 
+  product_id: 1
+  copy_of: 0
+  options: 51
+  config: 
+    conditionals: [ ]
+  sort_order: 1
+  ftype: select
+  premade: true
+  items: 
+    - 
+      id: 
+      category_id: 86
+      name: 1GB
+      variable_id: 1GB
+      sort_order: 0
+      rel: 
+      paytype: 
+      m_setup: 
+      q_setup: 
+      s_setup: 
+      a_setup: 
+      b_setup: 
+      t_setup: 
+      p4_setup: 
+      p5_setup: 
+      d_setup: 
+      w_setup: 
+      h_setup: 
+      m: 
+      q: 
+      s: 
+      a: 
+      b: 
+      t: 
+      p4: 
+      p5: 
+      d: 
+      w: 
+      h: 
+      pricing: 0
+    - 
+      id: 
+      category_id: 86
+      name: 5GB
+      variable_id: 5GB
+      sort_order: 1
+      rel: 
+      paytype: 
+      m_setup: 
+      q_setup: 
+      s_setup: 
+      a_setup: 
+      b_setup: 
+      t_setup: 
+      p4_setup: 
+      p5_setup: 
+      d_setup: 
+      w_setup: 
+      h_setup: 
+      m: 
+      q: 
+      s: 
+      a: 
+      b: 
+      t: 
+      p4: 
+      p5: 
+      d: 
+      w: 
+      h: 
+      pricing: 0
+    - 
+      id: 
+      category_id: 86
+      name: 10GB
+      variable_id: 10GB
+      sort_order: 2
+      rel: 
+      paytype: 
+      m_setup: 
+      q_setup: 
+      s_setup: 
+      a_setup: 
+      b_setup: 
+      t_setup: 
+      p4_setup: 
+      p5_setup: 
+      d_setup: 
+      w_setup: 
+      h_setup: 
+      m: 
+      q: 
+      s: 
+      a: 
+      b: 
+      t: 
+      p4: 
+      p5: 
+      d: 
+      w: 
+      h: 
+      pricing: 0

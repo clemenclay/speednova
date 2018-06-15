@@ -1,0 +1,53 @@
+---
+productfeatures:
+  value: ulli+spec
+imgpreview:
+  value: '../templates/orderpages/cart_scrolledlist/howto.png'
+  name: View editable areas
+  type: link
+highlighted:
+  value: 0
+  name: Highlighted plan
+  description: 0 represents first package
+  type: input
+welcome:
+  value: Welcome Customer!
+  name: Welcome text
+  type: input
+header:
+  value: Please select <span>your</span> prefered plan
+  name: Section header
+  description: use <span></span> for green italic text
+  type: input
+footheader:
+  value: About
+  name: Footer header
+  type: input
+footsubheader:
+  value: Our Company
+  name: Footer subheader
+  type: input
+footer1head:
+  value: Innovation
+  name: Left footer block header
+  type: input
+footer1text:
+  name: Left footer block text
+  type: textarea
+  value: <p>Pay once - licenses are perpetual. There are no renewal or recurring fees for HostBill platform or its components.</p><p>HostBill is not branded - you can easily integrate it as a customer portal with your brand's look & feel. Choose from one of available templates that suits your website.</p>
+footer2head:
+  value: Weekly Releases
+  name: Center footer block header
+  type: input
+footer2text:
+  name: Center footer block text
+  type: textarea
+  value: <p>Whether its a new feature of bugfix HostBill users don't have to wait long for it. You can expect new HostBill with hassle-free automated update each Friday.</p><p>Check our changelog for latest HostBill improvements.</p>
+footer3head:
+  value: Weekly Releases
+  name: Right footer block header
+  type: input
+footer3text:
+  name: Right footer block text
+  type: textarea
+  value: <p>Whether its a new feature of bugfix HostBill users don't have to wait long for it. You can expect new HostBill with hassle-free automated update each Friday.</p><p>Check our changelog for latest HostBill improvements.</p>

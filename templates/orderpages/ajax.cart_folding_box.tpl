@@ -1,0 +1,1 @@
+{include file='cart_folding_box/cart_summary.tpl'}

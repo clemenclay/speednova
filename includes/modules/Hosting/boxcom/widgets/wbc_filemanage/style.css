@@ -1,0 +1,99 @@
+/* -------------------------------------------------- MAIN */
+
+#boxcomfolder .content {
+    background-color: #fdfdfd;
+    border: solid thin #d4d4d4;
+    padding: 3px 10px;
+}
+
+/* -------------------------------------------------- LOGO */
+#boxcomfolder .logo img {
+    display: block;
+    margin: 0px auto;
+}
+
+/* -------------------------------------------------- LINKS */
+#boxcomfolder .links {
+    margin: 30px auto;
+    padding: 5px;
+    text-align: center;
+}
+
+#boxcomfolder .links img {
+    border: none;
+    filter: alpha(opacity=40);
+    height: 16px;
+    margin: 0px 20px;
+    opacity: 0.4;
+    vertical-align: middle;
+    width: 16px;
+}
+
+#boxcomfolder .links img:hover {
+    filter: alpha(opacity=100);
+    opacity: 1.0;
+}
+
+#boxcomfolder .list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+#boxcomfolder .list-inline > li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.modal#editor textarea{
+    box-sizing: border-box;
+    min-height: 320px;
+    width: 100%;
+}
+#boxcomfolder #tools{
+    margin-bottom: 10px;
+}
+#boxcomfolder .filevewport,
+#filemovewbrowser{
+    min-height: 150px;
+}
+#boxcomfolder #filemanager{
+    margin: 0;
+}
+
+#boxcomfolder .no-files{
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+#boxcomfolder .no-files .cloud-upload{
+    background: url("zero.png") no-repeat scroll center center;
+    display: block;
+    height: 75px;
+}
+
+div#progress{
+   position: relative;
+}
+
+div#progress .bar::after{
+    content: attr(progres);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+#footnote{
+    margin: 15px 0;
+}
+
+#boxcomfolder #preloader,
+.modal #preloader{
+    background-image: url(ajax.gif);
+    background-color: white;
+}
+
+.drop-zone #filemanager,
+.drop-zone .no-files{
+    outline: 2px dashed #CCC
+}

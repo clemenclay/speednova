@@ -1,0 +1,26 @@
+#asker input[type="text"] {
+    min-width: 400px;
+}
+#asker input[type="password"] {
+    min-width: 400px;
+}
+#asker .label-for-required-field:after {
+    content: "*";
+    color: red;
+    font-size: 90%;
+    margin-left: 3px;
+    vertical-align: super;
+}
+#asker label {
+    font-weight: bolder;
+    color: black;
+    text-shadow: 1px 1px white;
+}
+#facebox h1 {
+    font-size:20px;
+}
+.wizard-navigation-wrapper .button {
+    padding:3px 5px;
+    font-weight: normal;
+    color:#fff;
+}

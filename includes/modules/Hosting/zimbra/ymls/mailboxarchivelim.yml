@@ -1,0 +1,17 @@
+type: slider
+name: 'Number of archived mailbox'
+key: cf_hdd
+variable: mailboxarchivelim
+description:
+category: server
+options: 50
+config:
+  minvalue: 1
+  maxvalue: 50
+  step: 1
+  initialval: 5
+items:
+  -
+    name:
+    m: 0.40
+    pricing: 1

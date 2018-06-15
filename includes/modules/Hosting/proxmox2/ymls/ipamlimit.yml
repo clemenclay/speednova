@@ -1,0 +1,17 @@
+type: slider
+name: IP Address
+key: cf_ip
+variable: ipamlimit
+description:
+category: network
+options: 50
+config:
+  minvalue: 1
+  maxvalue: 12
+  step: 1
+  initialval: 1
+items:
+  -
+    name:
+    m: 1.00
+    pricing: 1

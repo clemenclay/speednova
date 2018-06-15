@@ -1,0 +1,53 @@
+---
+productfeatures:
+  value: ulli+spec
+headertext:
+  value: |
+         Setup your new server
+  name: Header text
+  type: input
+subheadertext:
+  value: |
+         Quickly setup your prefered plan and start your new business.
+  name: Sub-header text
+  type: input
+featureheader:
+  value: About our offer
+  name: Features header
+  type: input
+featuresdescr:
+  value: See what is included in our plan:
+  name: Features explanation
+  type: input
+feature1name:
+  value: First feature name
+  name: First feature name
+  type: input
+feature1descr:
+  value: First feature description
+  name: First feature description
+  type: textarea
+feature2name:
+  value: Second feature name
+  name: Second feature name
+  type: input
+feature2descr:
+  value: Second feature description
+  name: Second feature description
+  type: textarea
+feature3name:
+  value: Third feature name
+  name: Third feature name
+  type: input
+feature3descr:
+  value: Third feature description
+  name: Third feature description
+  type: textarea
+feature4name:
+  value: Fourth feature name
+  name: Fourth feature name
+  type: input
+feature4descr:
+  value: Fourth feature description
+  name: Fourth feature description
+  type: textarea

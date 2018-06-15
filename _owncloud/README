@@ -1,0 +1,6 @@
+Installation guide:
+ - copy contents of this folder to  your owncloud installation directory.
+ - go to owncloud control panel, app management.
+ - find "Hostbill integration" app and activate it.
+ 
+ Note that if you disable this app, its files will be removed from owncloud, to re-enable it you will probably need to repeat installation process

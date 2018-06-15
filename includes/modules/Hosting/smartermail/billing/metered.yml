@@ -1,0 +1,20 @@
+---
+variables: 
+  email_users:
+    name: Email users
+    unit_name: Users
+    scheme: volume
+    description: >
+      Total number of users on domain (maximum in given period)
+  activesync_users:
+    name: ActiveSync users
+    unit_name: Users
+    scheme: volume
+    description: >
+      Total number of ActiveSync users on domain (maximum in given period)
+  gb_storage:
+    name: GB Storage
+    unit_name: GB
+    scheme: volume
+    description: >
+      Used storage (maximum in given period)

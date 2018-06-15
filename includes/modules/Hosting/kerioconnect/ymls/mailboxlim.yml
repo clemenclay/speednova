@@ -1,0 +1,17 @@
+type: slider
+name: 'Number of Mailbox'
+key: cf_memory
+variable: mailboxlim
+description:
+category: server
+options: 50
+config:
+  minvalue: 1
+  maxvalue: 50
+  step: 1
+  initialval: 10
+items:
+  -
+    name:
+    m: 0.01
+    pricing: 1

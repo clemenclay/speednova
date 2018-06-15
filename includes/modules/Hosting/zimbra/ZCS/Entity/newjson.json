@@ -1,0 +1,128 @@
+{
+    "Header": {
+        "context": {
+            "session": {
+                "type": "admin",
+                "id": "3275",
+                "_content": "3275"
+            },
+            "change": {
+                "token": 13295
+            },
+            "_jsns": "urn:zimbra"
+        }
+    },
+    "Body": {
+        "BatchResponse": {
+            "GetAccountResponse": [{
+                    "account": [{
+                            "name": "gseges@lipiec.com",
+                            "id": "5a57954b-d2eb-44a6-9498-f4c14c37bd36",
+                            "a": [{
+                                    "n": "uid",
+                                    "_content": "gseges"
+                                }, {
+                                    "n": "mail",
+                                    "_content": "gseges@lipiec.com"
+                                }, {
+                                    "n": "zimbraMailDeliveryAddress",
+                                    "_content": "gseges@lipiec.com"
+                                }, {
+                                    "n": "zimbraCOSId",
+                                    "_content": "f5943b87-414f-4107-8cec-d81d5e3fe542"
+                                }, {
+                                    "n": "sn",
+                                    "_content": "dhhd"
+                                }, {
+                                    "n": "zimbraMailStatus",
+                                    "_content": "enabled"
+                                }, {
+                                    "n": "zimbraAccountStatus",
+                                    "_content": "active"
+                                }, {
+                                    "n": "userPassword",
+                                    "_content": "VALUE-BLOCKED"
+                                }, {
+                                    "n": "zimbraMailHost",
+                                    "_content": "zmpreprod-01.dfinet.ch"
+                                }, {
+                                    "n": "zimbraId",
+                                    "_content": "5a57954b-d2eb-44a6-9498-f4c14c37bd36"
+                                }, {
+                                    "n": "zimbraPasswordModifiedTime",
+                                    "_content": "20140714102135Z"
+                                }, {
+                                    "n": "objectClass",
+                                    "_content": "inetOrgPerson"
+                                }, {
+                                    "n": "objectClass",
+                                    "_content": "zimbraAccount"
+                                }, {
+                                    "n": "objectClass",
+                                    "_content": "amavisAccount"
+                                }, {
+                                    "n": "givenName",
+                                    "_content": "dfdf"
+                                }, {
+                                    "n": "zimbraMailTransport",
+                                    "_content": "lmtp:zmpreprod-01.dfinet.ch:7025"
+                                }, {
+                                    "n": "zimbraMailQuota",
+                                    "_content": "0"
+                                }, {
+                                    "n": "cn",
+                                    "_content": "dfdf dhhd"
+                                }, {
+                                    "n": "zimbraCreateTimestamp",
+                                    "_content": "20140714102135Z"
+                                }, {
+                                    "n": "displayName",
+                                    "_content": "dfdf dhhd"
+                                }]
+                        }],
+                    "_jsns": "urn:zimbraAdmin"
+                }],
+            "GetMailboxResponse": [{
+                    "mbox": [{
+                            "mbxid": 67,
+                            "s": 0
+                        }],
+                    "_jsns": "urn:zimbraAdmin"
+                }],
+            "GetAccountMembershipResponse": [{
+                    "_jsns": "urn:zimbraAdmin"
+                }],
+            "GetAccountInfoResponse": [{
+                    "name": [{
+                            "_content": "gseges@lipiec.com"
+                        }],
+                    "a": [{
+                            "n": "zimbraId",
+                            "_content": "5a57954b-d2eb-44a6-9498-f4c14c37bd36"
+                        }, {
+                            "n": "zimbraMailHost",
+                            "_content": "zmpreprod-01.dfinet.ch"
+                        }],
+                    "cos": {
+                        "id": "f5943b87-414f-4107-8cec-d81d5e3fe542",
+                        "name": "professional"
+                    },
+                    "soapURL": [{
+                            "_content": "https://zmpreprod-01.dfinet.ch:443/service/soap/"
+                        }],
+                    "adminSoapURL": [{
+                            "_content": "https://zmpreprod-01.dfinet.ch:7071/service/admin/soap/"
+                        }],
+                    "publicMailURL": [{
+                            "_content": "https://zmpreprod-01.dfinet.ch:443"
+                        }],
+                    "_jsns": "urn:zimbraAdmin"
+                }],
+            "GetDataSourcesResponse": [{
+                    "_jsns": "urn:zimbraAdmin"
+                }],
+            "_jsns": "urn:zimbra"
+        }
+    },
+    "_jsns": "urn:zimbraSoap"
+}

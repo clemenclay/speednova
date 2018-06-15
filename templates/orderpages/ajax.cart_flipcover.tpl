@@ -1,0 +1,1 @@
+{include file='cart_flipcover/cart_summary.tpl'}

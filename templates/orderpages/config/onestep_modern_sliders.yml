@@ -1,0 +1,17 @@
+---
+productfeatures:
+  value: ulli
+imgpreview:
+  value: '../templates/orderpages/onestep_modern_sliders/howto.png'
+  name: View editable areas
+  type: link
+headertext:
+  value: |
+         Setup your new server
+  name: Header text
+  type: input
+subheadertext:
+  value: |
+         Quickly setup your prefered plan and start your new business.
+  name: Sub-header text
+  type: input

@@ -1,0 +1,9 @@
+---
+variables:
+  supporthours:
+    name: Support hours
+    scheme: unit
+    hideschemes: false
+    unit_name: hr
+    description: Number of support hours in this package
+  

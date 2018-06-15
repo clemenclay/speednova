@@ -1,0 +1,37 @@
+---
+productfeatures:
+  value: ulli+spec
+imgpreview:
+  value: '../templates/orderpages/cart_listboxes/howto.png'
+  name: View editable areas
+  type: link
+headertext:
+  value: |
+         Setup your plan
+  name: Header text
+  type: input
+subheadertext:
+  value: |
+         Quickly setup your prefered plan and start your new business.
+  name: Sub-header text
+  type: input
+advantage1title:
+    value: |
+           Hosting Automation.
+    name: Advantage 1 title
+    type: input
+advantage1text:
+    value: |
+           With HostBill you can create, suspend, unsuspend and terminate accounts automatically. You can purchase more than 30 Provisioning modules for your HostBill.
+    name: Advantage 1 text
+    type: textarea
+advantage2title:
+    value: |
+           80+ payment gateways
+    name: Advantage 2 title
+    type: input
+advantage2text:
+    value: |
+            Enable Payment Processor. Create invoice and send to client. Collect payment automatically HostBill comes with supports more than 80+ payment gateways.
+    name: Advantage 2 text
+    type: textarea

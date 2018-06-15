@@ -1,0 +1,8 @@
+---
+variables: 
+  mailboxquota: 
+    name: Mailbox additional quota
+    unit_name: GB
+    description: >
+      Total quota amount that is over COS
+      default. Enter cost of 1GB.

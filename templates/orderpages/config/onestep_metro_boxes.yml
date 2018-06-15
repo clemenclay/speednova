@@ -1,0 +1,57 @@
+---
+productfeatures:
+  value: ulli+spec
+imgpreview:
+  value: '../templates/orderpages/onestep_metro_boxes/howto.png'
+  name: View editable areas
+  type: link
+headertext:
+  value: |
+         Setup your server within minutes
+  name: Header text
+  type: input
+subheadertext:
+  value: |
+         Quickly setup your prefered plan and start your new business.
+  name: Sub-header text
+  type: input
+aboutheader:
+  value: |
+         Facts about us
+  name: About us header text
+  type: input
+aboutsubheader:
+  value: |
+         Rollover for details and price info
+  name: About us sub-header text
+  type: input
+about1title:
+    value: |
+           Hosting Automation.
+    name: About us 1 title
+    type: input
+about1text:
+    value: |
+           With HostBill you can create, suspend, unsuspend and terminate accounts automatically. You can purchase more than 30 Provisioning modules for your HostBill.
+    name: About us 1 text
+    type: textarea
+about2title:
+    value: |
+           80+ payment gateways
+    name: About us 2 title
+    type: input
+about2text:
+    value: |
+            Enable Payment Processor. Create invoice and send to client. Collect payment automatically HostBill comes with supports more than 80+ payment gateways.
+    name: About us 2 text
+    type: textarea
+about3title:
+    value: |
+           Weekly Releases
+    name: About us 2 title
+    type: input
+about3text:
+    value: |
+            Whether its a new feature of bugfix HostBill users don't have to wait long for it. You can expect new HostBill with hassle-free automated update each Friday. Check our changelog for latest HostBill improvements.
+    name: About us 2 text
+    type: textarea

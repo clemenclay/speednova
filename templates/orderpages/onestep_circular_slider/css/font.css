@@ -1,0 +1,26 @@
+
+@font-face {
+    font-family: 'desyrel';
+    src: url('../font/desyrel/desyrel_-webfont.eot');
+    src: url('../font/desyrel/desyrel_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/desyrel/desyrel_-webfont.woff') format('woff'),
+         url('../font/desyrel/desyrel_-webfont.ttf') format('truetype'),
+         url('../font/desyrel/desyrel_-webfont.svg#desyrelregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'museo';
+    src: url('../font/museo/museo700-regular-webfont.eot');
+    src: url('../font/museo/museo700-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/museo/museo700-regular-webfont.woff') format('woff'),
+         url('../font/museo/museo700-regular-webfont.ttf') format('truetype'),
+         url('../font/museo/museo700-regular-webfont.svg#museo700') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}

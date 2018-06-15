@@ -1,0 +1,17 @@
+---
+productfeatures:
+  value: ulli+spec
+imgpreview:
+  value: '../templates/orderpages/onestep_square_boxes/howto.png'
+  name: View editable areas
+  type: link
+header:
+  value: |
+         Setup your new server
+  name: Header Text
+  type: input
+subheader:
+  value: |
+         Quickly setup your prefered plan and start your new business.
+  name: Sub-header Text
+  type: input

@@ -1,0 +1,58 @@
+---
+productfeatures:
+  value: ulli+spec
+imgpreview:
+  value: '../templates/orderpages/cart_folding_box/howto.png'
+  name: View editable areas
+  type: link
+headertext:
+  value: |
+         Setup your plan
+  name: Header text
+  type: input
+popular:
+    value: |
+
+  name: Highlighted plan
+  type: input
+  description: Integer, starts from 0
+whyusheader1:
+    value: |
+           Self Hosted
+    name: Why us header 1
+    type: input
+whyusdescription1:
+    value: |
+           HostBill is installed in your own environment, an infrastructure you understand and know it is secure - keep your billing data on your servers.
+    name: Why us description 1
+    type: textarea
+whyusheader2:
+    value: |
+           No Recurring Fees
+    name: Why us header 2
+    type: input
+whyusdescription2:
+    value: |
+           Pay once - licenses are perpetual. There are no renewal or recurring fees for HostBill platform or its components.
+    name: Why us description 2
+    type: textarea
+whyusheader3:
+    value: |
+           No Limits
+    name: Why us header 3
+    type: input
+whyusdescription3:
+    value: |
+           We don't charge you for your success. There are no pricing tiers based on customers, staff members or the number of devices.
+    name: Why us description 3
+    type: textarea
+whyusheader4:
+    value: |
+           Weekly Releases
+    name: Why us header 4
+    type: input
+whyusdescription4:
+    value: |
+           Whether its a new feature of bugfix HostBill users don't have to wait long for it. You can expect new HostBill with hassle-free automated update each Friday.
+    name: Why us description 4
+    type: textarea
