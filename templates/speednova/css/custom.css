@@ -69,20 +69,19 @@ span.badge.badge-Paid {
 .logo_gde{ width:50px; height:50px}
 
 .logo_color1 {
-  fill: #d2d2d2;
+    fill: #d2d2d2;
 }
 .logo_color2 {
-  fill: #e01f45;
+    fill: #e01f45;
 }
 
+.logo_texto {
+    height: 24px;
+    margin: 0 4px 10px 0;
+    width: 111px;
+}
 
 .sombra_logo {
-  -webkit-filter: drop-shadow(-2px -1px 4px rgba(0,0,0,0.15));
-  filter: drop-shadow(-2px -1px 4px rgba(0,0,0,0.15));
-}
-
-.logo_texto{
-  height: 24px;
-  margin: 0 4px 10px 0;
-  width: 111px;
+    -webkit-filter: drop-shadow(-2px -1px 4px rgba(0,0,0,0.15));
+    filter: drop-shadow(-2px -1px 4px rgba(0,0,0,0.15));
 }

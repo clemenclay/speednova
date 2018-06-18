@@ -1,3 +1,7 @@
+<?php /* Smarty version 2.6.26, created on 2018-06-18 09:51:53
+         compiled from header.tpl */ ?>
+<?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'capitalize', 'header.tpl', 42, false),)), $this); ?>
 <html lang="en" class="js flexbox flexboxlegacy canvas canvastext webgl touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths uk-touch wf-roboto-n5-active wf-roboto-n4-active wf-sourcecodepro-n7-active wf-sourcecodepro-n4-active wf-roboto-n3-active wf-roboto-n7-active wf-roboto-i4-active wf-active app_theme_h">
 <!--[if lte IE 9]> <html class="lte-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 9]><!--> <html lang="en"> <!--<![endif]-->
@@ -11,15 +15,20 @@
 
 
 <!-- Bootstrap core CSS -->
-<link href="{$template_dir}MDB/css/bootstrap.min.css" rel="stylesheet">
+<link href="<?php echo $this->_tpl_vars['template_dir']; ?>
+MDB/css/bootstrap.min.css" rel="stylesheet">
 <!-- Material Design Bootstrap -->
-<link href="{$template_dir}MDB/css/mdb.min.css" rel="stylesheet">
+<link href="<?php echo $this->_tpl_vars['template_dir']; ?>
+MDB/css/mdb.min.css" rel="stylesheet">
 <!-- Custom Css clay -->
-<link href="{$template_dir}css/custom.css" rel="stylesheet">
+<link href="<?php echo $this->_tpl_vars['template_dir']; ?>
+css/custom.css" rel="stylesheet">
 <!-- Font Google -->
-<link href="{$template_dir}css/google_fonts.css" rel="stylesheet">		
+<link href="<?php echo $this->_tpl_vars['template_dir']; ?>
+css/google_fonts.css" rel="stylesheet">		
 <!-- Font Awesome -->
-<link rel="stylesheet" href="{$template_dir}MDB/css/font-awesome.min.css">
+<link rel="stylesheet" href="<?php echo $this->_tpl_vars['template_dir']; ?>
+MDB/css/font-awesome.min.css">
 <!-- Font Google Icons-->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -32,14 +41,17 @@
     <!-- Remove Tap Highlight on Windows Phone IE -->
     <meta name="msapplication-tap-highlight" content="no"/>
 
-    <link rel="icon" type="image/png" href="{$template_dir}assets/img/favicon-16x16.png" sizes="16x16">
-    <link rel="icon" type="image/png" href="{$template_dir}assets/img/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="<?php echo $this->_tpl_vars['template_dir']; ?>
+assets/img/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="<?php echo $this->_tpl_vars['template_dir']; ?>
+assets/img/favicon-32x32.png" sizes="32x32">
 
     <title>SpeedNova - Hosting Company</title>
 
 
 </head>
-    <body class="{$language|capitalize} tpl_speednova" >
+    <body class="<?php echo ((is_array($_tmp=$this->_tpl_vars['language'])) ? $this->_run_mod_handler('capitalize', true, $_tmp) : smarty_modifier_capitalize($_tmp)); ?>
+ tpl_speednova" >
         <div id="wrapper">
             
 
@@ -48,9 +60,11 @@
 <header>
     
         <nav class="navbar navbar-expand-lg navbar-expand-lg white">
-		<a href="{$ca_url}">
+		<a href="<?php echo $this->_tpl_vars['ca_url']; ?>
+">
 		
-<!--		<img src="{$template_dir}img/logo_main.png" alt="" width="" height="" style="height: 53px;"> -->
+<!--		<img src="<?php echo $this->_tpl_vars['template_dir']; ?>
+img/logo_main.png" alt="" width="" height="" style="height: 53px;"> -->
 		
 		<svg class="logo_gde sombra_logo" viewBox="0 0 1019 951" version="1.1" xmlns="http://www.w3.org/2000/svg">
 			<g id="#c3c3c3ff">
@@ -92,7 +106,11 @@
 							
 				
                  
-                {include file="mainmenu.tpl"} 
+                <?php $_smarty_tpl_vars = $this->_tpl_vars;
+$this->_smarty_include(array('smarty_include_tpl_file' => "mainmenu.tpl", 'smarty_include_vars' => array()));
+$this->_tpl_vars = $_smarty_tpl_vars;
+unset($_smarty_tpl_vars);
+ ?> 
                 </ul>
 				
 				
@@ -105,22 +123,38 @@
 				
 				
 				
-				{if $languages}
+				<?php if ($this->_tpl_vars['languages']): ?>
 				
 				
 				
 				<li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                {foreach from=$languages item=ling}{if  $language==$ling}<img src="{$template_dir}img/famfamfam/lang_{$ling|capitalize}.gif"  alt="{$ling|capitalize}"/>{/if}{/foreach}
+                                <?php $_from = $this->_tpl_vars['languages']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['ling']):
+?><?php if ($this->_tpl_vars['language'] == $this->_tpl_vars['ling']): ?><img src="<?php echo $this->_tpl_vars['template_dir']; ?>
+img/famfamfam/lang_<?php echo ((is_array($_tmp=$this->_tpl_vars['ling'])) ? $this->_run_mod_handler('capitalize', true, $_tmp) : smarty_modifier_capitalize($_tmp)); ?>
+.gif"  alt="<?php echo ((is_array($_tmp=$this->_tpl_vars['ling'])) ? $this->_run_mod_handler('capitalize', true, $_tmp) : smarty_modifier_capitalize($_tmp)); ?>
+"/><?php endif; ?><?php endforeach; endif; unset($_from); ?>
                             </a>
                                                             <ul class="dropdown-menu">
-								{foreach from=$languages item=ling}
-                                    <li id="lang_{$ling|capitalize}" ><a href="{$ca_url}{$cmd}&action={$action}&languagechange={$ling|capitalize}"><img src="{$template_dir}img/famfamfam/lang_{$ling|capitalize}.gif" alt="{$ling|capitalize}"/> {$lang[$ling]|capitalize}</a></li>
-                            	{/foreach}
+								<?php $_from = $this->_tpl_vars['languages']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['ling']):
+?>
+                                    <li id="lang_<?php echo ((is_array($_tmp=$this->_tpl_vars['ling'])) ? $this->_run_mod_handler('capitalize', true, $_tmp) : smarty_modifier_capitalize($_tmp)); ?>
+" ><a href="<?php echo $this->_tpl_vars['ca_url']; ?>
+<?php echo $this->_tpl_vars['cmd']; ?>
+&action=<?php echo $this->_tpl_vars['action']; ?>
+&languagechange=<?php echo ((is_array($_tmp=$this->_tpl_vars['ling'])) ? $this->_run_mod_handler('capitalize', true, $_tmp) : smarty_modifier_capitalize($_tmp)); ?>
+"><img src="<?php echo $this->_tpl_vars['template_dir']; ?>
+img/famfamfam/lang_<?php echo ((is_array($_tmp=$this->_tpl_vars['ling'])) ? $this->_run_mod_handler('capitalize', true, $_tmp) : smarty_modifier_capitalize($_tmp)); ?>
+.gif" alt="<?php echo ((is_array($_tmp=$this->_tpl_vars['ling'])) ? $this->_run_mod_handler('capitalize', true, $_tmp) : smarty_modifier_capitalize($_tmp)); ?>
+"/> <?php echo ((is_array($_tmp=$this->_tpl_vars['lang'][$this->_tpl_vars['ling']])) ? $this->_run_mod_handler('capitalize', true, $_tmp) : smarty_modifier_capitalize($_tmp)); ?>
+</a></li>
+                            	<?php endforeach; endif; unset($_from); ?>
                                 </ul>
                         </li>
 
-                            {/if}
+                            <?php endif; ?>
                           
 				
 				
@@ -130,25 +164,38 @@
                    <div class="btn-group">
                                 <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
 
-                                    {if $logged=='1'}
-                                    <i class="icon-user icon-white"></i> {$login.firstname} {$login.lastname}
-                                    {else}
-                                    <i class="icon-lock icon-white"></i> {$lang.login}
-                                    {/if}
+                                    <?php if ($this->_tpl_vars['logged'] == '1'): ?>
+                                    <i class="icon-user icon-white"></i> <?php echo $this->_tpl_vars['login']['firstname']; ?>
+ <?php echo $this->_tpl_vars['login']['lastname']; ?>
+
+                                    <?php else: ?>
+                                    <i class="icon-lock icon-white"></i> <?php echo $this->_tpl_vars['lang']['login']; ?>
+
+                                    <?php endif; ?>
                                     <span class="caret"></span></button>
                                 <ul class="dropdown-menu  pull-right">
 
-                                    {if $logged!='1'}
-                                    <li><a class="dropdown-item" href="{$ca_url}signup/">{$lang.createaccount}</a></li>
-                                    <li><a class="dropdown-item" href="{$ca_url}clientarea/">{$lang.login}</a></li>
-                                    {else}
-                                    <li><a class="dropdown-item" href="{$ca_url}clientarea/details/">{$lang.manageaccount}</a></li>
-                                    <li><a class="dropdown-item" href="?action=logout">{$lang.logout}</a></li>
-                                    {/if}
-                                    {if $adminlogged}
+                                    <?php if ($this->_tpl_vars['logged'] != '1'): ?>
+                                    <li><a class="dropdown-item" href="<?php echo $this->_tpl_vars['ca_url']; ?>
+signup/"><?php echo $this->_tpl_vars['lang']['createaccount']; ?>
+</a></li>
+                                    <li><a class="dropdown-item" href="<?php echo $this->_tpl_vars['ca_url']; ?>
+clientarea/"><?php echo $this->_tpl_vars['lang']['login']; ?>
+</a></li>
+                                    <?php else: ?>
+                                    <li><a class="dropdown-item" href="<?php echo $this->_tpl_vars['ca_url']; ?>
+clientarea/details/"><?php echo $this->_tpl_vars['lang']['manageaccount']; ?>
+</a></li>
+                                    <li><a class="dropdown-item" href="?action=logout"><?php echo $this->_tpl_vars['lang']['logout']; ?>
+</a></li>
+                                    <?php endif; ?>
+                                    <?php if ($this->_tpl_vars['adminlogged']): ?>
                                     <div class="dropdown-divider"></div>
-                                    <li><a class="dropdown-item"  href="{$admin_url}/index.php{if $login.id}?cmd=clients&amp;action=show&amp;id={$login.id}{/if}">{$lang.adminreturn}</a></li>
-                                    {/if}
+                                    <li><a class="dropdown-item"  href="<?php echo $this->_tpl_vars['admin_url']; ?>
+/index.php<?php if ($this->_tpl_vars['login']['id']): ?>?cmd=clients&amp;action=show&amp;id=<?php echo $this->_tpl_vars['login']['id']; ?>
+<?php endif; ?>"><?php echo $this->_tpl_vars['lang']['adminreturn']; ?>
+</a></li>
+                                    <?php endif; ?>
 
                                 </ul>
                     </div>
@@ -168,7 +215,8 @@
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/js/mdb.min.js"></script>		
 
-<script type="text/javascript" src="{$template_dir}js/common.min.js"></script>
+<script type="text/javascript" src="<?php echo $this->_tpl_vars['template_dir']; ?>
+js/common.min.js"></script>
 	
 	
 	<main>
@@ -176,7 +224,11 @@
 	 <div class="container">
                            
 
-                {include file="notifications.tpl"}        
+                <?php $_smarty_tpl_vars = $this->_tpl_vars;
+$this->_smarty_include(array('smarty_include_tpl_file' => "notifications.tpl", 'smarty_include_vars' => array()));
+$this->_tpl_vars = $_smarty_tpl_vars;
+unset($_smarty_tpl_vars);
+ ?>        
 
                         
                        
@@ -186,9 +238,14 @@
 
 
 
-                <section id="{$cmd}">
-	{if $cmd=='cart'}{include file="../orderpages/cart.sidemenu.tpl"}{/if}
-                    <div id="cont" {if $cmd=='cart' && $step>0 && $step<4}class="left"{/if}>
+                <section id="<?php echo $this->_tpl_vars['cmd']; ?>
+">
+	<?php if ($this->_tpl_vars['cmd'] == 'cart'): ?><?php $_smarty_tpl_vars = $this->_tpl_vars;
+$this->_smarty_include(array('smarty_include_tpl_file' => "../orderpages/cart.sidemenu.tpl", 'smarty_include_vars' => array()));
+$this->_tpl_vars = $_smarty_tpl_vars;
+unset($_smarty_tpl_vars);
+ ?><?php endif; ?>
+                    <div id="cont" <?php if ($this->_tpl_vars['cmd'] == 'cart' && $this->_tpl_vars['step'] > 0 && $this->_tpl_vars['step'] < 4): ?>class="left"<?php endif; ?>>
 					
 					
          	
