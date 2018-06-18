@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2018-06-11 12:07:06
+<?php /* Smarty version 2.6.26, created on 2018-06-18 13:35:57
          compiled from adminwidgets/recentdomains.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'dateformat', 'adminwidgets/recentdomains.tpl', 15, false),)), $this); ?>
@@ -35,4 +35,4 @@ if ($this->_foreach['loop']['total'] > 0):
                 </tr>
             <?php endforeach; endif; unset($_from); ?>
             </tbody>
-        </table>
+        </table>
