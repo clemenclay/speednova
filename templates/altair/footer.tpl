@@ -31,7 +31,7 @@
 
 
 
-   <script>
+   <script>{literal}
         WebFontConfig = {
             google: {
                 families: [
@@ -49,6 +49,7 @@
             var s = document.getElementsByTagName('script')[0];
             s.parentNode.insertBefore(wf, s);
         })();
+        {/literal}
     </script>
 
     <!-- common functions -->
@@ -83,7 +84,7 @@
         <!--  dashbord functions -->
         <script src="{$template_dir}assets/js/pages/dashboard.min.js"></script>
     
-    <script>
+    <script>{literal}
         $(function() {
             if(isHighDensity()) {
                 $.getScript( "{$template_dir}bower_components/dense/src/dense.js", function() {
@@ -100,6 +101,7 @@
             // ie fixes
             altair_helpers.ie_fix();
         });
+        {/literal}
     </script>
 
 
@@ -182,6 +184,7 @@
     </div>
 
     <script>
+    {literal}
         $(function() {
             var $switcher = $('#style_switcher'),
                 $switcher_toggle = $('#style_switcher_toggle'),
@@ -317,6 +320,7 @@
 
 
         });
+        {/literal}
     </script>
 </body>
 </html>
