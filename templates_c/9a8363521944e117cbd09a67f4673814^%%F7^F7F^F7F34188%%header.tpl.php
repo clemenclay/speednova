@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2018-06-18 17:58:50
+<?php /* Smarty version 2.6.26, created on 2018-06-19 15:38:08
          compiled from header.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'capitalize', 'header.tpl', 48, false),)), $this); ?>
@@ -61,131 +61,194 @@ assets/css/themes/themes_combined.min.css" media="all">
 
     <body class="<?php echo ((is_array($_tmp=$this->_tpl_vars['language'])) ? $this->_run_mod_handler('capitalize', true, $_tmp) : smarty_modifier_capitalize($_tmp)); ?>
  tpl_nextgen" >
-        <div id="wrapper">
-            <div class="container">
-
-                <div id="headpart">
-                    <div id="mainpart">
-
-                        <div class="right headersection">
-
-
-                            
-                            <?php if ($this->_tpl_vars['languages']): ?>
-                            <div class="btn-group">
-                                <button class="btn  dropdown-toggle" data-toggle="dropdown">
-                                    <?php $_from = $this->_tpl_vars['languages']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
-    foreach ($_from as $this->_tpl_vars['ling']):
-?><?php if ($this->_tpl_vars['language'] == $this->_tpl_vars['ling']): ?><img src="<?php echo $this->_tpl_vars['template_dir']; ?>
-img/famfamfam/lang_<?php echo ((is_array($_tmp=$this->_tpl_vars['ling'])) ? $this->_run_mod_handler('capitalize', true, $_tmp) : smarty_modifier_capitalize($_tmp)); ?>
-.gif"  alt="<?php echo ((is_array($_tmp=$this->_tpl_vars['ling'])) ? $this->_run_mod_handler('capitalize', true, $_tmp) : smarty_modifier_capitalize($_tmp)); ?>
-"/><?php endif; ?><?php endforeach; endif; unset($_from); ?>
-                                    <span class="caret"></span></button>
-                                <ul class="dropdown-menu">
-	<?php $_from = $this->_tpl_vars['languages']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
-    foreach ($_from as $this->_tpl_vars['ling']):
-?>
-                                    <li id="lang_<?php echo ((is_array($_tmp=$this->_tpl_vars['ling'])) ? $this->_run_mod_handler('capitalize', true, $_tmp) : smarty_modifier_capitalize($_tmp)); ?>
-" ><a href="<?php echo $this->_tpl_vars['ca_url']; ?>
-<?php echo $this->_tpl_vars['cmd']; ?>
-&action=<?php echo $this->_tpl_vars['action']; ?>
-&languagechange=<?php echo ((is_array($_tmp=$this->_tpl_vars['ling'])) ? $this->_run_mod_handler('capitalize', true, $_tmp) : smarty_modifier_capitalize($_tmp)); ?>
-"><img src="<?php echo $this->_tpl_vars['template_dir']; ?>
-img/famfamfam/lang_<?php echo ((is_array($_tmp=$this->_tpl_vars['ling'])) ? $this->_run_mod_handler('capitalize', true, $_tmp) : smarty_modifier_capitalize($_tmp)); ?>
-.gif" alt="<?php echo ((is_array($_tmp=$this->_tpl_vars['ling'])) ? $this->_run_mod_handler('capitalize', true, $_tmp) : smarty_modifier_capitalize($_tmp)); ?>
-"/> <?php echo ((is_array($_tmp=$this->_tpl_vars['lang'][$this->_tpl_vars['ling']])) ? $this->_run_mod_handler('capitalize', true, $_tmp) : smarty_modifier_capitalize($_tmp)); ?>
-</a></li>
-                            	<?php endforeach; endif; unset($_from); ?>
-                                </ul>
+<header id="header_main">
+        <div class="header_main_content">
+            <nav class="uk-navbar">
+                                
+                <!-- main sidebar switch -->
+                <a href="#" id="sidebar_main_toggle" class="sSwitch sSwitch_left">
+                    <span class="sSwitchIcon"></span>
+                </a>
+                
+                <!-- secondary sidebar switch -->
+                <a href="#" id="sidebar_secondary_toggle" class="sSwitch sSwitch_right">
+                    <span class="sSwitchIcon"></span>
+                </a>
+                
+                    <div id="menu_top_dropdown" class="uk-float-left uk-hidden-small">
+                        <div class="uk-button-dropdown" data-uk-dropdown="<?php echo '{mode:\'click\'}'; ?>
+" aria-haspopup="true" aria-expanded="false">
+                            <a href="#" class="top_menu_toggle"><i class="material-icons md-24"></i></a>
+                            <div class="uk-dropdown uk-dropdown-width-3" aria-hidden="true">
+                                <div class="uk-grid uk-dropdown-grid">
+                                    <div class="uk-width-2-3">
+                                        <div class="uk-grid uk-grid-width-medium-1-3 uk-margin-bottom uk-text-center">
+                                            <a href="page_mailbox.html" class="uk-margin-top">
+                                                <i class="material-icons md-36 md-color-light-green-600"></i>
+                                                <span class="uk-text-muted uk-display-block">Mailbox</span>
+                                            </a>
+                                            <a href="page_invoices.html" class="uk-margin-top">
+                                                <i class="material-icons md-36 md-color-purple-600"></i>
+                                                <span class="uk-text-muted uk-display-block">Invoices</span>
+                                            </a>
+                                            <a href="page_chat.html" class="uk-margin-top">
+                                                <i class="material-icons md-36 md-color-cyan-600"></i>
+                                                <span class="uk-text-muted uk-display-block">Chat</span>
+                                            </a>
+                                            <a href="page_scrum_board.html" class="uk-margin-top">
+                                                <i class="material-icons md-36 md-color-red-600"></i>
+                                                <span class="uk-text-muted uk-display-block">Scrum Board</span>
+                                            </a>
+                                            <a href="page_snippets.html" class="uk-margin-top">
+                                                <i class="material-icons md-36 md-color-blue-600"></i>
+                                                <span class="uk-text-muted uk-display-block">Snippets</span>
+                                            </a>
+                                            <a href="page_user_profile.html" class="uk-margin-top">
+                                                <i class="material-icons md-36 md-color-orange-600"></i>
+                                                <span class="uk-text-muted uk-display-block">User profile</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="uk-width-1-3">
+                                        <ul class="uk-nav uk-nav-dropdown uk-panel">
+                                            <li class="uk-nav-header">Components</li>
+                                            <li><a href="components_accordion.html">Accordions</a></li>
+                                            <li><a href="components_buttons.html">Buttons</a></li>
+                                            <li><a href="components_notifications.html">Notifications</a></li>
+                                            <li><a href="components_sortable.html">Sortable</a></li>
+                                            <li><a href="components_tabs.html">Tabs</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
-                            <?php endif; ?>
-
-<!--
-                            <?php $_smarty_tpl_vars = $this->_tpl_vars;
-$this->_smarty_include(array('smarty_include_tpl_file' => "menus/menu.cart.tpl", 'smarty_include_vars' => array()));
-$this->_tpl_vars = $_smarty_tpl_vars;
-unset($_smarty_tpl_vars);
- ?>
--->
-
-                            <div class="btn-group">
-                                <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-
-                                    <?php if ($this->_tpl_vars['logged'] == '1'): ?>
-                                    <i class="icon-user icon-white"></i> <?php echo $this->_tpl_vars['login']['firstname']; ?>
- <?php echo $this->_tpl_vars['login']['lastname']; ?>
-
-                                    <?php else: ?>
-                                    <i class="icon-lock icon-white"></i> <?php echo $this->_tpl_vars['lang']['login']; ?>
-
-                                    <?php endif; ?>
-                                    <span class="caret"></span></button>
-                                <ul class="dropdown-menu  pull-right">
-
-                                    <?php if ($this->_tpl_vars['logged'] != '1'): ?>
-                                    <li><a href="<?php echo $this->_tpl_vars['ca_url']; ?>
-signup/"><?php echo $this->_tpl_vars['lang']['createaccount']; ?>
-</a></li>
-                                    <li><a href="<?php echo $this->_tpl_vars['ca_url']; ?>
-clientarea/"><?php echo $this->_tpl_vars['lang']['login']; ?>
-</a></li>
-                                    <?php else: ?>
-                                    <li><a href="<?php echo $this->_tpl_vars['ca_url']; ?>
-clientarea/details/"><?php echo $this->_tpl_vars['lang']['manageaccount']; ?>
-</a></li>
-                                    <li><a href="?action=logout"><?php echo $this->_tpl_vars['lang']['logout']; ?>
-</a></li>
-                                    <?php endif; ?>
-                                    <?php if ($this->_tpl_vars['adminlogged']): ?>
-                                    <li class="divider"></li>
-                                    <li><a  href="<?php echo $this->_tpl_vars['admin_url']; ?>
-/index.php<?php if ($this->_tpl_vars['login']['id']): ?>?cmd=clients&amp;action=show&amp;id=<?php echo $this->_tpl_vars['login']['id']; ?>
-<?php endif; ?>"><?php echo $this->_tpl_vars['lang']['adminreturn']; ?>
-</a></li>
-                                    <?php endif; ?>
-
-                                </ul>
-                            </div>
-
                         </div>
-
-                        <h1><?php echo $this->_tpl_vars['business_name']; ?>
-</h1>
-                        <div class="clear"></div>
-
-
                     </div>
-                </div>
-<!--
-                <?php $_smarty_tpl_vars = $this->_tpl_vars;
-$this->_smarty_include(array('smarty_include_tpl_file' => "mainmenu.tpl", 'smarty_include_vars' => array()));
-$this->_tpl_vars = $_smarty_tpl_vars;
-unset($_smarty_tpl_vars);
- ?>
-
-
-	<?php $_smarty_tpl_vars = $this->_tpl_vars;
-$this->_smarty_include(array('smarty_include_tpl_file' => "submenu.tpl", 'smarty_include_vars' => array()));
-$this->_tpl_vars = $_smarty_tpl_vars;
-unset($_smarty_tpl_vars);
- ?>
-
-
-                <?php $_smarty_tpl_vars = $this->_tpl_vars;
-$this->_smarty_include(array('smarty_include_tpl_file' => "notifications.tpl", 'smarty_include_vars' => array()));
-$this->_tpl_vars = $_smarty_tpl_vars;
-unset($_smarty_tpl_vars);
- ?>
-
-
-
-                <section id="<?php echo $this->_tpl_vars['cmd']; ?>
+                
+                <div class="uk-navbar-flip">
+                    <ul class="uk-navbar-nav user_actions">
+                        <li><a href="#" id="full_screen_toggle" class="user_action_icon uk-visible-large"><i class="material-icons md-24 md-light"></i></a></li>
+                        <li><a href="#" id="main_search_btn" class="user_action_icon"><i class="material-icons md-24 md-light"></i></a></li>
+                        <li data-uk-dropdown="<?php echo '{mode:\'click\',pos:\'bottom-right\'}'; ?>
 ">
-	<?php if ($this->_tpl_vars['cmd'] == 'cart'): ?><?php $_smarty_tpl_vars = $this->_tpl_vars;
-$this->_smarty_include(array('smarty_include_tpl_file' => "../orderpages/cart.sidemenu.tpl", 'smarty_include_vars' => array()));
-$this->_tpl_vars = $_smarty_tpl_vars;
-unset($_smarty_tpl_vars);
- ?><?php endif; ?>
-                    <div id="cont" <?php if ($this->_tpl_vars['cmd'] == 'cart' && $this->_tpl_vars['step'] > 0 && $this->_tpl_vars['step'] < 4): ?>class="left"<?php endif; ?>>
+                            <a href="#" class="user_action_icon"><i class="material-icons md-24 md-light"></i><span class="uk-badge">16</span></a>
+                            <div class="uk-dropdown uk-dropdown-xlarge">
+                                <div class="md-card-content">
+                                    <ul class="uk-tab uk-tab-grid" data-uk-tab="<?php echo '{connect:\'#header_alerts\',animation:\'slide-horizontal\'}'; ?>
+">
+                                        <li class="uk-width-1-2 uk-active" aria-expanded="true"><a href="#" class="js-uk-prevent uk-text-small">Messages (12)</a></li>
+                                        <li class="uk-width-1-2" aria-expanded="false"><a href="#" class="js-uk-prevent uk-text-small">Alerts (4)</a></li>
+                                    <li class="uk-tab-responsive uk-active uk-hidden" aria-haspopup="true" aria-expanded="false"><a>Messages (12)</a><div class="uk-dropdown uk-dropdown-small" aria-hidden="true"><ul class="uk-nav uk-nav-dropdown"></ul><div></div></div></li></ul>
+                                    <ul id="header_alerts" class="uk-switcher uk-margin">
+                                        <li aria-hidden="false" class="uk-active">
+                                            <ul class="md-list md-list-addon">
+                                                <li>
+                                                    <div class="md-list-addon-element">
+                                                        <span class="md-user-letters md-bg-cyan">sj</span>
+                                                    </div>
+                                                    <div class="md-list-content">
+                                                        <span class="md-list-heading"><a href="pages_mailbox.html">Quia molestiae error.</a></span>
+                                                        <span class="uk-text-small uk-text-muted">Ex omnis dolorem dolorum enim vero aut mollitia quia.</span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="md-list-addon-element">
+                                                        <img class="md-user-image md-list-addon-avatar" src="assets/img/avatars/avatar_07_tn.png" alt="">
+                                                    </div>
+                                                    <div class="md-list-content">
+                                                        <span class="md-list-heading"><a href="pages_mailbox.html">Enim quisquam.</a></span>
+                                                        <span class="uk-text-small uk-text-muted">Provident repellat eos dolor voluptatem molestiae nihil animi.</span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="md-list-addon-element">
+                                                        <span class="md-user-letters md-bg-light-green">ff</span>
+                                                    </div>
+                                                    <div class="md-list-content">
+                                                        <span class="md-list-heading"><a href="pages_mailbox.html">Quo occaecati.</a></span>
+                                                        <span class="uk-text-small uk-text-muted">Cupiditate provident consequatur alias quia animi odit dolor rem et.</span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="md-list-addon-element">
+                                                        <img class="md-user-image md-list-addon-avatar" src="assets/img/avatars/avatar_02_tn.png" alt="">
+                                                    </div>
+                                                    <div class="md-list-content">
+                                                        <span class="md-list-heading"><a href="pages_mailbox.html">Aperiam nobis quidem.</a></span>
+                                                        <span class="uk-text-small uk-text-muted">Quisquam modi nam explicabo eius modi consequatur numquam.</span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="md-list-addon-element">
+                                                        <img class="md-user-image md-list-addon-avatar" src="assets/img/avatars/avatar_09_tn.png" alt="">
+                                                    </div>
+                                                    <div class="md-list-content">
+                                                        <span class="md-list-heading"><a href="pages_mailbox.html">Voluptas quae nesciunt.</a></span>
+                                                        <span class="uk-text-small uk-text-muted">Vel alias quasi consectetur vel commodi soluta dicta aut et.</span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <div class="uk-text-center uk-margin-top uk-margin-small-bottom">
+                                                <a href="page_mailbox.html" class="md-btn md-btn-flat md-btn-flat-primary js-uk-prevent">Show All</a>
+                                            </div>
+                                        </li>
+                                        <li aria-hidden="true">
+                                            <ul class="md-list md-list-addon">
+                                                <li>
+                                                    <div class="md-list-addon-element">
+                                                        <i class="md-list-addon-icon material-icons uk-text-warning"></i>
+                                                    </div>
+                                                    <div class="md-list-content">
+                                                        <span class="md-list-heading">Corrupti expedita.</span>
+                                                        <span class="uk-text-small uk-text-muted uk-text-truncate">Sed pariatur sunt non aut.</span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="md-list-addon-element">
+                                                        <i class="md-list-addon-icon material-icons uk-text-success"></i>
+                                                    </div>
+                                                    <div class="md-list-content">
+                                                        <span class="md-list-heading">Odit quaerat ducimus.</span>
+                                                        <span class="uk-text-small uk-text-muted uk-text-truncate">Veritatis quasi quaerat id nisi.</span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="md-list-addon-element">
+                                                        <i class="md-list-addon-icon material-icons uk-text-danger"></i>
+                                                    </div>
+                                                    <div class="md-list-content">
+                                                        <span class="md-list-heading">Et et.</span>
+                                                        <span class="uk-text-small uk-text-muted uk-text-truncate">Aut laudantium unde et officia.</span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="md-list-addon-element">
+                                                        <i class="md-list-addon-icon material-icons uk-text-primary"></i>
+                                                    </div>
+                                                    <div class="md-list-content">
+                                                        <span class="md-list-heading">Suscipit et.</span>
+                                                        <span class="uk-text-small uk-text-muted uk-text-truncate">Cum nobis quo saepe ratione occaecati maxime.</span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li data-uk-dropdown="<?php echo '{mode:\'click\',pos:\'bottom-right\'}'; ?>
+" aria-haspopup="true" aria-expanded="false">
+                            <a href="#" class="user_action_image"><img class="md-user-image" src="assets/img/avatars/avatar_11_tn.png" alt=""></a>
+                            <div class="uk-dropdown uk-dropdown-small" aria-hidden="true">
+                                <ul class="uk-nav js-uk-prevent">
+                                    <li><a href="page_user_profile.html">My profile</a></li>
+                                    <li><a href="page_settings.html">Settings</a></li>
+                                    <li><a href="login.html">Logout</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
 
--->
+    </header>

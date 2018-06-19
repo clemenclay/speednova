@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2018-06-18 16:21:17
+<?php /* Smarty version 2.6.26, created on 2018-06-19 15:28:55
          compiled from ajax.default.tpl */ ?>
 <?php if ($this->_tpl_vars['rss']): ?>
 <?php $_from = $this->_tpl_vars['rss']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2018-06-18 16:21:14
+<?php /* Smarty version 2.6.26, created on 2018-06-19 15:28:54
          compiled from adminwidgets/wrap_dashboard.tpl */ ?>
 <div class="box box-primary <?php echo $this->_tpl_vars['widget']['class']; ?>
  <?php if ($this->_tpl_vars['widget']['metadata']['collapsed']): ?>collapsed-box<?php endif; ?>" data-is-widget="true" data-widget-id="<?php echo $this->_tpl_vars['widget']['ns']; ?>

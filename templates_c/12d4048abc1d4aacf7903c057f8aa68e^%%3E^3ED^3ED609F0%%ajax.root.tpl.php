@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2018-06-18 16:21:21
+<?php /* Smarty version 2.6.26, created on 2018-06-19 15:29:13
          compiled from ajax.root.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'securitytoken', 'ajax.root.tpl', 23, false),)), $this); ?>

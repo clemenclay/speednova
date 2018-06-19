@@ -61,7 +61,7 @@
                 </a>
                 
                     <div id="menu_top_dropdown" class="uk-float-left uk-hidden-small">
-                        <div class="uk-button-dropdown" data-uk-dropdown="{mode:'click'}" aria-haspopup="true" aria-expanded="false">
+                        <div class="uk-button-dropdown" data-uk-dropdown="{literal}{mode:'click'}{/literal}" aria-haspopup="true" aria-expanded="false">
                             <a href="#" class="top_menu_toggle"><i class="material-icons md-24"></i></a>
                             <div class="uk-dropdown uk-dropdown-width-3" aria-hidden="true">
                                 <div class="uk-grid uk-dropdown-grid">
@@ -112,11 +112,11 @@
                     <ul class="uk-navbar-nav user_actions">
                         <li><a href="#" id="full_screen_toggle" class="user_action_icon uk-visible-large"><i class="material-icons md-24 md-light"></i></a></li>
                         <li><a href="#" id="main_search_btn" class="user_action_icon"><i class="material-icons md-24 md-light"></i></a></li>
-                        <li data-uk-dropdown="{mode:'click',pos:'bottom-right'}">
+                        <li data-uk-dropdown="{literal}{mode:'click',pos:'bottom-right'}{/literal}">
                             <a href="#" class="user_action_icon"><i class="material-icons md-24 md-light"></i><span class="uk-badge">16</span></a>
                             <div class="uk-dropdown uk-dropdown-xlarge">
                                 <div class="md-card-content">
-                                    <ul class="uk-tab uk-tab-grid" data-uk-tab="{connect:'#header_alerts',animation:'slide-horizontal'}">
+                                    <ul class="uk-tab uk-tab-grid" data-uk-tab="{literal}{connect:'#header_alerts',animation:'slide-horizontal'}{/literal}">
                                         <li class="uk-width-1-2 uk-active" aria-expanded="true"><a href="#" class="js-uk-prevent uk-text-small">Messages (12)</a></li>
                                         <li class="uk-width-1-2" aria-expanded="false"><a href="#" class="js-uk-prevent uk-text-small">Alerts (4)</a></li>
                                     <li class="uk-tab-responsive uk-active uk-hidden" aria-haspopup="true" aria-expanded="false"><a>Messages (12)</a><div class="uk-dropdown uk-dropdown-small" aria-hidden="true"><ul class="uk-nav uk-nav-dropdown"></ul><div></div></div></li></ul>
@@ -217,7 +217,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li data-uk-dropdown="{mode:'click',pos:'bottom-right'}" aria-haspopup="true" aria-expanded="false">
+                        <li data-uk-dropdown="{literal}{mode:'click',pos:'bottom-right'}{/literal}" aria-haspopup="true" aria-expanded="false">
                             <a href="#" class="user_action_image"><img class="md-user-image" src="assets/img/avatars/avatar_11_tn.png" alt=""></a>
                             <div class="uk-dropdown uk-dropdown-small" aria-hidden="true">
                                 <ul class="uk-nav js-uk-prevent">
@@ -231,23 +231,5 @@
                 </div>
             </nav>
         </div>
-        <div class="header_main_search_form">
-            <i class="md-icon header_main_search_close material-icons"></i>
-            <form class="uk-form uk-autocomplete" data-uk-autocomplete="{literal}{source:'data/search_data.json'}{/literal}">
-                <input type="text" class="header_main_search_input">
-                <button class="header_main_search_btn uk-button-link"><i class="md-icon material-icons"></i></button>
-                <script src="http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" type="text/javascript" async=""></script><script type="text/autocomplete">
-                    <ul class="uk-nav uk-nav-autocomplete uk-autocomplete-results">
-                        {literal}{{~items}}{/literal}
-                        <li data-value="{literal}{{ $item.value }}{/literal}">
-                            <a href="{literal}{{ $item.url }}{/literal}">
-                                {literal}{{ $item.value }}{/literal}<br>
-                                <span class="uk-text-muted uk-text-small">{literal}{{{ $item.text }}}{/literal}</span>
-                            </a>
-                        </li>
-                        {literal}{{/items}}{/literal}
-                    </ul>
-                </script>
-            </form>
-        </div>
+
     </header>
