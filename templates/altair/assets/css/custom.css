@@ -1,0 +1,87 @@
+body {font-family: 'Google Sans',arial,sans-serif;}
+
+main {
+  padding-top: 19px;
+  min-height: 600px;
+}
+
+div#wrapper {
+  background: #f9f9f9;
+}
+
+.carousel-item {
+  height: 640px;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#errors, #infos {
+  display: none;
+}
+
+.alert.alert-error {
+  background: #e43959;
+  color: white;
+}
+
+span.badge.badge-Paid {
+  background: #00c851 !important;
+  box-shadow: none;
+  border-radius: 6px;
+  padding: 6px;
+  font-size: 14px;
+  line-height: 9px;
+  color: #ffffff !important;
+  font-weight: 400;
+  text-shadow: 1px 1px 3px #00000054;
+}
+
+.btn-floating {
+  cursor: pointer;
+}
+
+.navbar {
+  z-index: 7;
+}
+
+.md-form .prefix {
+  top: 0.45rem;
+  font-size: 1.75rem;
+}
+
+.pricing-card .striped li {
+  border-bottom: 1px solid rgba(153,153,153,.298039);
+  margin-bottom: 1rem;}
+
+.pricing-card .striped {
+    padding: 1rem;
+}
+
+.pricing-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.logo_gde{ width:50px; height:50px}
+
+.logo_color1 {
+    fill: #d2d2d2;
+}
+.logo_color2 {
+    fill: #e01f45;
+}
+
+.logo_texto {
+    height: 24px;
+    margin: 0 4px 10px 0;
+    width: 111px;
+}
+
+.sombra_logo {
+    -webkit-filter: drop-shadow(-2px -1px 4px rgba(0,0,0,0.15));
+    filter: drop-shadow(-2px -1px 4px rgba(0,0,0,0.15));
+}

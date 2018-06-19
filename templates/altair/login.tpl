@@ -149,6 +149,14 @@
 });
     </script>
 
+
+
+<script>
+$( "body" ).addClass( "login_page" );
+</script>
+
+
+
 {/literal}
 
 {/if}

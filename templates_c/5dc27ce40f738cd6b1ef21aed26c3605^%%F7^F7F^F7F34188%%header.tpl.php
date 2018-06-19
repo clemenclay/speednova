@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.26, created on 2018-06-19 16:12:37
+<?php /* Smarty version 2.6.26, created on 2018-06-19 16:43:19
          compiled from header.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('modifier', 'capitalize', 'header.tpl', 48, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'capitalize', 'header.tpl', 54, false),)), $this); ?>
 <!DOCTYPE html>
 <!--[if IEMobile 7]><html class="no-js iem7 oldie"><![endif]-->
 <!--[if (IE 7)&!(IEMobile)]><html class="no-js ie7 oldie" lang="en"><![endif]-->
@@ -55,22 +55,135 @@ assets/css/main.min.css" media="all">
     <link rel="stylesheet" href="<?php echo $this->_tpl_vars['template_dir']; ?>
 assets/css/themes/themes_combined.min.css" media="all">
 
+    <!-- Custom Css clay -->
+    <link href="<?php echo $this->_tpl_vars['template_dir']; ?>
+assets/css/custom.css" rel="stylesheet">
+
+    <!-- Font Google -->
+    <link href="<?php echo $this->_tpl_vars['template_dir']; ?>
+assets/css/google_fonts.css" rel="stylesheet">	
+
 </head>   
     
 
 
     <body class="<?php echo ((is_array($_tmp=$this->_tpl_vars['language'])) ? $this->_run_mod_handler('capitalize', true, $_tmp) : smarty_modifier_capitalize($_tmp)); ?>
- tpl_nextgen" >
+ header_sticky" >
+
+
+<header id="header_main">
+        <nav class="uk-navbar">
+            <div class="uk-container uk-container-center">
+                <a href="#" class="uk-float-left" id="mobile_navigation_toggle" data-uk-offcanvas="<?php echo '{target:\'#mobile_navigation\'}'; ?>
+"><i class="material-icons"></i></a>
+                <a href="/" class="uk-navbar-brand">
+                    <img src="assets/img/logo_main.png" alt="" width="71" height="15">
+                </a>
+                <a href="http://themeforest.net/item/altair-material-design-premium-template/12190654?ref=tzd" class="md-btn md-btn-primary uk-navbar-flip header_cta uk-margin-left">Buy Now!</a>
+                <div class="uk-navbar-flip">
+                    <ul class="uk-navbar-nav" id="main_navigation">
+                        <li class="current_active">
+                            <a href="#sect-overview">
+                                Overview
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="#sect-features">
+                                Features
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#sect-gallery">
+                                Gallery
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#sect-pricing" class="uk-navbar-nav-subtitle">
+                                Pricing
+                                <div>Find the perfect plan</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#sect-team">
+                                Team
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#sect-contact">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+<div id="mobile_navigation" class="uk-offcanvas">
+        <div class="uk-offcanvas-bar">
+            <ul>
+                <li>
+                    <a href="#sect-overview" data-uk-smooth-scroll="<?php echo '{offset: 48}'; ?>
+">
+                        <span class="menu_icon"><i class="material-icons"></i></span>
+                        <span class="menu_title">Overview</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#sect-features" data-uk-smooth-scroll="<?php echo '{offset: 48}'; ?>
+">
+                        <span class="menu_icon"><i class="material-icons"></i></span>
+                        <span class="menu_title">Features</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#sect-gallery" data-uk-smooth-scroll="<?php echo '{offset: 48}'; ?>
+">
+                        <span class="menu_icon"><i class="material-icons"></i></span>
+                        <span class="menu_title">Gallery</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#sect-pricing" class="uk-navbar-nav-subtitle" data-uk-smooth-scroll="<?php echo '{offset: 48}'; ?>
+">
+                        <span class="menu_icon"><i class="material-icons"></i></span>
+                        <span class="menu_title">Pricing<small>Find the perfect plan</small></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#sect-team" data-uk-smooth-scroll="<?php echo '{offset: 48}'; ?>
+">
+                        <span class="menu_icon"><i class="material-icons"></i></span>
+                        <span class="menu_title">Team</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#sect-contact" data-uk-smooth-scroll="<?php echo '{offset: 48}'; ?>
+">
+                        <span class="menu_icon"><i class="material-icons"></i></span>
+                        <span class="menu_title">Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+<!--
 <header id="header_main">
         <div class="header_main_content">
             <nav class="uk-navbar">
                                 
-                <!-- main sidebar switch -->
+                
                 <a href="#" id="sidebar_main_toggle" class="sSwitch sSwitch_left">
                     <span class="sSwitchIcon"></span>
                 </a>
                 
-                <!-- secondary sidebar switch -->
+               
                 <a href="#" id="sidebar_secondary_toggle" class="sSwitch sSwitch_right">
                     <span class="sSwitchIcon"></span>
                 </a>
@@ -544,3 +657,5 @@ assets/css/themes/themes_combined.min.css" media="all">
             </ul>
         </div>
     </div><div class="scroll-element scroll-x scroll-scrolly_visible"><div class="scroll-element_outer"><div class="scroll-element_size"></div><div class="scroll-element_track"></div><div class="scroll-bar" style="width: 89px;"></div></div></div><div class="scroll-element scroll-y scroll-scrolly_visible"><div class="scroll-element_outer"><div class="scroll-element_size"></div><div class="scroll-element_track"></div><div class="scroll-bar" style="height: 307px; top: 0px;"></div></div></div></div></aside>
+
+-->

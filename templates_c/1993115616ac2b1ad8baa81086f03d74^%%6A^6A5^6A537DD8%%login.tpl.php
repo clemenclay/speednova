@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2018-06-19 16:11:47
+<?php /* Smarty version 2.6.26, created on 2018-06-19 16:43:19
          compiled from login.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'securitytoken', 'login.tpl', 47, false),)), $this); ?>
@@ -175,6 +175,14 @@ signup/" class="list_item"><?php echo $this->_tpl_vars['lang']['createaccount'];
     toastr["info"]("I was launched via jQuery!")
 });
     </script>
+
+
+
+<script>
+$( "body" ).addClass( "login_page" );
+</script>
+
+
 
 '; ?>
 
