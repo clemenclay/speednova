@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2018-06-19 16:59:35
+<?php /* Smarty version 2.6.26, created on 2018-06-19 17:41:04
          compiled from login.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'securitytoken', 'login.tpl', 47, false),)), $this); ?>
@@ -185,6 +185,39 @@ $( "body" ).addClass( "login_page" );
 
 
 '; ?>
+
+
+
+
+    <!-- common functions -->
+    <script src="<?php echo $this->_tpl_vars['template_dir']; ?>
+assets/js/common.min.js"></script>
+    <!-- uikit functions -->
+    <script src="<?php echo $this->_tpl_vars['template_dir']; ?>
+assets/js/uikit_custom.min.js"></script>
+    <!-- altair core functions -->
+    <script src="<?php echo $this->_tpl_vars['template_dir']; ?>
+assets/js/altair_admin_common.min.js"></script>
+
+    <!-- altair login page functions -->
+    <script src="<?php echo $this->_tpl_vars['template_dir']; ?>
+assets/js/pages/login.min.js"></script>
+
+    <script>
+        <?php echo '
+        
+        // check for theme
+        if (typeof(Storage) !== "undefined") {
+            var root = document.getElementsByTagName( \'html\' )[0],
+                theme = localStorage.getItem("altair_theme");
+            if(theme == \'app_theme_dark\' || root.classList.contains(\'app_theme_dark\')) {
+                root.className += \' app_theme_dark\';
+            }
+        }
+
+        '; ?>
+
+    </script>
 
 
 <?php endif; ?>
