@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2018-06-18 13:35:58
+<?php /* Smarty version 2.6.26, created on 2018-06-18 16:21:14
          compiled from adminwidgets/recentaccfailures.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'dateformat', 'adminwidgets/recentaccfailures.tpl', 20, false),)), $this); ?>

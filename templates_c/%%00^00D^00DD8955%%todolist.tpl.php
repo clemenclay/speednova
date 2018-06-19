@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2018-06-18 13:35:58
+<?php /* Smarty version 2.6.26, created on 2018-06-18 16:21:14
          compiled from adminwidgets/todolist.tpl */ ?>
 <?php if (! empty ( $this->_tpl_vars['todo'] )): ?>
 <p style="line-height: 1.75em;">

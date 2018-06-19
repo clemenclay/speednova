@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2018-06-18 13:36:01
+<?php /* Smarty version 2.6.26, created on 2018-06-18 16:21:20
          compiled from configuration.tpl */ ?>
 <table border="0" cellspacing="0" cellpadding="0" width="100%" id="content_tb">
     <tr>

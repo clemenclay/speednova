@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2018-06-18 13:36:01
+<?php /* Smarty version 2.6.26, created on 2018-06-18 16:21:20
          compiled from footer.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'adminfooter', 'footer.tpl', 2, false),array('function', 'securitytoken', 'footer.tpl', 7, false),)), $this); ?>
