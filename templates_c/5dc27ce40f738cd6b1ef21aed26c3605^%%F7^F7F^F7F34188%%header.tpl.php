@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2018-06-19 16:43:19
+<?php /* Smarty version 2.6.26, created on 2018-06-19 17:00:37
          compiled from header.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'capitalize', 'header.tpl', 54, false),)), $this); ?>
@@ -70,6 +70,15 @@ assets/css/google_fonts.css" rel="stylesheet">
     <body class="<?php echo ((is_array($_tmp=$this->_tpl_vars['language'])) ? $this->_run_mod_handler('capitalize', true, $_tmp) : smarty_modifier_capitalize($_tmp)); ?>
  header_sticky" >
 
+<!--
+http://altair_landing_page.tzdthemes.com/
+-->
+<!--
+http://altair_landing_page.tzdthemes.com/
+-->
+<!--
+http://altair_landing_page.tzdthemes.com/
+-->
 
 <header id="header_main">
         <nav class="uk-navbar">
