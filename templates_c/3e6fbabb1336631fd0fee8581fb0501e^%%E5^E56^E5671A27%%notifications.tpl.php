@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2018-06-18 09:51:31
+<?php /* Smarty version 2.6.26, created on 2018-06-18 14:48:17
          compiled from notifications.tpl */ ?>
 <div class="clear"></div>
 <div id="errors" <?php if ($this->_tpl_vars['error']): ?>style="display:block"<?php endif; ?>>
