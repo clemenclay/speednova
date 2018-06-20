@@ -1,0 +1,9 @@
+## create .htaccess file in main HostBill directory with contents below
+<IfModule mod_rewrite.c>
+RewriteEngine On 
+RewriteBase /speednova/
+RewriteRule ^downloads/?$ ?cmd=downloads [NC,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?/$1 [L]
+</IfModule>

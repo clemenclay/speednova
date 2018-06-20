@@ -17,7 +17,7 @@
     <link rel="icon" type="image/png" href="{$template_dir}assets/img/favicon-32x32.png" sizes="32x32">
 
     <title>Altair Admin v2.9.2</title>
-
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- additional styles for plugins -->
         <!-- weather icons -->
         <link rel="stylesheet" href="{$template_dir}bower_components/weather-icons/css/weather-icons.min.css" media="all">
@@ -640,3 +640,8 @@ http://altair_landing_page.tzdthemes.com/
     </div><div class="scroll-element scroll-x scroll-scrolly_visible"><div class="scroll-element_outer"><div class="scroll-element_size"></div><div class="scroll-element_track"></div><div class="scroll-bar" style="width: 89px;"></div></div></div><div class="scroll-element scroll-y scroll-scrolly_visible"><div class="scroll-element_outer"><div class="scroll-element_size"></div><div class="scroll-element_track"></div><div class="scroll-bar" style="height: 307px; top: 0px;"></div></div></div></div></aside>
 
 -->
+
+
+
+<div id="page_content">
+        <div id="page_content_inner">

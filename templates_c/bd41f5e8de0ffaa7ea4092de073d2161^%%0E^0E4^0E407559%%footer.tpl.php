@@ -1,8 +1,9 @@
-<?php /* Smarty version 2.6.26, created on 2018-06-20 11:28:43
+<?php /* Smarty version 2.6.26, created on 2018-06-20 15:49:49
          compiled from footer.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('function', 'userfooter', 'footer.tpl', 19, false),)), $this); ?>
-
+smarty_core_load_plugins(array('plugins' => array(array('function', 'userfooter', 'footer.tpl', 20, false),)), $this); ?>
+    </div>
+</div>
 <footer>
     <span class="left">&copy; 2012 <?php echo $this->_tpl_vars['business_name']; ?>
 </span>
@@ -35,19 +36,6 @@ index.php?cmd=hbchat&action=embed&v=cmFuZGlkPWY4N2RlYTAxODU1ZTM3NjYmaW52aXRlX2lk
 <?php echo smarty_function_userfooter(array(), $this);?>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
    <script><?php echo '
         WebFontConfig = {
             google: {
@@ -72,7 +60,7 @@ index.php?cmd=hbchat&action=embed&v=cmFuZGlkPWY4N2RlYTAxODU1ZTM3NjYmaW52aXRlX2lk
 
     <!-- common functions -->
     <script src="<?php echo $this->_tpl_vars['template_dir']; ?>
-assets/js/common.min.js"></script>
+/assets/js/common.min.js"></script>
     <!-- uikit functions -->
     <script src="<?php echo $this->_tpl_vars['template_dir']; ?>
 assets/js/uikit_custom.min.js"></script>

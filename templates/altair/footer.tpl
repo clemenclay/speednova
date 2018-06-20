@@ -1,4 +1,5 @@
-
+    </div>
+</div>
 <footer>
     <span class="left">&copy; 2012 {$business_name}</span>
     <span class="right">
@@ -17,19 +18,6 @@
 </div>
 {if $enableFeatures.chat!='off'}<!--HostBill Chat Code, (c) HostBill --><div id="hbinvitationcontainer_f87dea01855e3766"></div><div id="hbtagcontainer_f87dea01855e3766"></div><script type="text/javascript">var hb_script_tag_f87dea01855e3766=document.createElement("script");hb_script_tag_f87dea01855e3766.type="text/javascript";setTimeout('hb_script_tag_f87dea01855e3766.src="{$system_url}index.php?cmd=hbchat&action=embed&v=cmFuZGlkPWY4N2RlYTAxODU1ZTM3NjYmaW52aXRlX2lkPTMmdGFnPXNpZGViYXImc3RhdHVzX2lkPTI=";document.getElementById("hbtagcontainer_f87dea01855e3766").appendChild(hb_script_tag_f87dea01855e3766);',5);</script><!--END OF: HostBill Chat Code, (c) HostBill -->{/if}
 {userfooter}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
    <script>{literal}
         WebFontConfig = {
@@ -53,7 +41,7 @@
     </script>
 
     <!-- common functions -->
-    <script src="{$template_dir}assets/js/common.min.js"></script>
+    <script src="{$template_dir}/assets/js/common.min.js"></script>
     <!-- uikit functions -->
     <script src="{$template_dir}assets/js/uikit_custom.min.js"></script>
     <!-- altair common functions/helpers -->
