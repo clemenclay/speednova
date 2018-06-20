@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2018-06-19 15:28:54
+<?php /* Smarty version 2.6.26, created on 2018-06-20 11:27:52
          compiled from adminwidgets/systeminfo.tpl */ ?>
 <?php if ($this->_tpl_vars['self_check']): ?>
 
