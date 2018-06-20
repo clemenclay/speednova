@@ -68,7 +68,7 @@
 <body ng-controller="MainController" scroll-spy id="top" ng-class="[theme.template, theme.color]">
 <main>
     <div ng-include src="'{$template_dir}assets/tpl/partials/sidebar.html'"></div>
-    <div class="main-container">
+    <div class="main-containers">
         <div ng-include src="'{$template_dir}assets/tpl/partials/topnav.html'"></div>
         <div class="main-content" autoscroll="true" ng-cloak ng-view bs-affix-target></div>
     </div>
