@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2018-06-20 15:23:09
+<?php /* Smarty version 2.6.26, created on 2018-06-20 20:03:54
          compiled from ajax.configuration.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'securitytoken', 'ajax.configuration.tpl', 67, false),array('modifier', 'escape', 'ajax.configuration.tpl', 340, false),array('modifier', 'ucfirst', 'ajax.configuration.tpl', 362, false),array('modifier', 'dateformat', 'ajax.configuration.tpl', 392, false),array('modifier', 'default', 'ajax.configuration.tpl', 741, false),)), $this); ?>

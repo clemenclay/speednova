@@ -2,7 +2,7 @@
     // this is why we can't have nice things
     var browser_old = true;
 </script>
-<![endif]-->
+
 
 <script src="{$template_dir}assets/js/vendors.min.6ca4bb066c7a1820d701.js"></script>
 <script src="{$template_dir}assets/js/app.min.abafa48b1cf9213b5731.js"></script>

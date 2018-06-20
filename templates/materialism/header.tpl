@@ -18,28 +18,29 @@
     <meta name="msapplication-config" content="{$template_dir}assets/img/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicon/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicon/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicon/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicon/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicon/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicon/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicon/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="{$template_dir}assets/img/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="{$template_dir}assets/img/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="{$template_dir}assets/img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="{$template_dir}assets/img/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="{$template_dir}assets/img/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="{$template_dir}assets/img/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="{$template_dir}assets/img/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="{$template_dir}assets/img/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="{$template_dir}assets/img/favicon/apple-touch-icon-180x180.png">
 
-    <link rel="icon" type="image/png" href="assets/img/favicon/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="assets/img/favicon/android-chrome-192x192.png" sizes="192x192">
-    <link rel="icon" type="image/png" href="assets/img/favicon/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="assets/img/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="{$template_dir}assets/img/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="{$template_dir}assets/img/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="{$template_dir}assets/img/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="{$template_dir}assets/img/favicon/favicon-16x16.png" sizes="16x16">
 
     <link rel="manifest" href="{$template_dir}assets/img/favicon/manifest.json">
-    <link rel="shortcut icon" href="assets/img/favicon/favicon.ico">
+    <link rel="shortcut icon" href="{$template_dir}assets/img/favicon/favicon.ico">
 
     <title ng-bind="pageTitle + ' - Materialism'">Loading... - Materialism</title>
 
     <link rel="stylesheet" href="{$template_dir}assets/css/vendors.min.6bd42a2130671ed8d487.css">
     <link rel="stylesheet" href="{$template_dir}assets/css/styles.min.e2bcd92f679082a0082f.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
