@@ -6,7 +6,8 @@
 <!--[if (IE 9)&!(IEMobile)]><html class="no-js ie9" lang="en"><![endidf]-->
 <!--[if (gt IE 9)|(gt IEMobile 7)]><!--><html lang="en"><!--<![endif]-->
 <head>
-    <base href="{$template_dir}/#" />
+   <base href="{$template_dir}/#" />
+<!--     <base href="{$system_url}" />-->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">

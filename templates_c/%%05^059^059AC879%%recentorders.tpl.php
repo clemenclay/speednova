@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2018-06-20 19:37:41
+<?php /* Smarty version 2.6.26, created on 2018-06-21 20:32:40
          compiled from adminwidgets/recentorders.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'dateformat', 'adminwidgets/recentorders.tpl', 17, false),array('modifier', 'price', 'adminwidgets/recentorders.tpl', 18, false),)), $this); ?>

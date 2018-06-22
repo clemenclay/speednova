@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.26, created on 2018-06-20 20:44:16
+<?php /* Smarty version 2.6.26, created on 2018-06-21 21:46:39
          compiled from header.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('function', 'userheader', 'header.tpl', 65, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('function', 'userheader', 'header.tpl', 66, false),)), $this); ?>
 <!DOCTYPE html>
 <html lang="en" ng-app="materialism" ng-class="<?php echo '{\'full-page-map\': isFullPageMap}'; ?>
 ">
@@ -11,8 +11,10 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'userheader'
 <!--[if (IE 9)&!(IEMobile)]><html class="no-js ie9" lang="en"><![endidf]-->
 <!--[if (gt IE 9)|(gt IEMobile 7)]><!--><html lang="en"><!--<![endif]-->
 <head>
-    <base href="<?php echo $this->_tpl_vars['template_dir']; ?>
+   <base href="<?php echo $this->_tpl_vars['template_dir']; ?>
 /#" />
+<!--     <base href="<?php echo $this->_tpl_vars['system_url']; ?>
+" />-->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2018-06-20 20:16:33
+<?php /* Smarty version 2.6.26, created on 2018-06-21 21:35:34
          compiled from header.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'userheader', 'header.tpl', 65, false),)), $this); ?>
@@ -98,8 +98,8 @@ assets/css/styles.min.e2bcd92f679082a0082f.css">
 
 <body ng-controller="MainController" scroll-spy id="top" ng-class="[theme.template, theme.color]">
 <main>
- <!--   <div ng-include src="'<?php echo $this->_tpl_vars['template_dir']; ?>
-assets/tpl/partials/sidebar.html'"></div> -->
+    <div ng-include src="'<?php echo $this->_tpl_vars['template_dir']; ?>
+assets/tpl/partials/sidebar.html'"></div>
     <div class="main-container">
         <div ng-include src="'<?php echo $this->_tpl_vars['template_dir']; ?>
 assets/tpl/partials/topnav.html'"></div>
