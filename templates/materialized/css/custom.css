@@ -85,3 +85,11 @@ span.badge.badge-Paid {
     -webkit-filter: drop-shadow(-2px -1px 4px rgba(0,0,0,0.15));
     filter: drop-shadow(-2px -1px 4px rgba(0,0,0,0.15));
 }
+
+nav ul a {
+  color: #e02045;
+}
+
+nav {
+  background-color: white;
+}

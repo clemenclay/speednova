@@ -1,3 +1,4 @@
+</div>
    <!-- START FOOTER -->
     <footer class="page-footer">
         <div class="container">
@@ -49,16 +50,7 @@
     <script type="text/javascript" src="{$template_dir}js/plugins/sparkline/jquery.sparkline.min.js"></script>
     <script type="text/javascript" src="{$template_dir}js/plugins/sparkline/sparkline-script.js"></script>
     
-    <!-- google map api -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAZnaZBXLqNBRXjd-82km_NO7GUItyKek"></script>
-
-    <!--jvectormap-->
-    <script type="text/javascript" src="{$template_dir}js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
-    <script type="text/javascript" src="{$template_dir}js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
-    <script type="text/javascript" src="{$template_dir}js/plugins/jvectormap/vectormap-script.js"></script>
-    
-    <!--google map-->
-    <script type="text/javascript" src="{$template_dir}js/plugins/google-map/google-map-script.js"></script>
+ 
 
     
     <!--plugins.js - Some Specific JS codes for Plugin Settings-->
@@ -82,6 +74,8 @@
     });
      {/literal}
     </script>
+
+
 </body>
 
 </html>

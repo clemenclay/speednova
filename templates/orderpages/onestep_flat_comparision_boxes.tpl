@@ -16,8 +16,10 @@
 {/foreach}
 
 <!-- Section: Pricing v.5 -->
-<section class="text-center my-5">
+<section id="content">
 
+<!--start container-->
+<div class="container">
   <!-- Section heading -->
   <h2 class="h1-responsive font-weight-bold text-center my-5">Our pricing plans</h2>
   <!-- Section description -->
@@ -153,7 +155,7 @@
 
   </div>
   <!-- Grid row -->
-
+  </div>
 </section>
 <!-- Section: Pricing v.5 -->
 <!-- End of Orderpage -->
