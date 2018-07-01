@@ -6,7 +6,7 @@
 @@img:: images/default_preview.png
 *}
 <script type="text/javascript" src="{$orderpage_dir}common/cart.js?step={$step}"></script>
-<!-- {include file='cart.progress.tpl'} -->
+{include file='cart.progress.tpl'}
 
 
 {if $step==0}

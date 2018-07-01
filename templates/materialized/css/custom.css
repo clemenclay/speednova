@@ -93,3 +93,15 @@ nav ul a {
 nav {
   background-color: white;
 }
+
+.navbar-fixed {
+  z-index: 1000;
+}
+
+ul.side-nav.leftside-navigation li a {
+  font-size: 16px;
+}
+
+ul.side-nav.leftside-navigation li.active>a {
+  color: #e33e5c;
+}
