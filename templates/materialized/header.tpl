@@ -113,45 +113,49 @@
                     </ul>
 
                     <ul class="right hide-on-med-and-down">
-                        <li><a href="javascript:void(0);" class="waves-effect waves-block waves-light translation-button"  data-activates="translation-dropdown"><img src="images/flag-icons/United-States.png" alt="USA" /></a>
+                        {if $languages}
+                        <li>
+                            <a href="javascript:void(0);" class="waves-effect waves-block waves-light translation-button"  data-activates="translation-dropdown"><img src="{$template_dir}images/flag-icons/United-States.png" alt="USA" />
+                                {foreach from=$languages item=ling}{if  $language==$ling}<img src="{$template_dir}img/famfamfam/lang_{$ling|capitalize}.gif"  alt="{$ling|capitalize}"/>{/if}{/foreach}
+                            </a>
                         </li>
-                        <li><a href="javascript:void(0);" class="waves-effect waves-block waves-light toggle-fullscreen"><i class="mdi-action-settings-overscan"></i></a>
-                        </li>
-                        <li><a href="javascript:void(0);" class="waves-effect waves-block waves-light notification-button" data-activates="notifications-dropdown"><i class="mdi-social-notifications"><small class="notification-badge">5</small></i>
+                       
+                        <li><a href="javascript:void(0);" class="waves-effect waves-block waves-light notification-button" data-activates="notifications-dropdown"><i class="mdi-action-account-circle"></i>
                         
                         </a>
                         </li>                        
-                        <li><a href="#" data-activates="chat-out" class="waves-effect waves-block waves-light chat-collapse"><i class="mdi-communication-chat"></i></a>
-                        </li>
+                       
+
+
+            
+                
+
+
+
                     </ul>
                     <!-- translation-button -->
                     <ul id="translation-dropdown" class="dropdown-content">
-                      <li>
-                        <a href="#!"><img src="{$template_dir}images/flag-icons/United-States.png" alt="English" />  <span class="language-select">English</span></a>
-                      </li>
-                      <li>
-                        <a href="#!"><img src="{$template_dir}images/flag-icons/France.png" alt="French" />  <span class="language-select">French</span></a>
-                      </li>
-                      <li>
-                        <a href="#!"><img src="{$template_dir}images/flag-icons/China.png" alt="Chinese" />  <span class="language-select">Chinese</span></a>
-                      </li>
-                      <li>
-                        <a href="#!"><img src="{$template_dir}images/flag-icons/Germany.png" alt="German" />  <span class="language-select">German</span></a>
-                      </li>
+                      	{foreach from=$languages item=ling}
+                                    <li id="lang_{$ling|capitalize}" ><a href="{$ca_url}{$cmd}&action={$action}&languagechange={$ling|capitalize}"><img src="{$template_dir}img/famfamfam/lang_{$ling|capitalize}.gif" alt="{$ling|capitalize}"/> {$lang[$ling]|capitalize}</a></li>
+                        {/foreach}{/if}
+                      
                       
                     </ul>
                     <!-- notifications-dropdown -->
                     <ul id="notifications-dropdown" class="dropdown-content">
-                      <li>
-                        <h5>{if $logged=='1'}
+                     
+                       {if $logged=='1'}  <h5><li>
                                     {$login.firstname} {$login.lastname}
-                            {/if} <span class="new badge">5</span></h5>
-                      </li>
+                            </li></h5>{/if} 
+                      
                       <li class="divider"></li>
-                      <li>
-                        <a href="#!"><i class="mdi-action-trending-up"></i> Generate monthly report</a>
-                        <time class="media-meta" datetime="2015-06-12T20:50:48+08:00">1 week ago</time>
-                      </li>
+                      {if $logged!='1'}
+                                    <li><a class="dropdown-item" href="{$ca_url}signup/">{$lang.createaccount}</a></li>
+                                    <li><a class="dropdown-item" href="{$ca_url}clientarea/">{$lang.login}</a></li>
+                                    {else}
+                                    <li><a class="dropdown-item" href="{$ca_url}clientarea/details/">{$lang.manageaccount}</a></li>
+                                    <li><a class="dropdown-item" href="?action=logout">{$lang.logout}</a></li>
+                                    {/if}
                     </ul>
                 </div>
             </nav>
