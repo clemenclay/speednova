@@ -105,3 +105,17 @@ ul.side-nav.leftside-navigation li a {
 ul.side-nav.leftside-navigation li.active>a {
   color: #e33e5c;
 }
+
+.sidebar-collapse {
+  position: absolute;
+  left: -162px;
+  top: -71px;
+  z-index: 991;
+  float: left;
+}
+
+h1.logo-wrapper {
+  margin-top: 5px;
+  height: 39px;
+  padding: 0;
+}
