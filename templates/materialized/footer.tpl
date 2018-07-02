@@ -74,11 +74,13 @@
     });
      {/literal}
     </script>
+
+    <!--
 {if $logged!='1'}
             {include file="ajax.login.tpl" loginwidget=true}
         {/if}
         {userfooter}
-
+-->
 </body>
 
 </html>
