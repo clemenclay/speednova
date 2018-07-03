@@ -128,13 +128,9 @@ h1.logo-wrapper {
 }
 
 @media only screen and (max-width: 992px)
-{.ocultar .logo_color1 {
-  fill:transparent;
-}
-.ocultar .logo_color2 {
-  fill:transparent;
-}
-}
+{.logo-wrapper {margin-left: 90px} }
+
+
 
 @media only screen and (max-width: 992px){ul.side-nav.leftside-navigation {
   top: 64px !important;
