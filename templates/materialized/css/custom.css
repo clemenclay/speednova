@@ -128,17 +128,25 @@ h1.logo-wrapper {
 }
 
 @media only screen and (max-width: 992px)
-{.logo-wrapper {margin-left: 90px} }
+{.logo-wrapper {margin-left: 90px !important} }
+
+@media only screen and (max-width: 992px)
+{.logo-wrapper {margin-left: 90px !important} }
 
 
-
-@media only screen and (max-width: 992px){ul.side-nav.leftside-navigation {
-  top: 64px !important;
+@media only screen and (max-width: 992px){logo_texto {
+ display: none;
 }}
 
-
-
-
+@media only screen and (max-width: 436px)
+{.logo_texto {
+  display: none !important;
+}
+}
+@media only screen and (max-width: 992px)
+{ul.side-nav.leftside-navigation {
+  top: 64px !important;
+}}
 nav {
   height: 64px;
   line-height: 64px;
