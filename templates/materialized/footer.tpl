@@ -31,8 +31,7 @@
     Scripts
     ================================================ -->
     
-    <!-- jQuery Library -->
-    <script type="text/javascript" src="{$template_dir}js/plugins/jquery-1.11.2.min.js"></script>    
+
     <!--materialize js-->
     <script type="text/javascript" src="{$template_dir}js/materialize.min.js"></script>
     <!--scrollbar-->

@@ -151,3 +151,7 @@ nav {
 .navbar-fixed {
   height: 64px;
 }
+
+.slider .indicators {
+  z-index: 999 !important;
+}
