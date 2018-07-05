@@ -1,36 +1,28 @@
-{*
-
-This file is rendered on main HostBill screen when browsed by user
-
-*}
-
-<h3>{$lang.welcome}</h3>
-<div class="row box-feature-divider">
-    <div class="span4">
-        <div class="box-feature"><a href="{$ca_url}cart/"><span style="" class="iconfont-bag iconfont-size5 silver"></span></a>
-               <h1>{$lang.placeorder|capitalize}</h1>
-                <p>{$lang.placeorder_desc}</p>
-
+<div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="{$template_dir}img/slider/1.png"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
         </div>
-    </div>
-    <div class="span4">
-
-        <div class="box-feature">
-            <a href="{$ca_url}clientarea/"><span style="" class="iconfont-gear iconfont-size5 silver"></span></a>
-                <h1>{$lang.clientarea|capitalize}</h1>
-                <p>{$lang.clientarea_desc}</p>
+      </li>
+      <li>
+        <img src="{$template_dir}img/slider/2.png"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>Left Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
         </div>
-    </div>
-
-    <div class="span4">
-        <div class="box-feature">
-
-            <a href="{if $logged=='1'}{$ca_url}support{elseif $enableFeatures.kb!='off'}{$ca_url}knowledgebase{else}{$ca_url}tickets/new{/if}/"><span style="" class="iconfont-question-round iconfont-size5 silver"></span></a>
-                <h1>{$lang.support|capitalize}</h1>
-                <p>{$lang.support_desc}</p>
+      </li>
+      <li>
+        <img src="{$template_dir}img/slider/3.png"> <!-- random image -->
+        <div class="caption right-align">
+          <h3>Right Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
         </div>
-    </div>
-</div>
+      </li>
+    </ul>
+  </div>
 
 
 
@@ -56,3 +48,9 @@ This file is rendered on main HostBill screen when browsed by user
 </div>
 {/if}
 
+<script>
+{literal}
+$( "div.container" ).removeClass( "container" )
+$("main").css("padding-top","0");
+{/literal}
+</script>
