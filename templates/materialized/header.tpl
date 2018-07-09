@@ -112,6 +112,14 @@
                        </h1></li>
                     </ul>
 
+<div class="menu-centrado">
+<ul id="ul-horizontal-nav" class="left hide-on-med-and-down">
+    {include file="mainmenu.tpl"}
+
+</ul>
+</div>
+
+
                     <ul class="right"><!-- hide-on-med-and-down-->
                         {if $languages}
                         <li>
@@ -173,7 +181,7 @@
 
             <!-- START LEFT SIDEBAR NAV-->
             <aside id="left-sidebar-nav">
-                <ul id="slide-out" class="side-nav fixed leftside-navigation">
+                <ul id="slide-out" class="side-nav leftside-navigation ps-container ps-active-y">
                
                 {include file="mainmenu.tpl"}
                 

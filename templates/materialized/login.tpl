@@ -1,4 +1,4 @@
-<div id="login-page" class="row">
+<div id="login-page" class="">
     <div class="col s12 z-depth-4 card-panel">
       <form class="login-form">
         <div class="row">

@@ -155,3 +155,18 @@ nav {
 .slider .indicators {
   z-index: 999 !important;
 }
+
+@media only screen and (min-width: 992px){ul#slide-out {
+  transform: translateX(-100%);
+ }}
+
+ #main {
+  padding-left: 0;
+}
+
+.menu-centrado {
+  margin: 0 auto;
+  width: 20%;
+  height: 0;
+  background: red;
+}
