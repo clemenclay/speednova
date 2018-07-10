@@ -170,3 +170,15 @@ nav {
   height: 0;
   background: red;
 }
+
+footer {
+  padding-left: 0;
+}
+
+footer.page-footer {
+  background-color: #949494;
+}
+
+ul#ul-horizontal-nav li a {
+  font-size: 18px;
+}

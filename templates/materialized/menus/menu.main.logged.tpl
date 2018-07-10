@@ -1,4 +1,4 @@
-           <li class="user-details cyan darken-2">
+           <li class="user-details cyan darken-2 hide-on-med-and-up">
             <div class="row">
                 <div class="col col s4 m4 l4">
                     <img src="images/avatar.jpg" alt="" class="circle responsive-img valign profile-image">
@@ -30,5 +30,5 @@
 
 </li>
 
-<li class="bold"><a href="{$ca_url}clientarea/invoices/" class="waves-effect waves-cyan"><i class="mdi-editor-insert-invitation"></i> {$lang.invoices}</a>
+<li class=""><a href="{$ca_url}clientarea/invoices/" class="waves-effect waves-cyan"><i class="mdi-editor-insert-invitation hide-on-med-and-up"></i> {$lang.invoices}</a>
 </li>
