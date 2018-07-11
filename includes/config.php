@@ -6,13 +6,13 @@
 $db_host = 'localhost';
 
 // Database name
-$db_name = 'admin_clientes';
+$db_name = 'hostbill';
 
  // Database username
 $db_user = 'root';
 
  // Database password
-$db_pass = 'rojo2000';
+$db_pass = '';
 
 // Please enter here Credit Card Encryption Hash used to encode credit cards details in Database. Use only ASCII letters and digits
 $ccEncryptionHash = '5c14973fb84cbcfb57dd5d1a6860601d';
