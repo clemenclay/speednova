@@ -125,7 +125,7 @@ h1.logo-wrapper {
 }
 
 @media only screen and (max-width: 992px)
-{.logo-wrapper {margin-left: 90px !important} }
+{.logo-wrapper {margin-left: 120px !important;} }
 
 
 
@@ -133,11 +133,14 @@ h1.logo-wrapper {
  display: none;
 }}
 
+
 @media only screen and (max-width: 436px)
 {.logo_texto {
   display: none !important;
 }
 }
+
+
 @media only screen and (max-width: 992px)
 {ul.side-nav.leftside-navigation {
   top: 64px !important;
@@ -184,3 +187,18 @@ input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0px 1000px white inset !important;
   background-color: red !important;
 }
+
+.sidebar-collapse {
+  position: fixed;
+  top: 14px;
+  left: 14px;
+}
+.calcular-alto-home-slider {
+  height:calc(100% - 280px) !important;
+  height:-moz-calc(100% - 280px) !important;
+  height:-webkit-calc(100% - 280px) !important;}
+
+  .calcular-alto-home-slides {
+    height:calc(100% + 20px) !important;
+    height:-moz-calc(100% + 20px) !important;
+    height:-webkit-calc(100% + 20px) !important;}
