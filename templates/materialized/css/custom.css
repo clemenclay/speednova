@@ -38,6 +38,7 @@ span.badge.badge-Paid {
   color: #ffffff !important;
   font-weight: 400;
   text-shadow: 1px 1px 3px #00000054;
+  position: initial !important;
 }
 
 .btn-floating {
@@ -126,8 +127,6 @@ h1.logo-wrapper {
 @media only screen and (max-width: 992px)
 {.logo-wrapper {margin-left: 90px !important} }
 
-@media only screen and (max-width: 992px)
-{.logo-wrapper {margin-left: 90px !important} }
 
 
 @media only screen and (max-width: 992px){logo_texto {
@@ -145,7 +144,7 @@ h1.logo-wrapper {
 }}
 nav {
   height: 64px;
-  line-height: 64px;
+  line-height: 63px;
 }
 
 .navbar-fixed {
@@ -166,9 +165,7 @@ nav {
 
 .menu-centrado {
   margin: 0 auto;
-  width: 20%;
-  height: 0;
-  background: red;
+  width: fit-content;
 }
 
 footer {
@@ -182,3 +179,8 @@ footer.page-footer {
 ul#ul-horizontal-nav li a {
   font-size: 18px;
 } 
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+  background-color: red !important;
+}

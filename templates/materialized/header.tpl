@@ -145,6 +145,7 @@
                     <ul id="translation-dropdown" class="dropdown-content">
                       	{foreach from=$languages item=ling}
                                     <li id="lang_{$ling|capitalize}" ><a href="{$ca_url}{$cmd}&action={$action}&languagechange={$ling|capitalize}"><img src="{$template_dir}img/famfamfam/lang_{$ling|capitalize}.gif" alt="{$ling|capitalize}"/> {$lang[$ling]|capitalize}</a></li>
+                                    <li class="divider"></li>
                         {/foreach}{/if}
                       
                       
@@ -156,12 +157,14 @@
                                     {$login.firstname} {$login.lastname}
                             </li></h5>{/if} 
                       
-                      <li class="divider"></li>
+                      
                       {if $logged!='1'}
                                     <li><a class="dropdown-item" href="{$ca_url}signup/">{$lang.createaccount}</a></li>
+                                    <li class="divider"></li>
                                     <li><a class="dropdown-item" href="{$ca_url}clientarea/">{$lang.login}</a></li>
                                     {else}
                                     <li><a class="dropdown-item" href="{$ca_url}clientarea/details/">{$lang.manageaccount}</a></li>
+                                    <li class="divider"></li>
                                     <li><a class="dropdown-item" href="?action=logout">{$lang.logout}</a></li>
                                     {/if}
                     </ul>
@@ -190,7 +193,7 @@
                 
                     
             </ul>
-                <a href="#" data-activates="slide-out" class="sidebar-collapse btn-floating btn-medium waves-effect waves-light hide-on-large-only cyan"><i class="mdi-navigation-menu"></i></a>
+                <a href="#" data-activates="slide-out" class="sidebar-collapse btn-floating btn-medium waves-effect waves-light hide-on-large-only"><i class="mdi-navigation-menu"></i></a>
             </aside>
             <!-- END LEFT SIDEBAR NAV-->
 

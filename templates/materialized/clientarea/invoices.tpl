@@ -28,14 +28,10 @@
 
                     </div>
             </div>
-            <div class="ribbon-shadow-l"></div>
-            <div class="ribbon-shadow-r"></div>
-            <div class="divider"></div>
         {/if}
 
         {if $invoices}
 
-<br>
 
         <a href="{$ca_url}clientarea&amp;action=invoices" id="currentlist" style="display:none" updater="#updater"></a>
         <table cellspacing="0" cellpadding="0" border="0" width="100%" class="table">
@@ -70,17 +66,15 @@
 
 
 <!--Pagination-->
-<nav aria-label="pagination example">
-    <ul class="pagination pagination-lg pagination justify-content-center">
-        <li class="page-item">
-            {section name=foo loop=$totalpages}
-                <button class="page-link {if $smarty.section.foo.iteration==1}active{/if}">{$smarty.section.foo.iteration}</button>
-            {/section}
-        </li>
-    </ul>
-</nav>
 
 
+<ul class="pagination">
+    <li class="{if $smarty.section.foo.iteration==1}active{/if}">
+                {section name=foo loop=$totalpages}
+                    <button class="btn waves-effect waves-light grey">{$smarty.section.foo.iteration}</button>
+                {/section}
+    </li>
+</ul>
 
 
 

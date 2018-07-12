@@ -14,7 +14,7 @@
               <td >{$invoice.total|price:$invoice.currency_id}</td>
    <!--           <td align="center">{$invoice.date|dateformat:$date_format}</td>  -->
               <td class="d-none d-lg-block" align="left">{$invoice.duedate|dateformat:$date_format}</td>
-              <td align="center"><a href="{$ca_url}clientarea/invoice/{$invoice.id}/" target="_blank" class="btn-floating btn-sm waves-effect waves-light"><!--{$lang.view}--><i class="fa fa-eye ml-2"></i></a></td>
+              <td align="center"><a href="{$ca_url}clientarea/invoice/{$invoice.id}/" target="_blank" class="btn-floating btn-sm waves-effect waves-light"><!--{$lang.view}--><i class="mdi-image-remove-red-eye"></i></a></td>
               <td class="" width="20"/>
         </tr>
     {/foreach}

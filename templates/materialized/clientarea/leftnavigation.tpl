@@ -1,3 +1,15 @@
+<div class="col s12 m4">
+                <ul class="collection">
+                  <a href="#!" class="collection-item">Alan<span class="badge">1</span></a>
+                  <a href="#!" class="collection-item">Alan<span class="new badge">4</span></a>
+                  <a href="#!" class="collection-item">Alan
+                                                </a><a href="#!" class="collection-item">Alan<span class="badge">14</span></a>
+                </ul>
+              </div>
+
+
+
+
 <h2 style="color: transparent;">Menu</h2>
 <div class="card">
         <ul class="list-group list-group-flush">

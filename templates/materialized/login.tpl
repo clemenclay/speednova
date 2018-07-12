@@ -1,6 +1,6 @@
 <div id="login-page" class="">
     <div class="col s12 z-depth-4 card-panel">
-      <form class="login-form">
+      <form class="login-form"  autocomplete="off">
         <div class="row">
           <div class="input-field col s12 center">
             <img src="images/login-logo.png" alt="" class="circle responsive-img valign profile-image-login">
@@ -10,20 +10,20 @@
         <div class="row margin">
           <div class="input-field col s12">
             <i class="mdi-social-person-outline prefix"></i>
-            <input id="username" type="text">
+            <input autocomplete="off"  id="username" type="text">
             <label for="username" class="center-align">Username</label>
           </div>
         </div>
         <div class="row margin">
           <div class="input-field col s12">
             <i class="mdi-action-lock-outline prefix"></i>
-            <input id="password" type="password">
+            <input autocomplete="off" id="password" type="password">
             <label for="password">Password</label>
           </div>
         </div>
         <div class="row">          
           <div class="input-field col s12 m12 l12  login-text">
-              <input type="checkbox" id="remember-me">
+              <input autocomplete="off"  type="checkbox" id="remember-me">
               <label for="remember-me">Remember me</label>
           </div>
         </div>
