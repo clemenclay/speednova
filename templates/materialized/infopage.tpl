@@ -4,10 +4,9 @@
         {$page.content}
     </div>
 </div>
-{$ca_url}
 <script>
 {literal}
-if(window.location.href==={/literal}"http://localhost/speednova/{$ca_url}page/contacto/"{literal}) {
+if(window.location.href==={/literal}"{$system_url}page/contacto/"{literal}) {
          $("li#contacto").addClass("active");
 }
 {/literal}

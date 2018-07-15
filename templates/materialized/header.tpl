@@ -78,7 +78,7 @@
                     <ul class="left">                      
                       <li><h1 class="logo-wrapper">
                       
-                      <a href="index.php?/">
+                      <a href="{$system_url}">
 <!--		<img src="http://localhost/speednova/templates/speednova/img/logo_main.png" alt="" width="" height="" style="height: 53px;"> -->
 <svg class="logo_gde ocultar" viewBox="0 0 1019 951" version="1.1" xmlns="http://www.w3.org/2000/svg">
 <g id="#c3c3c3ff">
