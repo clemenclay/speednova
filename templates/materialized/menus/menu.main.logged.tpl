@@ -30,5 +30,5 @@
 
 </li>
 
-<li class="{if $action=='invoices'} active{/if}"><a href="{$ca_url}clientarea/invoices/" class="waves-effect waves-cyan"><i class="mdi-editor-insert-invitation hide-on-med-and-up"></i> {$lang.invoices}</a>
+<li class="{if $action=='invoices'} active{/if}"><a href="{$system_url}clientarea/invoices/" class="waves-effect waves-cyan"><i class="mdi-editor-insert-invitation hide-on-med-and-up"></i> {$lang.invoices}</a>
 </li>
