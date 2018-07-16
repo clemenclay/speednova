@@ -33,7 +33,7 @@
                     </div>
                 </div>
             {/if}
-            <div id="backlink"><a href="{$ca_url}clientarea/">- {$lang.backtoclientarea} -</a></div>
+            <div id="backlink"><a href="{$system_url}clientarea/">- {$lang.backtoclientarea} -</a></div>
             <div id="invoice-container" class="unpaid-container">
                 {if $error}
                     <div >
