@@ -29,7 +29,7 @@
     <link href="{$template_dir}js/plugins/jvectormap/jquery-jvectormap.css" type="text/css" rel="stylesheet" media="screen,projection">
     <link href="{$template_dir}js/plugins/chartist-js/chartist.min.css" type="text/css" rel="stylesheet" media="screen,projection">
 
-		
+	<link href="{$template_dir}js/plugins/sweetalert/sweetalert.css" type="text/css" rel="stylesheet" media="screen,projection">
 
 
 <!-- Custom Css clay -->
@@ -159,11 +159,11 @@
                       
                       
                       {if $logged!='1'}
-                                    <li><a class="dropdown-item" href="{$ca_url}signup/">{$lang.createaccount}</a></li>
+                                    <li><a class="dropdown-item" href="{$system_url}signup/">{$lang.createaccount}</a></li>
                                     <li class="divider"></li>
-                                    <li><a class="dropdown-item" href="{$ca_url}clientarea/">{$lang.login}</a></li>
+                                    <li><a class="dropdown-item" href="{$system_url}clientarea/">{$lang.login}</a></li>
                                     {else}
-                                    <li><a class="dropdown-item" href="{$ca_url}clientarea/details/">{$lang.manageaccount}</a></li>
+                                    <li><a class="dropdown-item" href="{$system_url}clientarea/details/">{$lang.manageaccount}</a></li>
                                     <li class="divider"></li>
                                     <li><a class="dropdown-item" href="?action=logout">{$lang.logout}</a></li>
                                     {/if}
@@ -207,4 +207,3 @@
     </div>
     <!-- END MAIN -->
 <div class="container">
-{include file="notifications.tpl"} 

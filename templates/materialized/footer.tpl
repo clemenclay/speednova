@@ -38,9 +38,7 @@
     <script type="text/javascript" src="{$template_dir}js/plugins/chartjs/chart.min.js"></script>
     <script type="text/javascript" src="{$template_dir}js/plugins/chartjs/chart-script.js"></script>
 
-    <!-- sparkline -->
-    <script type="text/javascript" src="{$template_dir}js/plugins/sparkline/jquery.sparkline.min.js"></script>
-    <script type="text/javascript" src="{$template_dir}js/plugins/sparkline/sparkline-script.js"></script>
+    <script type="text/javascript" src="{$template_dir}js/plugins/sweetalert/sweetalert.min.js"></script>
     
  
 
@@ -66,7 +64,7 @@
     });
      {/literal}
     </script>
-
+{include file="notifications.tpl"} 
     <!--
 {if $logged!='1'}
             {include file="ajax.login.tpl" loginwidget=true}

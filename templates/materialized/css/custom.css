@@ -155,7 +155,7 @@ nav {
 }
 
 .slider .indicators {
-  z-index: 999 !important;
+  z-index: 998 !important;
 }
 
 @media only screen and (min-width: 992px){ul#slide-out {
@@ -202,3 +202,12 @@ input:-webkit-autofill {
     height:calc(100% + 20px) !important;
     height:-moz-calc(100% + 20px) !important;
     height:-webkit-calc(100% + 20px) !important;}
+
+nav ul li:hover, nav ul li.active {
+      background-color: rgba(0, 0, 0, 0.01);
+      box-shadow: inset 0px 0px 13px rgba(0, 0, 0, 0.04);
+  }
+
+  .slider .slides li .caption {
+    text-shadow: 2px 2px 5px black;
+}
