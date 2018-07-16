@@ -2,9 +2,9 @@
 {if $error}
 <script>
 {literal}
-swal({   title: "{/literal}{foreach from=$error item=blad}{$blad}{/foreach}</br>{literal}",   
+swal({   title: "{/literal}{foreach from=$error item=blad}{$blad}{/foreach}{literal}",   
             type: "error",
-            timer: 200000,   
+            timer: 2000,   
             showConfirmButton: true 
         });
 
