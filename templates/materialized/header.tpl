@@ -165,7 +165,7 @@
                                     {else}
                                     <li><a class="dropdown-item" href="{$system_url}clientarea/details/">{$lang.manageaccount}</a></li>
                                     <li class="divider"></li>
-                                    <li><a class="dropdown-item" href="?action=logout">{$lang.logout}</a></li>
+                                    <li><a class="dropdown-item" href="{$system_url}?action=logout">{$lang.logout}</a></li>
                                     {/if}
                     </ul>
                 </div>
