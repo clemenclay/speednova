@@ -38,10 +38,10 @@
                                     {if $field.field_type=='Input'}
                                         {if  $k=='captcha'}
                                             <div style="white-space: nowrap;">
-                                                <img class="capcha" style="width: 120px; height: 60px;" src="?cmd=root&action=captcha#{$stamp}" /> 
+                                                <img class="capcha" style="width: 120px; height: 60px;" src="{$system_url}?cmd=root&action=captcha#{$stamp}" /> 
                                                 <span style="display: inline-block; width: 65%; white-space: normal;">
                                                     {$lang.typethecharacters}<br />
-                                                    <a href="#" onclick="return singup_image_reload();" >{$lang.refresh}</a>
+                                                    <a href="#" onclick="return singup_image_reload(); " >{$lang.refresh}</a>
                                                 </span>
                                             </div>
                                         {/if}
@@ -102,7 +102,7 @@
                                     {if $field.field_type=='Input'}
                                         {if  $k=='captcha'}
                                             <div style="white-space: nowrap;">
-                                                <img class="capcha" style="width: 120px; height: 60px;" src="?cmd=root&action=captcha#{$stamp}" /> 
+                                                <img class="capcha" style="width: 120px; height: 60px;" src="{$system_url}?cmd=root&action=captcha#{$stamp}" /> 
                                                 <span style="display: inline-block; width: 65%; white-space: normal;">
                                                     {$lang.typethecharacters}<br />
                                                     <a href="#" onclick="return singup_image_reload();" >{$lang.refresh}</a>

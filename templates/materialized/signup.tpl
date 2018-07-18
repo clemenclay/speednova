@@ -12,3 +12,22 @@
     </form>
     </div>
 </div>
+
+{literal}
+    <script>
+
+
+
+
+
+       
+        function singup_image_reload(){
+            var d = new Date();    
+            $('.capcha:first').attr('src', '{/literal}{$system_url}{literal}?cmd=root&action=captcha#' + d.getTime());
+            return false;
+        }
+
+
+    </script>
+
+{/literal}
