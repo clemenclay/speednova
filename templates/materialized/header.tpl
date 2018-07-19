@@ -173,7 +173,7 @@
         </div>
         <!-- end header nav-->
     </header>
-    <div class="navegacion">
+    <div class="navegacion hide-on-med-and-down">
             <div class="row">
               <div class="col s12 m12 l12">
                 
@@ -218,4 +218,4 @@
 
     </div>
     <!-- END MAIN -->
-<div class="container">
+<div class="container min-height-400">

@@ -50,10 +50,13 @@
 
 <script>
 {literal}
-$( "div.container" ).removeClass( "container" )
-$("main").css("padding-top","0");
-$( ".slider" ).addClass( "calcular-alto-home-slider" )
+
+$(function () {
+$( "div.container" ).removeClass( "container" );
+$("#main").css("margin-top","-52px");
+$( ".slider" ).addClass( "calcular-alto-home-slider" );
 $( ".slides" ).addClass( "calcular-alto-home-slides" )
+});
 
 {/literal}
 

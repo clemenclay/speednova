@@ -1,14 +1,15 @@
-body {font-family: 'Google Sans',arial,sans-serif;}
+body {font-family: 'Google Sans',arial,sans-serif;
+  background-color: #ececec;}
 
 main {
   padding-top: 19px;
   min-height: 600px;
 }
-
+/*
 div#wrapper {
   background: #f9f9f9;
 }
-
+*/
 .carousel-item {
   height: 640px;
   min-height: 300px;
@@ -214,7 +215,9 @@ nav ul li:hover, nav ul li.active {
 }
 
 .navegacion {
-  background: #ececec;
+  background: #dedede;
   height: 51px;
-  border-bottom: 1px solid #dcdcdc;
+  border-bottom: 1px solid #cecece;
 }
+
+.min-height-400{min-height: 400px;}
