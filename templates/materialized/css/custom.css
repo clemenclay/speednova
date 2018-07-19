@@ -93,6 +93,7 @@ nav ul a {
 
 nav {
   background-color: white;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.15), 0 2px 27px 0 rgba(0,0,0,0.15) !important;
 }
 
 /*
@@ -210,4 +211,10 @@ nav ul li:hover, nav ul li.active {
 
   .slider .slides li .caption {
     text-shadow: 2px 2px 5px black;
+}
+
+.navegacion {
+  background: #ececec;
+  height: 51px;
+  border-bottom: 1px solid #dcdcdc;
 }
