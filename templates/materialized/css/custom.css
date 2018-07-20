@@ -170,7 +170,7 @@ nav {
 
 .menu-centrado {
   margin: 0 auto;
-  width: fit-content;
+  width: fit-content !important;
 }
 
 footer {
@@ -221,3 +221,15 @@ nav ul li:hover, nav ul li.active {
 }
 
 .min-height-400{min-height: 400px;}
+
+
+@media only screen and (min-width: 992px){.login-form {
+  width: 365px;
+  
+ }
+ .input-field.col.l9 {
+  margin: 18px 45px;
+  padding: 0;
+}
+
+}

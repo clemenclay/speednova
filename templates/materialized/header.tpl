@@ -27,7 +27,7 @@
     <!-- INCLUDED PLUGIN CSS ON THIS PAGE -->
     <link href="{$template_dir}js/plugins/perfect-scrollbar/perfect-scrollbar.css" type="text/css" rel="stylesheet" media="screen,projection">
     <link href="{$template_dir}js/plugins/jvectormap/jquery-jvectormap.css" type="text/css" rel="stylesheet" media="screen,projection">
-    <link href="{$template_dir}js/plugins/chartist-js/chartist.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+
 
 	<link href="{$template_dir}js/plugins/sweetalert/sweetalert.css" type="text/css" rel="stylesheet" media="screen,projection">
 
@@ -173,19 +173,19 @@
         </div>
         <!-- end header nav-->
     </header>
-    <div class="navegacion hide-on-med-and-down">
+
+
+    <div class="navegacion">
             <div class="row">
               <div class="col s12 m12 l12">
                 
-                <ol class="breadcrumbs">
-                    <li><a href="index.html">Dashboard</a></li>
-                    <li><a href="#">Pages</a></li>
-                    <li class="active">Pricing Page</li>
-                </ol>
+               
+{include file="menus/breadcrum.tpl"}
+                
               </div>
             </div>
     </div>
-    <!-- END HEADER -->
+    <!-- END HEADER 
 
     <!-- jQuery Library -->
     <script type="text/javascript" src="{$template_dir}js/plugins/jquery-1.11.2.min.js"></script>    

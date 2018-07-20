@@ -51,10 +51,12 @@
         </div>
 
         <div class="row">
+        <div class="center-align">
           <div class="input-field col s12">
             <input type="hidden" name="action" value="login"/>
             <button type="submit" value="" class="btn waves-effect waves-light col s12" style="font-weight:bold"><i class="icon-ok icon-white"></i> {$lang.sendmepass}</button>
           </div>
+        </div>
         </div>
     
 
@@ -205,7 +207,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="input-field col s12">
+          <div class="input-field col l9 s12">
             <input type="hidden" name="action" value="login"/>
             <button type="submit" value="" class="btn waves-effect waves-light col s12" style="font-weight:bold"><i class="icon-ok icon-white"></i> {$lang.login}</button>
           </div>
@@ -228,9 +230,10 @@
 
 $(function () {
     $( ".sidebar-collapse" ).addClass( "hide" );
-    $( "body" ).addClass( "cyan" );
+    $( "body" ).addClass( "cyan valign-wrapper" );
     $( "header" ).addClass( "hide" );
     $( "footer" ).addClass( "hide" );
+    $( ".navegacion" ).addClass( "hide" );
 
     
 $("html").css("display","table");
