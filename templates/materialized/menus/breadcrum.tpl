@@ -1,20 +1,14 @@
 
-<li><a href="index.html">Dashboard</a></li>
-                    <li><a href="#">Pages</a></li>
-                    <li class="active">Pricing Page</li>
-
-
-
 
 <!-- Breadcrumbs -->
 {if $inside || !(($action == 'services' && $service) || ($action == 'domains' && $details) || ($cmd=='clientarea' && $action=='default')) }
 <ol class="breadcrumbs {$action} {if $inside}inside-breadcrumb{/if}">
     <li>
-        <i class="icon-home"></i><span class="divider">/</span>
+        <i class="icon-home"></i>
     </li>
     {if $logged=='1' && !($cmd == 'clientarea' && $action == 'default')}
         <li>
-            <a href="{$ca_url}">{$lang.dashboard}</a><span class="divider">/</span>
+            <a href="{$system_url}">{$lang.dashboard}</a>
         </li>
     {/if}
     {if $cmd == 'clientarea' && $action == 'default'}
@@ -24,8 +18,8 @@
     {elseif $cmd == 'cart'}
         {if $step!=5 && $step>0}
             <li>
-                <a href="{$ca_url}cart/">{$lang.order}</a>
-                <span class="divider">/</span>
+                <a href="{$system_url}cart/">{$lang.order}</a>
+                
             </li>
             {if $step>2 && (!$cart_contents[2] || $cart_contents[2][0].action == 'hostname')}
                 {assign var='pclass' value='asw3'}
@@ -38,48 +32,48 @@
             {if $pclass!='asw3'}		
                 <li {if $step<2}class="active"{/if}>			
                     {if $step<=1}{$lang.mydomains}
-                    {else}<a href="{$ca_url}cart/&step=1">{$lang.mydomains}</a>
+                    {else}<a href="{$system_url}cart/&step=1">{$lang.mydomains}</a>
                     {/if}
-                    <span class="divider">/</span>
+                    
                 </li>
             {elseif $pclass=='asw3'}
                 <li {if $step<2}class="active"{/if}>		
                     {if $step<=3}{$lang.productconfig}
-                    {else}<a href="{$ca_url}cart/&step=3">{$lang.productconfig}</a>
+                    {else}<a href="{$system_url}cart/&step=3">{$lang.productconfig}</a>
                     {/if}
-                    <span class="divider">/</span>
+                    >
                 </li>
             {/if}
 
             {if $pclass=='asw5'}	
                 <li {if $step==2}class="active"{/if}>				
                     {if $step<=2}{$lang.productconfig2}
-                    {else}<a href="{$ca_url}cart/&step=2">{$lang.productconfig2}</a>
+                    {else}<a href="{$system_url}cart/&step=2">{$lang.productconfig2}</a>
                     {/if}
-                    <span class="divider">/</span>
+                    
                 </li>
             {elseif $pclass=='asw4'}			
                 <li {if $step==3}class="active"{/if}>				
                     {if $step<=3}{$lang.productconfig}
-                    {else}<a href="{$ca_url}cart/&step=3">{$lang.productconfig}</a>
+                    {else}<a href="{$system_url}cart/&step=3">{$lang.productconfig}</a>
                     {/if}
-                    <span class="divider">/</span>
+                    
                 </li>						
             {/if}
 
             {if $pclass=='asw5'}	
                 <li {if $step==3}class="active"{/if}>				
                     {if $step<=3}{$lang.productconfig}
-                    {else}<a href="{$ca_url}cart/&step=3">{$lang.productconfig}</a>
+                    {else}<a href="{$system_url}cart/&step=3">{$lang.productconfig}</a>
                     {/if}
-                    <span class="divider">/</span>
+                    
                 </li>						
             {/if}
             <li {if $step==4}class="active"{/if}>
                 {if $step<=4}{$lang.ordersummary}
-                {else}<a href="{$ca_url}cart/&step=4">{$lang.ordersummary}</a>
+                {else}<a href="{$system_url}cart/&step=4">{$lang.ordersummary}</a>
                 {/if}
-                <span class="divider">/</span>
+                
             </li>
             <li>
                 {$lang.checkout}
@@ -92,47 +86,47 @@
 
     {elseif $cmd == 'clientarea' && ( $action == 'service' || $action == 'services' || $action == 'domains')}
         <li>
-            <a href="{$ca_url}clientarea/">{$lang.clientarea}</a>
-            <span class="divider">/</span>
+            <a href="{$system_url}clientarea/">{$lang.clientarea}</a>
+            
         </li>
     {elseif $cmd == 'clientarea' && !( $action == 'service' || $action == 'services' || $action == 'domains' || $action == 'cancel') && $action != 'default'}
         <li>
-            <a href="{$ca_url}clientarea/">{$lang.account}</a>
-            <span class="divider">/</span>
+            <a href="{$system_url}clientarea/">{$lang.account}</a>
+            
         </li>
     {elseif $cmd == 'support' || $cmd == 'tickets' || $cmd == 'downloads' || $cmd == 'knowledgebase'} 
         <li {if $cmd == 'support'}class="active"{/if}>
             {if $cmd != 'support'}
-                <a href="{$ca_url}support/">{$lang.support}</a>
-                <span class="divider">/</span>
+                <a href="{$system_url}support/">{$lang.support}</a>
+                
             {else}
                 {$lang.support}
             {/if}
         </li>
     {elseif $cmd == 'netstat'}
         <li>
-            <a href="{$ca_url}support/">{$lang.support}</a>
+            <a href="{$system_url}support/">{$lang.support}</a>
         </li>
         <li class="active">
             {$lang.netstat}
         </li>
     {elseif $cmd == 'profiles'}
         <li>
-            <a href="{$ca_url}clientarea/">{$lang.account}</a>
-            <span class="divider">/</span>
+            <a href="{$system_url}clientarea/">{$lang.account}</a>
+            
         </li>
         <li {if $action!='add' && $action!='edit'}class="active"{/if}>
             {if $action!='add' && $action!='edit'}
                 {$lang.profiles}
             {else}
-                <a href="{$ca_url}{$cmd}/">{$lang.profiles}</a>
+                <a href="{$system_url}{$cmd}/">{$lang.profiles}</a>
             {/if}
         </li>
     {elseif $cmd == 'affiliates'}
         <li{if $action == 'default'} class="active"{/if}>
             {if $action != 'default'}
-                <a href="{$ca_url}affiliates/">{$lang.affiliates}</a>
-                <span class="divider">/</span>
+                <a href="{$system_url}affiliates/">{$lang.affiliates}</a>
+                
             {else}
                 {$lang.affiliates}
             {/if}
@@ -152,8 +146,8 @@
                 {if $cid==$o.id || $service.category_id==$o.id}
                     <li {if !$service}class="active"{/if}>
                         {if $service}
-                            <a href="{$ca_url}clientarea/services/{$o.slug}/"  >{$o.name}</a>
-                            <span class="divider">/</span>
+                            <a href="{$system_url}clientarea/services/{$o.slug}/"  >{$o.name}</a>
+                            
                         {else}{$o.name}
                         {/if}
                     </li>
@@ -163,8 +157,8 @@
             {if $service}
                 <li {if !$widget && !$domain.domain}class="active"{/if}>
                     {if $widget || $domain.domain}
-                        <a href="{$ca_url}clientarea/services/{$service.slug}/{$service.id}"  >{$service.name}</a>
-                        <span class="divider">/</span>
+                        <a href="{$system_url}clientarea/services/{$service.slug}/{$service.id}"  >{$service.name}</a>
+                        
                     {else}{$service.name}
                     {/if}
                 </li>
@@ -177,15 +171,15 @@
         {else}
             <li {if !$details && !$widget}class="active"{/if}>
                 {if $details || $widget}
-                    <a href="{$ca_url}clientarea/domains/"  >{$lang.domains}</a>
-                    <span class="divider">/</span>
+                    <a href="{$system_url}clientarea/domains/"  >{$lang.domains}</a>
+                   
                 {else}{$lang.domains}
                 {/if}
             </li>
             {if $details}
                 <li {if !$widget}class="active"{/if}>
                     {if $widget}
-                        <a href="{$ca_url}clientarea/domains/{$details.id}/{$details.name}"  >{$details.name}</a>
+                        <a href="{$system_url}clientarea/domains/{$details.id}/{$details.name}"  >{$details.name}</a>
                         <span class="divider">/</span>
                     {else}{$details.name}
                     {/if}
@@ -204,7 +198,7 @@
     {elseif $cmd == 'clientarea' && !( $action == 'service' || $action == 'services' || $action == 'domains' || $action == 'cancel') && $action != 'default'}
         {if $action=='emails' && $email}
             <li>
-                <a href="{$ca_url}clientarea/{$lang.$action}/">{$lang.$action}</a>
+                <a href="{$system_url}clientarea/{$lang.$action}/">{$lang.$action}</a>
             </li>
             <li class="active">
                 {$email.subject|strip|truncate}
@@ -230,7 +224,7 @@
         {if $lang.$cmd}
             <li {if $action=='default' }class="active"{/if}>
                 {if $action!='default'}
-                    <a href="{$ca_url}{$cmd}/" >{$lang.$cmd}</a>
+                    <a href="{$system_url}{$cmd}/" >{$lang.$cmd}</a>
                     <span class="divider">/</span>
                 {else}{$lang.$cmd}
                 {/if}
@@ -247,7 +241,7 @@
             {foreach from=$path item=p name=kbloc}
                 <li {if $smarty.foreach.kbloc.last && !$article}class="active"{/if}>
                     {if !$smarty.foreach.kbloc.last || $article}
-                        <a href="{$ca_url}knowledgebase/category/{$p.id}/{$p.slug}/">{$p.name}</a> 
+                        <a href="{$system_url}knowledgebase/category/{$p.id}/{$p.slug}/">{$p.name}</a> 
                         <span class="divider">/</span>
                     {else}
                         {$p.name}
