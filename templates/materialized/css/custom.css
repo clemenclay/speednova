@@ -245,3 +245,65 @@ nav ul li:hover, nav ul li.active {
   height: 51px;
   border-bottom: 1px solid #3974d4;
 }
+
+.breadcrumbs {
+  padding: 0;
+  margin: 10px 0;
+  list-style: none;
+  height: 32px;
+  line-height: 34px;
+  position: absolute;
+}
+
+.breadcrumbs .active {
+  color: white;
+}
+
+.breadcrumbs>li {
+  display: -webkit-inline-box;
+  line-height: 33px;
+  height: 20;
+  padding: 0;
+  margin: 0;
+}
+
+.breadcrumbs>li+li:before {
+  color: #2d5cae;
+}
+
+ol.breadcrumbs.invoices li > a {
+  color: #2d5cae;
+}
+
+a {
+  color: #366dcc;
+  font-weight: 400;
+}
+
+a.br1 {
+  color: #24447e !important;
+}
+
+
+
+@media only screen and (max-width: 436px)
+{.calcular-alto-home-slider {
+  height: calc(100% - 184px) !important;
+  height: -moz-calc(100% - 184px) !important;
+  height: -webkit-calc(100% - 184px) !important;
+}
+}
+
+
+ul.side-nav.leftside-navigation li.user-details {
+  margin-bottom: 0px;
+  border-bottom: 2px solid rgba(10, 10, 10, 0.08);
+}
+
+.logo_color_white {fill:white}
+
+.logo_texto_mobile {
+  height: 24px;
+  margin: 0 4px 10px 0;
+  width: 111px;
+}

@@ -1,4 +1,4 @@
-           <li class="user-details cyan darken-2 hide-on-med-and-up">
+<li class="user-details cyan darken-2 hide-on-med-and-up">
             <div class="row">
                 <div class="col col s4 m4 l4">
                     <img src="images/avatar.jpg" alt="" class="circle responsive-img valign profile-image">
@@ -22,7 +22,7 @@
                         <li><a href="#"><i class="mdi-hardware-keyboard-tab"></i> Logout</a>
                         </li>
                     </ul>
-                    <p class="user-roal">Administrator</p>
+                    
                 </div>
             </div> 
             </li>

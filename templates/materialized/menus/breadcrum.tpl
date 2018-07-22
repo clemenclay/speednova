@@ -4,15 +4,15 @@
 {if $inside || !(($action == 'services' && $service) || ($action == 'domains' && $details) || ($cmd=='clientarea' && $action=='default')) }
 <ol class="breadcrumbs {$action} {if $inside}inside-breadcrumb{/if}">
     <li>
-        <i class="icon-home"></i>
+        <i class="material-icons" style="line-height: 29px; margin: 0px; color: #24447e;">home</i>
     </li>
     {if $logged=='1' && !($cmd == 'clientarea' && $action == 'default')}
         <li>
-            <a href="{$system_url}">{$lang.dashboard}</a>
+            <a class="br1" href="{$system_url}">{$lang.dashboard}</a>
         </li>
     {/if}
     {if $cmd == 'clientarea' && $action == 'default'}
-        <li class="active">
+        <li class="br1" class="active">
             {$lang.dashboard}
         </li>
     {elseif $cmd == 'cart'}
