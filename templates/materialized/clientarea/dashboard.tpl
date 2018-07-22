@@ -1,16 +1,11 @@
-{*
-
-Clientarea dashboard - summary of owned services, due invoices, opened tickets
-
-*}
 <div id="welcomeback">
 <h3 class="left">{$lang.welcomeback}, {$login.firstname} {$login.lastname}</h3>
 <div class="form-horizontal" style="text-align:right">
-            <form action="{$ca_url}knowledgebase/search/" method="post" id="search_form"><div class="input-append dropdown darkshadow" >
+            <form action="{$system_url}knowledgebase/search/" method="post" id="search_form"><div class="input-append dropdown darkshadow" >
                     <input type="text" size="16" class="span2" placeholder="{$lang.ca_search}" style="width:195px"  name="query" id="search_name" /><button class="btn dropdown-toggle" type="button" data-toggle="dropdown"><span id="search_target">{$lang.knowledgebase}</span><span class="caret"></span></button><ul class="dropdown-menu pull-right" id="search_options">
-           <li><a href="#search" rel="{$ca_url}knowledgebase/search/" attr="query" >{$lang.knowledgebase}</a></li>
-           <li><a href="#search" rel="{$ca_url}clientarea/domains/" attr="filter[name]" >{$lang.mydomains}</a></li>
-           <li><a href="#search" rel="{$ca_url}tickets/" attr="filter[subject]" >{$lang.tickets}</a></li>
+           <li><a href="#search" rel="{$system_url}knowledgebase/search/" attr="query" >{$lang.knowledgebase}</a></li>
+           <li><a href="#search" rel="{$system_url}clientarea/domains/" attr="filter[name]" >{$lang.mydomains}</a></li>
+           <li><a href="#search" rel="{$system_url}tickets/" attr="filter[subject]" >{$lang.tickets}</a></li>
         </ul><button type="submit" class="btn btn-primary"><i class="icon-search icon-white"></i></button>
                 </div>{securitytoken}</form>
         </div>
@@ -22,17 +17,17 @@ Clientarea dashboard - summary of owned services, due invoices, opened tickets
 	{if $mydomains>0}
     <div class="span3 dashboardblock">
         <div class="internal">
-        <h4><a href="{$ca_url}clientarea/domains/" >{$lang.mydomains}</a></h4>
+        <h4><a href="{$system_url}clientarea/domains/" >{$lang.mydomains}</a></h4>
 
 
     <div class="btn-group dropup">
-        <a class="btn btn-mini btn-success" href="{$ca_url}clientarea/domains/"><b>{$mydomains}</b></a>
+        <a class="btn btn-mini btn-success" href="{$system_url}clientarea/domains/"><b>{$mydomains}</b></a>
         <button class="btn btn-mini  dropdown-toggle" data-toggle="dropdown" ><i class="icon-cog"></i> {$lang.manage}</button>{if $expdomains}
-        <a class="btn btn-mini btn-danger" href="{$ca_url}clientarea/domains/">{$expdomains_count} {$lang.ExpiringDomains}</a>
+        <a class="btn btn-mini btn-danger" href="{$system_url}clientarea/domains/">{$expdomains_count} {$lang.ExpiringDomains}</a>
             {/if}
                  <ul class="dropdown-menu  pull-right">
-        <li><a href="{$ca_url}checkdomain/"> {$lang.ordermore}</a></li>
-        <li><a href="{$ca_url}clientarea/domains/"> {$lang.listmydomains}</a></li>
+        <li><a href="{$system_url}checkdomain/"> {$lang.ordermore}</a></li>
+        <li><a href="{$system_url}clientarea/domains/"> {$lang.listmydomains}</a></li>
         </ul>
          
     </div>
@@ -48,16 +43,16 @@ Clientarea dashboard - summary of owned services, due invoices, opened tickets
             {assign var="offa" value="1"}
                 <div class="span3 dashboardblock">
                     <div class="internal">
-                    <h4><a href="{$ca_url}clientarea/services/{$offe.slug}/">{$offe.name}</a></h4>
+                    <h4><a href="{$system_url}clientarea/services/{$offe.slug}/">{$offe.name}</a></h4>
 
 
 <div class="btn-group dropup">
-    <a class="btn btn-mini btn-success" href="{$ca_url}clientarea/services/{$offe.slug}/"><b>{$offe.total}</b></a>
-        <a class="btn btn-mini{if $offe.visible} dropdown-toggle{/if}"  href="{$ca_url}clientarea/services/{$offe.slug}/"  {if $offe.visible}data-toggle="dropdown"{/if} ><i class="icon-cog"></i> {$lang.manage}</a>
+    <a class="btn btn-mini btn-success" href="{$system_url}clientarea/services/{$offe.slug}/"><b>{$offe.total}</b></a>
+        <a class="btn btn-mini{if $offe.visible} dropdown-toggle{/if}"  href="{$system_url}clientarea/services/{$offe.slug}/"  {if $offe.visible}data-toggle="dropdown"{/if} ><i class="icon-cog"></i> {$lang.manage}</a>
 
                 {if $offe.visible} <ul class="dropdown-menu  pull-right">
-        <li><a href="{$ca_url}cart/{$offe.slug}/"> {$lang.ordermore}</a></li>
-        <li><a href="{$ca_url}clientarea/services/{$offe.slug}/"> {$lang.servicemanagement}</a></li>
+        <li><a href="{$system_url}cart/{$offe.slug}/"> {$lang.ordermore}</a></li>
+        <li><a href="{$system_url}clientarea/services/{$offe.slug}/"> {$lang.servicemanagement}</a></li>
         </ul>{/if}
 
     </div>
@@ -69,8 +64,8 @@ Clientarea dashboard - summary of owned services, due invoices, opened tickets
 {if $mydomains>0 || $offa}
 <div class="span3 dashboardblock offer">
                     <div class="internal">
-                        <a class="hlink" href="{$ca_url}cart/"><span style="" class="iconfont-plus-round iconfont-size5 silver"></span></a>
-                        <a class="stripe" href="{$ca_url}cart/">{$lang.ordermore}</a>
+                        <a class="hlink" href="{$system_url}cart/"><span style="" class="iconfont-plus-round iconfont-size5 silver"></span></a>
+                        <a class="stripe" href="{$system_url}cart/">{$lang.ordermore}</a>
                     </div>
 </div>
 {/if}
@@ -108,10 +103,10 @@ Clientarea dashboard - summary of owned services, due invoices, opened tickets
 
                 {foreach from=$dueinvoices item=invoice name=foo}
                 <tr {if $smarty.foreach.foo.index%2 == 0}class="even"{/if}>
-                    <td><a href="{$ca_url}clientarea/invoice/{$invoice.id}/" target="_blank">{$invoice|@invoice}</a></td>
+                    <td><a href="{$system_url}clientarea/invoice/{$invoice.id}/" target="_blank">{$invoice|@invoice}</a></td>
                     <td >{$invoice.total|price:$invoice.currency_id}</td>
                     <td align="center">{$invoice.duedate|dateformat:$date_format}</td>
-                    <td align="center"><a href="{$ca_url}clientarea/invoice/{$invoice.id}/" target="_blank" class="view3">{$lang.view}</a></td>
+                    <td align="center"><a href="{$system_url}clientarea/invoice/{$invoice.id}/" target="_blank" class="view3">{$lang.view}</a></td>
                 </tr>
 
                 {/foreach}
@@ -126,8 +121,8 @@ Clientarea dashboard - summary of owned services, due invoices, opened tickets
                 {$lang.openedtickets|capitalize}
 
                 <div class="right wbox_right">
-                    <a class="btn" href="{$ca_url}tickets/new/" ><i class="icon-plus"></i> {$lang.ca_createticket}</a>
-                    <a class="btn" href="{$ca_url}tickets/" > {$lang.viewalltickets}</a>
+                    <a class="btn" href="{$system_url}tickets/new/" ><i class="icon-plus"></i> {$lang.ca_createticket}</a>
+                    <a class="btn" href="{$system_url}tickets/" > {$lang.viewalltickets}</a>
                 </div>
             </div>
             <table border="0" cellpadding="0" cellspacing="0" width="100%" class="table table-striped fullscreen">
@@ -147,7 +142,7 @@ Clientarea dashboard - summary of owned services, due invoices, opened tickets
                         <span class="label label-{$ticket.status}">{$lang[$ticket.status]}</span>
                     </td>
                     <td>
-                        {if $ticket.client_read=='0'}<strong>{/if}<a href="{$ca_url}tickets/view/{$ticket.ticket_number}/">{$ticket.subject|wordwrap:40:"<br />\n":true}</a>{if $ticket.client_read==0}</strong>{/if}</td>
+                        {if $ticket.client_read=='0'}<strong>{/if}<a href="{$system_url}tickets/view/{$ticket.ticket_number}/">{$ticket.subject|wordwrap:40:"<br />\n":true}</a>{if $ticket.client_read==0}</strong>{/if}</td>
                     <td>{$ticket.deptname}</td>
                 </tr>
 
@@ -176,37 +171,37 @@ Clientarea dashboard - summary of owned services, due invoices, opened tickets
         <ul class="nice-sidemenu">
             <li>
                 <i class="icon-tags"></i>
-                <a href="{$ca_url}tickets/new/">{$lang.openticket}</a>
+                <a href="{$system_url}tickets/new/">{$lang.openticket}</a>
                 <small>{$lang.dashboard_phrase_1}</small>
             </li>
 
             {if $enableFeatures.deposit!='off' } <li>
                 <i class="icon-plus-sign"></i>
-                <a href="{$ca_url}clientarea/addfunds/">{$lang.addfunds}</a>
+                <a href="{$system_url}clientarea/addfunds/">{$lang.addfunds}</a>
                 <small>{$lang.dashboard_phrase_2}</small>
             </li>{/if}
             <li>
                 <i class="icon-user"></i>
-                <a href="{$ca_url}profiles/">{$lang.managecontacts}</a>
+                <a href="{$system_url}profiles/">{$lang.managecontacts}</a>
                 <small>{$lang.dashboard_phrase_3}</small>
             </li>
             {if $enableFeatures.security=='on'}
             <li>
                 <i class="icon-lock"></i>
-                <a href="{$ca_url}clientarea/ipaccess/">{$lang.ipaccess}</a>
+                <a href="{$system_url}clientarea/ipaccess/">{$lang.ipaccess}</a>
                 <small>{$lang.dashboard_phrase_4}</small>
             </li>
             {/if}
             {if $enableFeatures.kb!='off'}<li>
                 <i class="icon-book"></i>
-                <a href="{$ca_url}knowledgebase/">{$lang.knowledgebase}</a>
+                <a href="{$system_url}knowledgebase/">{$lang.knowledgebase}</a>
                 <small>{$lang.dashboard_phrase_5}</small>
             </li>{/if}
 
             {if $enableFeatures.netstat!='off'}
             <li>
                 <i class="icon-flag"></i>
-                <a href="{$ca_url}netstat/">{$lang.netstat}</a>
+                <a href="{$system_url}netstat/">{$lang.netstat}</a>
                 <small>{$lang.dashboard_phrase_6}</small>
             </li>
             {/if}
