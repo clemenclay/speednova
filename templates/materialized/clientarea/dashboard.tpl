@@ -1,4 +1,10 @@
+
+
+
 <div id="welcomeback">
+{php} {include_php file='http://localhost/speednova/netstat.php'}; {/php}
+
+
 <h3 class="left">{$lang.welcomeback}, {$login.firstname} {$login.lastname}</h3>
 <div class="form-horizontal" style="text-align:right">
             <form action="{$system_url}knowledgebase/search/" method="post" id="search_form"><div class="input-append dropdown darkshadow" >
