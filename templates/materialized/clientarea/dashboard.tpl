@@ -1,8 +1,46 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+{php}
+  // incluyendo un  script php
+  // directamente en el template.
+   include("http://localhost/speednova/netstat.php");
+{/php}
+
+
+<iframe src=\"http://localhost/speednova/netstat.php\" width=\"188\" height=\"258\" scrolling=\"no\" style=\"overflow:hidden; margin-top:-4px; margin-left:-4px; border:none;\"></iframe>
+
+
 <div id="welcomeback">
-{php} {include_php file='http://localhost/speednova/netstat.php'}; {/php}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <h3 class="left">{$lang.welcomeback}, {$login.firstname} {$login.lastname}</h3>
