@@ -1,7 +1,7 @@
 <li class="user-details cyan darken-2 hide-on-med-and-up">
             <div class="row">
                 <div class="col col s4 m4 l4">
-                    <img src="images/avatar.jpg" alt="" class="circle responsive-img valign profile-image">
+                   
                 </div>
                 <div class="col col s8 m8 l8">
                     

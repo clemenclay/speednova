@@ -10,7 +10,7 @@
 
 
 
-<h2 style="color: transparent;">Menu</h2>
+
 <div class="card">
         <ul class="list-group list-group-flush">
             <li class="list-group-item{if $action=='details'} active{/if}"><a href="{$system_url}clientarea/details/"><span class="iconfont-card iconfont-size4 silver" style=""></span>
