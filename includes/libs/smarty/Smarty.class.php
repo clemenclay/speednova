@@ -228,14 +228,14 @@ class Smarty
      * @var array
      */
     var $security_settings  = array(
-                                    'PHP_HANDLING'    => false,
+                                    'PHP_HANDLING'    => true,
                                     'IF_FUNCS'        => array('array', 'list',
                                                                'isset', 'empty',
                                                                'count', 'sizeof',
                                                                'in_array', 'is_array',
                                                                'true', 'false', 'null'),
                                     'INCLUDE_ANY'     => false,
-                                    'PHP_TAGS'        => false,
+                                    'PHP_TAGS'        => true,
                                     'MODIFIER_FUNCS'  => array('count'),
                                     'ALLOW_CONSTANTS'  => false,
                                     'ALLOW_SUPER_GLOBALS' => true
